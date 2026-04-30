@@ -1,13 +1,11 @@
 'use client';
 
-import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { getAllEntries, getAllSections, COLOR_MAP } from '@/lib/entries';
 import { searchEntries } from '@/lib/search';
 import type { Entry } from '@/lib/types';
-
-const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
 function pickRandom(entries: Entry[], excludeId?: string): Entry {
   const pool = excludeId ? entries.filter((e) => e.id !== excludeId) : entries;
@@ -82,9 +80,6 @@ export default function HomeScreen() {
   const inputRef = useRef<HTMLInputElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // A-Z overlay state
-  const [showAZ, setShowAZ] = useState(false);
-  const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
   const [shortcutHint, setShortcutHint] = useState('⌘K');
 
   useEffect(() => {
@@ -100,18 +95,6 @@ export default function HomeScreen() {
       inputRef.current?.focus();
     }
   }, []);
-
-  const grouped = useMemo(() => {
-    const g: Record<string, Entry[]> = {};
-    for (const entry of entries) {
-      const letter = entry.term[0].toUpperCase();
-      if (!g[letter]) g[letter] = [];
-      g[letter].push(entry);
-    }
-    return g;
-  }, [entries]);
-
-  const presentLetters = useMemo(() => new Set(Object.keys(grouped)), [grouped]);
 
   // Search
   const runSearch = useCallback(
@@ -146,7 +129,6 @@ export default function HomeScreen() {
       }
       if (e.key === 'Escape') {
         setSearchOpen(false);
-        setShowAZ(false);
         inputRef.current?.blur();
       }
     };
@@ -287,15 +269,12 @@ export default function HomeScreen() {
 
         {/* Action buttons */}
         <div className="flex items-center gap-3">
-          <button
-            onClick={() => {
-              setShowAZ(true);
-              setSelectedLetter(null);
-            }}
+          <Link
+            href="/a-z"
             className="px-8 py-2.5 text-[11px] font-semibold tracking-[0.2em] uppercase border border-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white transition-colors duration-150"
           >
             A–Z
-          </button>
+          </Link>
           <Link
             href="/explore"
             className="px-8 py-2.5 text-[11px] font-semibold tracking-[0.2em] uppercase border border-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white transition-colors duration-150"
@@ -305,95 +284,6 @@ export default function HomeScreen() {
         </div>
       </div>
 
-      {/* A-Z overlay */}
-      {showAZ && (
-        <div className="fixed inset-0 z-50 bg-white flex flex-col">
-          <div className="flex items-center justify-between px-6 py-4 border-b border-[#0A0A0A] shrink-0">
-            <span className="text-sm font-bold uppercase tracking-tight">Browse A–Z</span>
-            <button
-              onClick={() => setShowAZ(false)}
-              className="text-[10px] font-semibold tracking-[0.2em] uppercase border border-[#0A0A0A] px-3 py-1.5 hover:bg-[#0A0A0A] hover:text-white transition-colors"
-            >
-              Close
-            </button>
-          </div>
-
-          <div className="flex-1 overflow-y-auto px-6 py-8">
-            {/* Letter grid */}
-            <div className="flex flex-wrap gap-2 mb-10 max-w-md">
-              {ALPHABET.map((letter) => (
-                <button
-                  key={letter}
-                  onClick={() =>
-                    presentLetters.has(letter) &&
-                    setSelectedLetter(selectedLetter === letter ? null : letter)
-                  }
-                  className={`w-10 h-10 flex items-center justify-center text-[11px] font-bold border transition-colors duration-100 ${
-                    selectedLetter === letter
-                      ? 'bg-[#0A0A0A] text-white border-[#0A0A0A]'
-                      : presentLetters.has(letter)
-                      ? 'border-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white'
-                      : 'border-[#0A0A0A]/20 text-[#0A0A0A]/20 cursor-default'
-                  }`}
-                >
-                  {letter}
-                </button>
-              ))}
-            </div>
-
-            {/* Preview list */}
-            {selectedLetter && grouped[selectedLetter] && (
-              <div>
-                <p className="text-[10px] font-semibold tracking-[0.25em] uppercase text-[#0A0A0A]/40 mb-4">
-                  {grouped[selectedLetter].length} terms starting with {selectedLetter}
-                </p>
-                <div className="border-t border-[#0A0A0A] mb-4">
-                  {grouped[selectedLetter].slice(0, 6).map((entry) => {
-                    const section = sections.find((s) => s.id === entry.section);
-                    const colors = section ? COLOR_MAP[section.color] : COLOR_MAP.red;
-                    return (
-                      <Link
-                        key={entry.id}
-                        href={`/entry/${entry.id}`}
-                        onClick={() => setShowAZ(false)}
-                        className="flex items-center justify-between py-3 border-b border-[#0A0A0A]/10 group"
-                      >
-                        <div>
-                          <span className="text-sm font-bold uppercase tracking-tight group-hover:underline">
-                            {entry.term}
-                          </span>
-                          {entry.phonetic && (
-                            <span className="ml-2 text-xs font-normal opacity-40">
-                              {entry.phonetic}
-                            </span>
-                          )}
-                        </div>
-                        {section && (
-                          <span
-                            className={`text-[9px] font-semibold tracking-[0.2em] px-2 py-0.5 shrink-0 ${colors.bg} ${colors.text}`}
-                          >
-                            {section.name.toUpperCase()}
-                          </span>
-                        )}
-                      </Link>
-                    );
-                  })}
-                </div>
-
-                {grouped[selectedLetter].length > 6 && (
-                  <Link
-                    href={`/a-z#letter-${selectedLetter}`}
-                    onClick={() => setShowAZ(false)}
-                    className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-[0.2em] uppercase border border-[#0A0A0A] px-5 py-2.5 hover:bg-[#0A0A0A] hover:text-white transition-colors duration-150"
-                  >
-                    View all {grouped[selectedLetter].length} terms with {selectedLetter} →
-                  </Link>
-                )}
-              </div>
-            )}
-          </div>
-        </div>
-      )}
     </>
   );
 }
