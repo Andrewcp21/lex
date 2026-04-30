@@ -19,7 +19,7 @@ export default function WordMasonryCard({ entry, section }: WordMasonryCardProps
 
   return (
     <Link href={`/entry/${entry.id}`} className="group block">
-      <div className="relative border border-[#0A0A0A] p-3 sm:p-5 flex flex-col gap-2 sm:gap-3 bg-white transition-transform duration-150 group-hover:scale-[1.01]">
+      <div className="relative border border-[#0A0A0A] p-3 sm:p-5 flex flex-col gap-2 sm:gap-3 bg-white transition-transform duration-150 group-hover:scale-[1.01] overflow-hidden">
 
         {/* Accent bar: horizontal top on mobile, vertical left on desktop */}
         <span
@@ -28,7 +28,7 @@ export default function WordMasonryCard({ entry, section }: WordMasonryCardProps
         />
 
         <div>
-          <h3 className="text-2xl sm:text-[2.5rem] font-bold uppercase tracking-tight text-[#0A0A0A] leading-tight">
+          <h3 className="text-2xl sm:text-[2.5rem] font-bold uppercase tracking-tight text-[#0A0A0A] leading-tight break-words">
             {entry.term}
             {entry.abbreviation && (
               <span className="ml-2 text-xs font-semibold tracking-[0.15em] opacity-40">
