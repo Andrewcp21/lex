@@ -18,7 +18,7 @@ export default function AccessPage() {
       if (result?.error) {
         setError(result.error);
       }
-    } catch (err) {
+    } catch {
       setError('An error occurred. Please try again.');
     } finally {
       setIsLoading(false);

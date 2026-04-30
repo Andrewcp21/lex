@@ -20,7 +20,7 @@ function TypingWord({ entries }: { entries: Entry[] }) {
   // Init on client only to avoid hydration mismatch
   useEffect(() => {
     setCurrentEntry(pickRandom(entries));
-  }, []);
+  }, [entries]);
 
   useEffect(() => {
     if (!currentEntry) return;
@@ -50,7 +50,7 @@ function TypingWord({ entries }: { entries: Entry[] }) {
         setPhase('typing');
       }
     }
-  }, [displayText, phase, currentEntry]);
+  }, [displayText, phase, currentEntry, entries]);
 
   if (!currentEntry || !displayText) {
     return <span className="opacity-0 select-none pointer-events-none">·</span>;
