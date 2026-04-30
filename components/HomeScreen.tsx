@@ -5,14 +5,21 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { getAllEntries, getAllSections, COLOR_MAP } from '@/lib/entries';
 import { searchEntries } from '@/lib/search';
-import type { Entry } from '@/lib/types';
+import type { Entry, Section } from '@/lib/types';
 
 function pickRandom(entries: Entry[], excludeId?: string): Entry {
   const pool = excludeId ? entries.filter((e) => e.id !== excludeId) : entries;
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
-function TypingWord({ entries }: { entries: Entry[] }) {
+const SECTION_COLOR_HEX: Record<string, string> = {
+  red: '#FF0000',
+  yellow: '#C9A800',
+  green: '#00A300',
+  blue: '#2AAAD4',
+};
+
+function TypingWord({ entries, sections }: { entries: Entry[]; sections: Section[] }) {
   const [currentEntry, setCurrentEntry] = useState<Entry | null>(null);
   const [displayText, setDisplayText] = useState('');
   const [phase, setPhase] = useState<'typing' | 'deleting'>('typing');
@@ -56,13 +63,17 @@ function TypingWord({ entries }: { entries: Entry[] }) {
     return <span className="opacity-0 select-none pointer-events-none">·</span>;
   }
 
+  const section = sections.find((s) => s.id === currentEntry.section);
+  const color = section ? (SECTION_COLOR_HEX[section.color] ?? '#0A0A0A') : '#0A0A0A';
+
   return (
     <Link
       href={`/entry/${currentEntry.id}`}
-      className="font-bold uppercase tracking-tight text-[#0A0A0A] hover:text-[#5BC8F5] transition-colors duration-150"
+      style={{ color }}
+      className="font-bold uppercase tracking-tight text-center"
     >
       {displayText}
-      <span className="ml-0.5 text-[#5BC8F5] animate-pulse">|</span>
+      <span className="ml-0.5 animate-pulse" style={{ color }}>|</span>
     </Link>
   );
 }
@@ -157,15 +168,15 @@ export default function HomeScreen() {
   return (
     <>
       {/* Main centered layout */}
-      <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+      <div className="min-h-screen flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
         {/* Brand label */}
         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
           Kosa Rupa — Architect&apos;s Dictionary
         </p>
 
         {/* Animated typing word */}
-        <div className="h-9 mb-8 flex items-center text-2xl md:text-3xl">
-          <TypingWord entries={entries} />
+        <div className="min-h-9 mb-8 flex items-center justify-center text-2xl md:text-3xl text-center flex-wrap w-full max-w-2xl">
+          <TypingWord entries={entries} sections={sections} />
         </div>
 
         {/* Search bar */}

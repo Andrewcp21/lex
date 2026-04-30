@@ -95,7 +95,14 @@
       "proportion",
       "aperture",
       "shading-device",
-      "bukaan"
+      "bukaan",
+      "kusen",
+      "daun-pintu",
+      "kaca",
+      "jalusi",
+      "folding-door",
+      "kaca-tempered",
+      "kaca-laminated"
     ],
     "tags": [
       "facade",
@@ -219,7 +226,11 @@
       "formwork",
       "rebar",
       "compressive-strength",
-      "cor-beton"
+      "cor-beton",
+      "semen",
+      "pasir",
+      "batu-split",
+      "rabat-beton"
     ],
     "tags": [
       "material",
@@ -246,7 +257,11 @@
       "kolom-praktis",
       "cor-beton",
       "besi-tulangan",
-      "bekisting"
+      "bekisting",
+      "kawat-bendrat",
+      "besi-wiremesh",
+      "semen",
+      "pasir"
     ],
     "tags": [
       "material",
@@ -272,7 +287,10 @@
       "bata-merah",
       "hebel",
       "kolom-praktis",
-      "nat"
+      "nat",
+      "batako",
+      "bata-ringan",
+      "ubin"
     ],
     "tags": [
       "material",
@@ -292,7 +310,11 @@
       "structural-frame",
       "i-beam",
       "welding",
-      "composite-structure"
+      "composite-structure",
+      "besi-hollow",
+      "besi-wiremesh",
+      "kawat-bendrat",
+      "rangka-atap-baja-ringan"
     ],
     "tags": [
       "material",
@@ -317,7 +339,8 @@
       "bambu",
       "kayu-jati",
       "kayu-ulin",
-      "sirap"
+      "sirap",
+      "multiplek"
     ],
     "tags": [
       "material",
@@ -403,7 +426,9 @@
       "vapour-barrier",
       "passive-house",
       "hebel",
-      "waterproofing"
+      "waterproofing",
+      "plafon-gypsum",
+      "plafon-grc"
     ],
     "tags": [
       "material",
@@ -1298,7 +1323,8 @@
       "atap-pelana",
       "bukaan",
       "tritisan",
-      "anyaman-bambu"
+      "anyaman-bambu",
+      "jalusi"
     ],
     "tags": [
       "performance",
@@ -4677,7 +4703,8 @@
       "cor-beton",
       "bekisting",
       "insulation",
-      "atap-pelana"
+      "atap-pelana",
+      "cat-anti-bocor"
     ],
     "tags": [
       "indonesian",
@@ -8282,7 +8309,10 @@
     "relatedTerms": [
       "water-conservation",
       "recycling",
-      "plumbing"
+      "plumbing",
+      "septic-tank",
+      "floor-drain",
+      "pipa-pvc"
     ],
     "tags": [
       "water",
@@ -10488,7 +10518,12 @@
       "door",
       "opening",
       "glazing",
-      "frame"
+      "frame",
+      "kaca",
+      "kusen",
+      "jalusi",
+      "kaca-tempered",
+      "kaca-laminated"
     ],
     "tags": [
       "opening",
@@ -10508,7 +10543,13 @@
       "window",
       "threshold",
       "frame",
-      "hinges"
+      "hinges",
+      "daun-pintu",
+      "kusen",
+      "engsel",
+      "kunci",
+      "handle-pintu",
+      "folding-door"
     ],
     "tags": [
       "opening",
@@ -10528,7 +10569,12 @@
       "partition",
       "bearing-wall",
       "facade",
-      "shear-wall"
+      "shear-wall",
+      "batako",
+      "bata-ringan",
+      "kalsiboard",
+      "grc-board",
+      "acp"
     ],
     "tags": [
       "structure",
@@ -10548,7 +10594,15 @@
       "pitched-roof",
       "flat-roof",
       "parapet",
-      "dormer"
+      "dormer",
+      "galvalum",
+      "spandek",
+      "genteng-metal",
+      "alderon",
+      "rangka-atap-baja-ringan",
+      "talang",
+      "nok-atap",
+      "lisplank"
     ],
     "tags": [
       "enclosure",
@@ -10588,7 +10642,13 @@
       "floor",
       "soffit",
       "joist",
-      "dropped-ceiling"
+      "dropped-ceiling",
+      "plafon-gypsum",
+      "plafon-grc",
+      "plafon-pvc",
+      "rangka-hollow",
+      "rangka-furing",
+      "plamir"
     ],
     "tags": [
       "horizontal",
@@ -11516,6 +11576,1399 @@
       "finish",
       "ornament",
       "wall-treatment"
+    ]
+  },
+  {
+    "id": "asbes",
+    "term": "Asbes",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Asbestos cement corrugated sheet — a composite material of asbestos fibres and Portland cement, used widely as a low-cost roofing and cladding material throughout Indonesia until the 2010s. Asbestos is now known to be carcinogenic when fibres are inhaled; Indonesia has not officially banned asbestos, but its use has declined sharply. Many older Indonesian buildings still have asbestos roofing in place, presenting a hazard during renovation or demolition.",
+    "example": "The kampung houses of 1970s–1990s Jakarta are typically roofed in asbestos sheets — the grey-brown corrugated material instantly recognisable and extremely durable, but now requiring careful removal and disposal under occupational safety protocols.",
+    "relatedTerms": [
+      "alderon",
+      "genteng-metal",
+      "galvalum",
+      "spandek"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "health-hazard"
+    ]
+  },
+  {
+    "id": "batu-bata",
+    "term": "Batu Bata",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Fired brick — a generic term for clay bricks, encompassing both traditional handmade bata merah and industrial pressed varieties. Batu bata is the primary masonry unit across Indonesia, available in standard sizes (20×10×10 cm, 20×10×5 cm, etc.) and in grades from soft handmade brick to hard industrial brick. It remains the most common material for load-bearing walls in residential construction.",
+    "example": "An Indonesian contractor buying 'batu bata' at the toko bangunan typically means industrial pressed brick in 10 cm height (1 setengah = 1.5 layers per 30 cm), standard across Java — softer than ulin production but harder and more uniform than traditional bata merah.",
+    "relatedTerms": [
+      "bata-merah",
+      "batako",
+      "pasangan-bata",
+      "kolom-praktis"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "masonry",
+      "construction"
+    ]
+  },
+  {
+    "id": "batako",
+    "term": "Batako",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Hollow concrete block — a lightweight masonry unit made from cement, sand, and aggregate, formed into a hollow rectangular shape. Batako is cheaper and faster to lay than batu bata, with better thermal and acoustic insulation. It has become the default choice for non-load-bearing partition walls, infill panels, and low-rise residential construction across Indonesia since the 1990s.",
+    "example": "A typical modern Indonesian apartment building uses batako for all partition walls between units — the 10 cm thick hollow blocks laid dry (without mortar) or with thin-joint mortar, providing sound isolation and rapid construction compared to traditional bata merah masonry.",
+    "relatedTerms": [
+      "batu-bata",
+      "bata-ringan",
+      "pasangan-bata",
+      "plesteran"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "masonry",
+      "construction"
+    ]
+  },
+  {
+    "id": "bata-ringan",
+    "term": "Bata Ringan",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Lightweight concrete block — similar to batako but with reduced density (typically 600–1000 kg/m³) achieved by incorporating expanded clay, pumice, or foam. Bata ringan provides superior insulation and is easier to cut and handle than batako. It is preferred in high-rise construction to reduce structural loads and in thermal-conscious residential design.",
+    "example": "The Graha Citra tower in Jakarta (2000s) uses bata ringan for all partition walls — the lightweight blocks reducing the total structural load, allowing a more efficient structural frame and lower material and energy costs compared to traditional masonry.",
+    "relatedTerms": [
+      "batako",
+      "hebel",
+      "plesteran",
+      "insulation"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "masonry",
+      "lightweight"
+    ]
+  },
+  {
+    "id": "semen",
+    "term": "Semen",
+    "section": "structural-systems",
+    "difficulty": "beginner",
+    "definition": "Portland cement — the fine grey powder that is the primary binder in all concrete, mortar, and plaster mixes used in Indonesian construction. Semen is purchased in 50 kg bags and mixed with pasir (sand), batu-split (coarse aggregate), and air to produce cor-beton (cast concrete). Quality grades range from ordinary Portland cement to white cement used in finishing applications.",
+    "example": "A standard Indonesian concrete mix for structural use is '1:2:3' — 1 bag semen, 2 parts pasir, 3 parts batu-split — the ratio taught in every construction school and used on every concrete site across the archipelago.",
+    "relatedTerms": [
+      "concrete",
+      "reinforced-concrete",
+      "cor-beton",
+      "pasir",
+      "batu-split"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "concrete",
+      "binder"
+    ]
+  },
+  {
+    "id": "pasir",
+    "term": "Pasir",
+    "section": "structural-systems",
+    "difficulty": "beginner",
+    "definition": "Sand — the fine aggregate used in concrete, mortar, plaster, and screeds. Indonesian pasir is classified by grain size: pasir halus (fine sand, for finishing) and pasir kasar (coarse sand, for structural mixes). Pasir is sourced from riverbeds, beaches, and manufactured crushings, with significant regional variation in availability and price.",
+    "example": "A plesteran render coat uses a 1:3 mix of semen to pasir halus — the finer sand producing a smoother surface for the acian skim coat, while a structural concrete uses pasir kasar in a larger 1:2:3 semen-pasir-batu-split ratio.",
+    "relatedTerms": [
+      "semen",
+      "batu-split",
+      "cor-beton",
+      "plesteran",
+      "pasangan-bata"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "aggregate",
+      "concrete"
+    ]
+  },
+  {
+    "id": "batu-split",
+    "term": "Batu Split",
+    "section": "structural-systems",
+    "difficulty": "beginner",
+    "definition": "Coarse aggregate — crushed stone ranging from 10 mm to 30 mm, mixed with semen and pasir to form structural concrete (cor-beton). Batu split is the largest component of a concrete mix by volume, contributing to the concrete's compressive strength and bulk density. Quality depends on the source stone — limestone, granite, or river gravel — and on the accuracy of the crushing size.",
+    "example": "Indonesian concrete specification typically calls for batu split 10–20 mm or 20–30 mm depending on the member thickness — a floor slab uses smaller 10–20 mm stone to achieve better consolidation and surface finish, while columns can accept larger 20–30 mm for cost savings.",
+    "relatedTerms": [
+      "semen",
+      "pasir",
+      "cor-beton",
+      "concrete"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "aggregate",
+      "concrete"
+    ]
+  },
+  {
+    "id": "kawat-bendrat",
+    "term": "Kawat Bendrat",
+    "section": "structural-systems",
+    "difficulty": "beginner",
+    "definition": "Binding wire — soft steel wire used to tie rebar (besi-tulangan) together at intersections before concrete is poured. Kawat bendrat holds the steel cage in place during placement and consolidation. It is applied in short loops twisted with pliers, and remains in the hardened concrete where it does not contribute to structural capacity.",
+    "example": "On an Indonesian construction site, labourers spend hours wrapping kawat bendrat around every intersection of the rebar grid — tying with a small wire loop that holds the bars rigidly in place and prevents shifting as wet concrete is vibrated and consolidated around the steel.",
+    "relatedTerms": [
+      "besi-tulangan",
+      "besi-wiremesh",
+      "cor-beton"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "concrete",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "besi-hollow",
+    "term": "Besi Hollow",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "Hollow steel tube — a structural steel member with a rectangular, square, or circular hollow cross-section, used for columns, beams, trusses, and secondary frames in modern Indonesian buildings. Besi hollow is lighter than solid steel I-beams of equivalent strength, easier to work with in design and fabrication, and has become the standard choice for commercial and institutional construction.",
+    "example": "A Jakarta office building's primary structure typically uses besi hollow columns in the main grid (200×200×8 mm, for example) — the hollow section providing torsional rigidity and a clean architectural profile when exposed or minimally finished.",
+    "relatedTerms": [
+      "steel",
+      "reinforced-concrete",
+      "rangka-atap-baja-ringan"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "steel",
+      "structure"
+    ]
+  },
+  {
+    "id": "besi-wiremesh",
+    "term": "Besi Wiremesh",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "Steel wire mesh — a prefabricated grid of welded steel wires in standard patterns (e.g., 150×150 mm, 200×200 mm) used as distributed reinforcement in concrete slabs, walls, and pavements. Wiremesh simplifies site installation compared to tying individual bars, reduces labour costs, and provides reliable uniform spacing. It is standard in Indonesian slab construction.",
+    "example": "A 10 cm concrete floor slab uses two layers of 200×200 mm besi wiremesh — one layer 3 cm from the bottom face, one layer 3 cm from the top — providing distributed reinforcement across the entire slab area with minimal tying labour.",
+    "relatedTerms": [
+      "besi-tulangan",
+      "kawat-bendrat",
+      "cor-beton"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "concrete",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "multiplek",
+    "term": "Multiplek",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Plywood — sheets of wood veneers glued and pressed together with alternating grain direction for strength. Multiplek is the standard formwork (bekisting) material for concrete slabs and vertical surfaces in Indonesian construction. Quality grades range from exterior-grade (water-resistant) to interior-grade, with thickness from 6 mm to 25 mm depending on span and loading.",
+    "example": "Indonesian concrete floor slab formwork is typically 18 mm exterior-grade multiplek supported on a grid of steel props or timber joists — the plywood providing the smooth underside soffit finish that becomes visible after stripping.",
+    "relatedTerms": [
+      "bekisting",
+      "cor-beton",
+      "formwork"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "formwork",
+      "wood"
+    ]
+  },
+  {
+    "id": "galvalum",
+    "term": "Galvalum",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Galvalume steel sheet — steel coated with a aluminium-zinc alloy that provides superior corrosion resistance compared to plain galvanised steel. Galvalum is used for roofing, cladding, gutters, and flashing in Indonesian buildings, offering 50+ year lifespan in tropical conditions. It has largely replaced asbestos and galvanised iron in new construction.",
+    "example": "Modern Indonesian residential roofing typically uses galvalum corrugated sheets (0.35–0.5 mm thick) over a rangka-atap-baja-ringan frame — the shiny grey-silver coated surface shedding heavy monsoon rain while the underlying steel resists coastal salt corrosion.",
+    "relatedTerms": [
+      "asbes",
+      "genteng-metal",
+      "spandek",
+      "talang"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "metal"
+    ]
+  },
+  {
+    "id": "spandek",
+    "term": "Spandek",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Corrugated metal decking — a brand name (PT Cladding) that has become generic for corrugated galvalum or steel sheet with a trapezoid profile. Spandek is lighter and cheaper than genteng metal, used for industrial buildings, carports, and temporary structures. It provides no insulation but excellent rapid weather protection.",
+    "example": "An Indonesian warehouse or factory typically uses spandek roofing over steel trusses — the corrugated profile spanning 1.5–2 metres between purlins, fastened with self-tapping screws, providing watertight coverage at minimal cost.",
+    "relatedTerms": [
+      "galvalum",
+      "genteng-metal",
+      "alderon",
+      "rangka-atap-baja-ringan"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "metal"
+    ]
+  },
+  {
+    "id": "genteng-metal",
+    "term": "Genteng Metal",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Metal roof tile — a stone-coated or plain steel tile designed to imitate traditional clay tile (genteng tanah liat) in appearance while offering superior weather resistance and lighter weight. Genteng metal is now the default choice for residential roofing in Indonesian suburbs, prized for its durability, easy installation, and familiar stepped-tile aesthetic.",
+    "example": "A typical Indonesian suburban house built from 2000 onward uses genteng metal in burgundy, brown, or grey colour, overlapped in courses on a timber or steel frame — the profile mimicking traditional clay tile but with minimal weight and superior wind performance.",
+    "relatedTerms": [
+      "genteng-tanah-liat",
+      "galvalum",
+      "spandek",
+      "atap-pelana"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "metal"
+    ]
+  },
+  {
+    "id": "alderon",
+    "term": "Alderon",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "UPVC corrugated sheet — unplasticized polyvinyl chloride formed into a corrugated profile, used for roofing, cladding, and shed walls. Alderon is cheaper and lighter than metal roofing, with excellent translucency (allowing daylighting in warehouses) and good water resistance. The term 'Alderon' (a Palram brand) has become generic in Indonesia.",
+    "example": "Indonesian carports, pergolas, and storage sheds typically use alderon sheets — the translucent or opaque polycarbonate profile spanning directly between posts without separate purlins, providing rapid, low-cost weather protection with minimal structure.",
+    "relatedTerms": [
+      "asbes",
+      "spandek",
+      "galvalum"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "plastic"
+    ]
+  },
+  {
+    "id": "rangka-atap-baja-ringan",
+    "term": "Rangka Atap Baja Ringan",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "Light gauge steel roof frame — a structural system using cold-formed steel sections (U-channel and C-channel, typically 1.2–2.0 mm thick) for roof purlins, trusses, and bracing. Rangka atap baja ringan is faster to erect than timber, non-combustible, and allows open planning beneath roofs. It has become standard in Indonesian residential and commercial construction since the 1990s.",
+    "example": "A modern Indonesian house uses a rangka atap baja ringan composed of galvanised U-section purlins spanning between besi-hollow columns — the lightweight frame supporting genteng metal or galvalum roofing with minimal interior obstruction and minimal structural load on the walls below.",
+    "relatedTerms": [
+      "besi-hollow",
+      "galvalum",
+      "genteng-metal",
+      "sistem-struktur-kayu"
+    ],
+    "tags": [
+      "indonesian",
+      "structure",
+      "roofing",
+      "steel",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "talang",
+    "term": "Talang",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Gutter or rain gutter — a channel installed along the eave of a roof to collect and direct rainfall to downspouts and ultimately to a drainage system or rainwater tank. Talang is made from galvalum, zinc, or PVC in half-round or box profiles. Proper talang sizing and slope are critical in Indonesia's high-rainfall climate to prevent overflow and water damage.",
+    "example": "An Indonesian house roof requires talang sized to handle the maximum rainfall intensity — typically 100–150 mm diameter half-round galvalum gutter, sloped at minimum 1:100 gradient, discharging into a PVC downspout that directs water to a sumur-resapan or septic tank.",
+    "relatedTerms": [
+      "galvalum",
+      "atap-pelana",
+      "waterproofing"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "drainage"
+    ]
+  },
+  {
+    "id": "lisplank",
+    "term": "Lisplank",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Barge board or gable trim — a decorative or protective board installed along the outer edge of a sloping roof at the gable end, covering the rafter tails and forming the edge of the overhang. Lisplank is made from timber, galvalum, or composite material and is a standard finishing detail in Indonesian roofing that protects the gable from weather.",
+    "example": "A traditional atap-pelana house has a wooden lisplank at each gable end, often carved or moulded, adding character to the roof edge while protecting the rafter tails from direct rain and sun exposure.",
+    "relatedTerms": [
+      "atap-pelana",
+      "nok-atap",
+      "tritisan"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "finish"
+    ]
+  },
+  {
+    "id": "nok-atap",
+    "term": "Nok Atap",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Ridge or roof ridge cap — the horizontal element that caps the peak where two roof slopes meet. Nok atap is made from tiles (matching the main roofing material), metal flashing (for metal roofing), or ridge cap shingles. It serves both a weatherproofing function and a visual finishing role, often the most visible detail of a roof from a distance.",
+    "example": "A genteng-metal roof uses a matching metal ridge cap at the peak — a V-shaped or rounded profile that overlaps the uppermost course of tiles on both sides and is screwed or sealed to prevent water infiltration at this critical junction.",
+    "relatedTerms": [
+      "atap-pelana",
+      "lisplank",
+      "genteng-metal"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "roofing",
+      "detail"
+    ]
+  },
+  {
+    "id": "kalsiboard",
+    "term": "Kalsiboard",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Calcium silicate board — a non-combustible board product made from Portland cement, silica, and reinforcement fibres, used as interior wall cladding, partition infill, and shaft linings in buildings requiring fire resistance. Kalsiboard is heavier and more brittle than gypsum board but offers superior fire and moisture resistance, making it suitable for wet areas and fire-rated partitions.",
+    "example": "An Indonesian hospital uses kalsiboard for all corridors, ward partition walls, and kitchen enclosures — the non-combustible board meeting fire code requirements while its moisture resistance prevents mould growth in the humid tropical environment.",
+    "relatedTerms": [
+      "grc-board",
+      "plafon-gypsum",
+      "building-code"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "wall",
+      "fire-resistant"
+    ]
+  },
+  {
+    "id": "grc-board",
+    "term": "GRC Board",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Glass Reinforced Cement board — a thin cladding panel of Portland cement reinforced with alkali-resistant glass fibres, used for exterior and interior wall cladding, fascia, and soffit applications. GRC Board is lightweight, weather-resistant, and can be precast in complex profiles, making it popular in Indonesian contemporary architecture for its clean, durable finish.",
+    "example": "A modern Jakarta office building uses GRC Board panels for its exterior cladding — precast in a light grey matrix with integrated drainage channels — creating a monolithic, seamless appearance that weathers uniformly and requires minimal maintenance.",
+    "relatedTerms": [
+      "kalsiboard",
+      "acp",
+      "cladding",
+      "concrete"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "cladding",
+      "precast"
+    ]
+  },
+  {
+    "id": "acp",
+    "term": "ACP (Aluminium Composite Panel)",
+    "abbreviation": "ACP",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Aluminium Composite Panel — a sandwich panel of thin aluminium sheets bonded to a polyethylene or fire-resistant core, used for building cladding, signage, and interior partitions. ACP is lightweight, weather-resistant, and available in unlimited colours and finishes. It requires careful detail design to manage thermal expansion and movement, and fire-rated versions are required in high-rise buildings in Indonesia.",
+    "example": "An Indonesian shopping mall uses fire-rated ACP panels for its exterior facade — the panels finished in bright colours and installed on a concealed steel subframe with sealed joints that allow for thermal movement while preventing water infiltration.",
+    "relatedTerms": [
+      "grc-board",
+      "cladding",
+      "acp"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "cladding",
+      "metal"
+    ]
+  },
+  {
+    "id": "plafon-gypsum",
+    "term": "Plafon Gypsum",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Gypsum ceiling board or plasterboard — sheets of gypsum core with paper facings, attached to a suspended metal frame (rangka-hollow) to create a finished ceiling. Plafon gypsum is the standard dropped ceiling material in Indonesian commercial and residential interiors, offering acoustic absorption, easy installation of MEP (mechanical, electrical, plumbing) above, and a clean, flat finish.",
+    "example": "An Indonesian apartment interior uses 9 mm plafon gypsum suspended 30 cm below the concrete slab on a rangka-hollow frame — the 600×600 mm panels creating a modular grid that accommodates downlights, air returns, and sprinkler heads.",
+    "relatedTerms": [
+      "plafon-grc",
+      "plafon-pvc",
+      "rangka-hollow",
+      "insulation"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "ceiling",
+      "interior"
+    ]
+  },
+  {
+    "id": "plafon-grc",
+    "term": "Plafon GRC",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Glass Reinforced Cement ceiling panel — a non-combustible alternative to gypsum ceiling board, offering superior fire resistance and moisture durability. Plafon GRC is heavier than gypsum and more brittle, but required in some building codes for high-rise structures and in wet areas (kitchens, bathrooms) where gypsum deteriorates.",
+    "example": "An Indonesian hotel kitchen uses plafon GRC suspended on a rangka-hollow frame — the fire-resistant panels withstanding the heat and humidity of commercial cooking while meeting the building's code-required fire rating.",
+    "relatedTerms": [
+      "plafon-gypsum",
+      "plafon-pvc",
+      "kalsiboard"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "ceiling",
+      "fire-resistant"
+    ]
+  },
+  {
+    "id": "plafon-pvc",
+    "term": "Plafon PVC",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "PVC ceiling tile or plastic ceiling panel — a lightweight, moisture-resistant ceiling material made from polyvinyl chloride, used in bathrooms, kitchens, and wet areas where gypsum or GRC would deteriorate. Plafon PVC is cheap, easy to install and replace, and resists mould and mildew, but offers poor acoustic absorption and lower fire resistance than gypsum or GRC.",
+    "example": "An Indonesian residential bathroom uses small plafon PVC panels (often 30×30 cm) suspended on a lightweight plastic track system — the plastic's moisture resistance and mouldproof surface making it ideal for the humid environment and constant water splashing.",
+    "relatedTerms": [
+      "plafon-gypsum",
+      "plafon-grc",
+      "rangka-furing"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "ceiling",
+      "wet-areas"
+    ]
+  },
+  {
+    "id": "rangka-hollow",
+    "term": "Rangka Hollow",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "Metal stud framing or cold-formed steel ceiling frame — a system of galvanised steel U-channel and C-channel sections (typically 75–100 mm depth, 1–2 mm thickness) assembled into a grid to support suspended ceilings. Rangka-hollow is fast to install, reusable, and allows flexible routing of MEP systems above, and is the standard suspended ceiling support system in Indonesian buildings.",
+    "example": "A typical Indonesian office floor uses a rangka-hollow frame with 1200×1200 mm primary grid members and 600 mm secondary members — supporting plafon-gypsum panels and accommodating a full MEP plenum above for electrical cable trays, supply ductwork, and return plenums.",
+    "relatedTerms": [
+      "plafon-gypsum",
+      "plafon-grc",
+      "besi-hollow"
+    ],
+    "tags": [
+      "indonesian",
+      "structure",
+      "ceiling",
+      "metal"
+    ]
+  },
+  {
+    "id": "rangka-furing",
+    "term": "Rangka Furing",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Lightweight plastic or timber frame used to support ceiling tiles or wall cladding in low-cost applications. Rangka furing is a cheaper alternative to rangka-hollow, using plastic tracks or timber battens instead of steel, suitable for simple, non-load-bearing applications where fire rating is not critical.",
+    "example": "An Indonesian small house or shop uses rangka-furing made from timber 25×40 mm battens nailed to the slab structure — supporting simple plafon PVC panels without the cost or complexity of a steel frame system.",
+    "relatedTerms": [
+      "plafon-pvc",
+      "rangka-hollow"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "ceiling",
+      "simple"
+    ]
+  },
+  {
+    "id": "granit",
+    "term": "Granit",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Granite tile or slab — cut and polished from granite stone, used for floors, countertops, and wall cladding in high-end Indonesian interiors. Granit is harder and more expensive than marmer (marble), with a speckled appearance from visible mineral crystals. It is prized for its durability and natural beauty, particularly in prestige residential and commercial applications.",
+    "example": "A Jakarta executive apartment lobby floor is finished in large 60×60 cm granit tiles in black or grey polished granite — the hard, durable surface ideal for high-traffic areas and the polished finish reflecting light to enlarge the space.",
+    "relatedTerms": [
+      "marmer",
+      "ubin",
+      "batu-alam"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "flooring",
+      "stone"
+    ]
+  },
+  {
+    "id": "marmer",
+    "term": "Marmer",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Marble tile or slab — a metamorphic rock available in white, grey, black, and various coloured veins, quarried in Indonesia (particularly in Sumatra and Sulawesi) and imported. Marmer is softer than granit and more vulnerable to staining and scratching, but is prized for its visual elegance and prestige associations. It is used in high-end flooring, wall cladding, and decorative applications.",
+    "example": "An Indonesian hotel lobby uses white marmer tiles with grey and black veining — polished to a lustrous finish and sealed to prevent staining from water and acidic substances, creating a formal, luxury aesthetic.",
+    "relatedTerms": [
+      "granit",
+      "batu-alam",
+      "ubin"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "flooring",
+      "stone"
+    ]
+  },
+  {
+    "id": "parket",
+    "term": "Parket",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Parquet or wooden flooring — solid wood strips or engineered wood planks laid in patterns (herringbone, basket-weave, or random) to create a finished floor. Parket is rare in Indonesian residential construction due to cost, humidity, and termite concerns, but is used in prestige residential and institutional interiors. Properly sealed parket requires maintenance and climate control.",
+    "example": "An Indonesian private residence in a cool highland location (Bandung) uses parket flooring of teak strips in a herringbone pattern — sealed and waxed, but requiring careful moisture management given the frequent rain and humidity.",
+    "relatedTerms": [
+      "timber",
+      "kayu-jati"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "flooring",
+      "wood"
+    ]
+  },
+  {
+    "id": "vinyl-flooring",
+    "term": "Vinyl Flooring",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Polyvinyl chloride (PVC) sheet or tile flooring — a synthetic, moisture-resistant, easy-to-clean floor material available in endless colours and patterns. Vinyl flooring is increasingly popular in Indonesian hospitals, clinics, schools, and wet areas due to its hygiene, durability, and low maintenance. It is cheaper than stone or ceramic tile and warmer underfoot.",
+    "example": "An Indonesian clinic uses vinyl sheet flooring (2 mm thickness, welded seams) in light grey — the seamless, waterproof surface easily mopped and disinfected daily, superior to ceramic tile for infection control and patient comfort.",
+    "relatedTerms": [
+      "ubin",
+      "keramik",
+      "epoxy-lantai"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "flooring",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "ubin",
+    "term": "Ubin",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Unglazed ceramic or cement tile — a traditional floor or wall tile made from clay or cement, unglazed and often with a slightly rough texture. Ubin is distinct from keramik (glazed tile) and is preferred in some applications for its slip resistance (important in wet areas) and its rustic aesthetic. Ubin is now less common than glazed keramik or vinyl flooring.",
+    "example": "Traditional Indonesian village houses and colonial-era shophouses use ubin flooring — unglazed terracotta tiles with a warm earth tone and slight texture, mopped wet for cleaning and developing a patina with age.",
+    "relatedTerms": [
+      "keramik",
+      "granit",
+      "marmer",
+      "nat"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "flooring",
+      "tile"
+    ]
+  },
+  {
+    "id": "rabat-beton",
+    "term": "Rabat Beton",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Concrete floor screed — a thin layer of cement mortar (typically 3–5 cm) cast over a structural concrete floor slab to create a smooth, level wearing surface and to integrate MEP runs, conduits, and thermal mass systems. Rabat beton is a standard Indonesian floor assembly component, allowing the structural slab and finishing layer to be controlled independently.",
+    "example": "An Indonesian office building floor assembly consists of: structural concrete slab → insulation or MEP roughin → rabat-beton 4 cm (with embedded power and data conduits) → keramik tile flooring or carpet, each layer installed and cured sequentially.",
+    "relatedTerms": [
+      "cor-beton",
+      "keramik",
+      "semen",
+      "pasir"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "flooring",
+      "concrete"
+    ]
+  },
+  {
+    "id": "paving-block",
+    "term": "Paving Block",
+    "section": "sustainability",
+    "difficulty": "beginner",
+    "definition": "Interlocking concrete paver or paving stone — a modular unit used for outdoor paving (driveways, patios, walkways, and plazas) that allows water infiltration between joints. Paving blocks are cheaper and faster to install than cast concrete, allow flexibility in design and repair, and support groundwater recharge. They are standard in Indonesian residential and commercial landscaping.",
+    "example": "An Indonesian house entrance uses 20×20 cm interlocking paving blocks in light grey, laid in a running bond pattern — the gaps filled with sand allowing rainwater to percolate to the soil below, reducing runoff and groundwater depletion.",
+    "relatedTerms": [
+      "grass-block",
+      "kanstin"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "paving",
+      "sustainable"
+    ]
+  },
+  {
+    "id": "grass-block",
+    "term": "Grass Block",
+    "section": "sustainability",
+    "difficulty": "beginner",
+    "definition": "Permeable paving block — a concrete or plastic unit with voids filled with soil and grass, allowing pedestrian or light vehicle passage while maintaining vegetation cover and groundwater infiltration. Grass block is used in parking areas, emergency access roads, and landscaped plazas to reduce heat island effect and manage stormwater in Indonesian cities.",
+    "example": "An Indonesian mixed-use development uses grass blocks in its service drive and overflow parking — the interlocking concrete frame supporting vehicle loads while the grass-filled voids reduce surface temperature and absorb rainfall that would otherwise flood the site.",
+    "relatedTerms": [
+      "paving-block",
+      "rth",
+      "geotextile",
+      "greenship"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "paving",
+      "sustainable",
+      "green"
+    ]
+  },
+  {
+    "id": "kusen",
+    "term": "Kusen",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Door or window frame — the structural surround into which daun-pintu (door leaf) or window sash is hung. Kusen is made from timber, aluminium, or steel and is a critical interface between the building envelope and the openings. Poor kusen detailing (especially seal to the surrounding wall) is a common source of water infiltration and heat loss in Indonesian buildings.",
+    "example": "An Indonesian house uses timber kusen for interior doors (pine or meranti) and aluminium kusen for the exterior windows and patio doors — the aluminium requiring careful caulking at all edges to prevent tropical rain infiltration.",
+    "relatedTerms": [
+      "daun-pintu",
+      "kaca",
+      "jalusi",
+      "folding-door"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "fenestration",
+      "frame"
+    ]
+  },
+  {
+    "id": "daun-pintu",
+    "term": "Daun Pintu",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Door leaf or door panel — the moving element that swings or slides to open and close a doorway, hung from a kusen frame using engsel (hinges). Daun pintu is made from solid timber, plywood, hardboard, or hollow-core composite, with interior doors using simple construction and exterior doors requiring weather-sealed, solid construction.",
+    "example": "An Indonesian house interior uses painted hollow-core daun pintu for bedrooms and bathrooms — cheap, light, and easy to install and paint, but exterior daun pintu for the front entrance uses solid timber or a weather-sealed composite with sealant around the frame.",
+    "relatedTerms": [
+      "kusen",
+      "engsel",
+      "kunci",
+      "handle-pintu"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "fenestration",
+      "door"
+    ]
+  },
+  {
+    "id": "kaca",
+    "term": "Kaca",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Glass — the transparent material used in windows, glazed doors, and glass partitions. In Indonesian construction, kaca is available in various types: clear float glass for standard windows, kaca-tempered (heat-treated) for safety applications, kaca-laminated (bonded plies with interlayer) for security and impact resistance, and tinted or reflective glass for solar control.",
+    "example": "An Indonesian office building uses kaca-laminated in all ground-floor windows and kaca-tempered in doors for security, while the upper-floor façade uses reflective kaca-tempered to reject solar heat in the tropical climate.",
+    "relatedTerms": [
+      "kusen",
+      "kaca-tempered",
+      "kaca-laminated",
+      "jalusi"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "fenestration",
+      "glass"
+    ]
+  },
+  {
+    "id": "jalusi",
+    "term": "Jalusi",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Louvre or jalousie — a shading element consisting of horizontal slats (fixed or operable) that control solar radiation and visual privacy while allowing ventilation and daylighting. Jalusi is made from timber, aluminium, or plastic and is a key passive climate control element in Indonesian tropical architecture, allowing natural ventilation while shading windows from direct sun.",
+    "example": "An Indonesian house uses fixed timber jalusi on its west-facing windows — the 45° slats angled to block the harsh afternoon sun while allowing air circulation and diffuse light to enter the interior.",
+    "relatedTerms": [
+      "shading-device",
+      "ventilasi-silang",
+      "kaca",
+      "bukaan"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "shading",
+      "passive-design"
+    ]
+  },
+  {
+    "id": "teralis",
+    "term": "Teralis",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Security grille or window bar — an ornamental or functional steel grid installed over windows and openings for theft prevention. Teralis is ubiquitous in Indonesian houses, from simple welded bar grilles to ornate decorative designs. It is a standard security measure and a signature element of the Indonesian residential street facade.",
+    "example": "An Indonesian kampung house has welded steel teralis on all ground-floor windows — simple vertical bars spaced at 5 cm intervals, painted black or dark green, providing visible security while allowing light and air to enter.",
+    "relatedTerms": [
+      "kaca",
+      "kusen",
+      "pagar-besi"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "security",
+      "fenestration"
+    ]
+  },
+  {
+    "id": "engsel",
+    "term": "Engsel",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Hinge — the mechanical fastening device that allows a door or window to swing. Engsel is made from steel (for structural doors) or brass (for visible, higher-grade applications) and is specified by load capacity and size. Standard door engsel are 2.5–4 inches, with heavy-duty sizes for commercial applications.",
+    "example": "An Indonesian wooden daun-pintu uses three 3-inch steel engsel mounted on the kusen frame — the engsel supporting the door's weight and allowing smooth operation, with quality directly affecting door stability and longevity.",
+    "relatedTerms": [
+      "daun-pintu",
+      "kusen",
+      "kunci"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "hardware",
+      "door"
+    ]
+  },
+  {
+    "id": "kunci",
+    "term": "Kunci",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Lock — the mechanism that secures a door in a closed and latched position. Kunci ranges from simple sliding bolts to sophisticated mortise locks and modern electronic locks. Building codes specify different lock requirements for emergency egress doors (quick-release) versus security doors.",
+    "example": "An Indonesian house exterior daun-pintu uses a mortise lock with deadbolt — providing security against casual entry while remaining operable without tools for emergency exit, meeting building code requirements.",
+    "relatedTerms": [
+      "daun-pintu",
+      "kusen",
+      "handle-pintu"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "hardware",
+      "security"
+    ]
+  },
+  {
+    "id": "handle-pintu",
+    "term": "Handle Pintu",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Door handle or grab bar — the lever or grip that operates a door. Handles range from simple levers to ornate decorative designs, made from stainless steel, brass, or aluminium. Handle design affects accessibility — Indonesian building codes increasingly require lever handles (operable by people with limited hand strength) over round knobs.",
+    "example": "A contemporary Indonesian office building uses stainless steel lever handles on all daun-pintu — the lever design meeting accessibility codes while the stainless steel providing durability and a modern aesthetic.",
+    "relatedTerms": [
+      "daun-pintu",
+      "kunci"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "hardware",
+      "accessibility"
+    ]
+  },
+  {
+    "id": "folding-door",
+    "term": "Folding Door",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Accordion or bifold door — a system of multiple panels hinged together that fold and stack to one or both sides, allowing complete opening of a threshold without the obstruction of a swinging daun-pintu. Folding doors are used between rooms and between interior and exterior spaces to maximize usable floor area while maintaining visual and acoustic separation.",
+    "example": "An Indonesian residential open-plan kitchen uses a folding door system to separate from the living area — when opened, the door panels fold completely against the side walls, allowing the spaces to merge for entertaining.",
+    "relatedTerms": [
+      "kusen",
+      "daun-pintu"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "fenestration",
+      "door"
+    ]
+  },
+  {
+    "id": "kaca-tempered",
+    "term": "Kaca Tempered",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Tempered or heat-treated glass — glass that has been heated and rapidly cooled to create internal compressive stresses that make it 4–5 times stronger than ordinary annealed glass and cause it to shatter into small safe pebbles rather than sharp shards when broken. Kaca tempered is required by code in doors, shower enclosures, and large windows to prevent injury from breakage.",
+    "example": "An Indonesian bathroom uses kaca-tempered for the shower screen and glass door — the tempered glass stronger and safer than ordinary glass, able to withstand impact and temperature shock from hot and cold water.",
+    "relatedTerms": [
+      "kaca",
+      "kaca-laminated",
+      "building-code"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "glass",
+      "safety"
+    ]
+  },
+  {
+    "id": "kaca-laminated",
+    "term": "Kaca Laminated",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Laminated glass — two or more panes of glass bonded together with a tough plastic interlayer (typically polyvinyl butyral, PVB) that holds the glass together if it breaks, providing impact resistance and security. Kaca laminated is used in security applications, hurricane zones, and ground-floor windows, and offers sound insulation benefits over single-pane glass.",
+    "example": "An Indonesian bank uses kaca-laminated in teller windows and entrance doors — the laminated glass resisting forced entry and containing glass fragments if the pane breaks, providing security and safety.",
+    "relatedTerms": [
+      "kaca",
+      "kaca-tempered",
+      "teralis"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "glass",
+      "security"
+    ]
+  },
+  {
+    "id": "cat-tembok",
+    "term": "Cat Tembok",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Wall paint — the visible finish coating applied to plasteran and acian surfaces, available in water-based (latex) and oil-based (enamel) formulations. Cat tembok in Indonesia typically uses latex paint due to lower VOC, faster drying, and better performance in humid climates. Standard interior colours are white, cream, pale yellow, and pale blue.",
+    "example": "A typical Indonesian house interior uses white or cream cat-tembok on all living areas for brightness, with pale blue or pale green in bedrooms — applied in at least two coats over the acian skim coat for uniform coverage.",
+    "relatedTerms": [
+      "acian",
+      "plesteran",
+      "cat-eksterior"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "finishing",
+      "paint"
+    ]
+  },
+  {
+    "id": "cat-eksterior",
+    "term": "Cat Eksterior",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Exterior paint — a weather-resistant paint formulation designed to withstand UV radiation, rain, temperature extremes, and fungal growth in tropical climates. Cat eksterior uses high-quality pigments, binders, and UV stabilisers and typically costs 2–3 times more than interior paint, but extends facade durability to 5–7 years or longer.",
+    "example": "An Indonesian house exterior uses premium cat-eksterior on the acian-finished walls — the paint containing fungicide to resist mould growth in the humid tropical climate and UV inhibitors to prevent fading from intense sun exposure.",
+    "relatedTerms": [
+      "cat-tembok",
+      "acian",
+      "plesteran"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "finishing",
+      "paint"
+    ]
+  },
+  {
+    "id": "cat-anti-bocor",
+    "term": "Cat Anti-Bocor",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Waterproofing paint or elastomeric coating — a specialized paint that cures to form a flexible, waterproof membrane. Cat anti-bocor is applied to roofs, flat surfaces, and areas prone to water infiltration, and is meant to seal hairline cracks and minor seepage while remaining flexible to accommodate thermal movement. Its effectiveness is highly dependent on proper surface preparation.",
+    "example": "An Indonesian flat concrete roof is treated with cat anti-bocor painted over the entire surface in a 2 mm cured thickness — the elastomeric coating accommodating the thermal expansion of the concrete while blocking water infiltration through hairline cracks.",
+    "relatedTerms": [
+      "waterproofing",
+      "atap-pelana"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "finishing",
+      "waterproofing"
+    ]
+  },
+  {
+    "id": "wallpaper",
+    "term": "Wallpaper",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Decorative wall covering — rolls of printed paper or vinyl adhered to walls as a design and protective surface. Wallpaper is rare in Indonesian residential construction due to cost and the difficulty of maintenance in humid climates where adhesive deteriorates and mould grows, but is used in boutique hotels and high-end residential projects.",
+    "example": "A luxury Jakarta hotel suite uses imported wallpaper in the bedroom — vinyl-backed, high-quality design, professionally installed with mould-resistant adhesive, but requiring careful humidity control to maintain the finish.",
+    "relatedTerms": [
+      "cat-tembok",
+      "acian"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "finishing",
+      "decorative"
+    ]
+  },
+  {
+    "id": "epoxy-lantai",
+    "term": "Epoxy Lantai",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Epoxy flooring — a hard, chemical-resistant floor coating made from epoxy resin and curing agent, applied directly over concrete to create a seamless, durable, easy-to-clean wearing surface. Epoxy flooring is popular in Indonesian industrial, laboratory, and commercial kitchens where chemical and moisture resistance are critical.",
+    "example": "An Indonesian pharmaceutical manufacturing facility uses epoxy-lantai in its production areas — the seamless, non-porous surface meeting hygiene and chemical resistance standards, easily disinfected daily.",
+    "relatedTerms": [
+      "vinyl-flooring",
+      "cor-beton",
+      "rabat-beton"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "flooring",
+      "industrial"
+    ]
+  },
+  {
+    "id": "plamir",
+    "term": "Plamir",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Joint filler or spackling compound — a white powder mixed with water to form a paste, used to fill seams, cracks, and fastener holes in walls before painting. Plamir is applied with a putty knife, sanded smooth, and primed before final painting. It is a standard finishing step in Indonesian gypsum board and drywall construction.",
+    "example": "A gypsum board partition has its joint seams and screw holes filled with plamir, sanded, and primed — creating a perfectly smooth wall surface ready for paint finish, a labour-intensive process but essential for quality results.",
+    "relatedTerms": [
+      "plafon-gypsum",
+      "cat-tembok",
+      "acian"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "finishing",
+      "joint-filling"
+    ]
+  },
+  {
+    "id": "gorden",
+    "term": "Gorden",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Curtains or drapes — fabric hanging that controls light, privacy, and solar heat gain in windows. Gorden is made from cotton, polyester, or blended fabrics and is suspended from a rod or track. In Indonesian tropical architecture, gorden functions as a key passive cooling element, blocking solar radiation especially on west-facing windows.",
+    "example": "An Indonesian living room uses heavy thermal gorden in a pale colour — drawing closed during the hot afternoon to block the intense afternoon sun while remaining light and washable in the humid tropical environment.",
+    "relatedTerms": [
+      "jalusi",
+      "kaca",
+      "shading-device"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "finishing",
+      "window-treatment"
+    ]
+  },
+  {
+    "id": "pipa-pvc",
+    "term": "Pipa PVC",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "PVC pipe or polyvinyl chloride plastic pipe — a lightweight, corrosion-resistant drainage and water supply pipe, standard in Indonesian plumbing systems. Pipa PVC is available in various diameters (typically 16–110 mm) and pressure ratings, joined with solvent cement (PVC glue) or compression fittings. It is significantly cheaper and easier to install than copper or galvanised steel pipe.",
+    "example": "An Indonesian house plumbing system uses pipa PVC for all hot and cold water supply — the plastic pipes resisting corrosion in the humid tropical climate while being easy to route through walls and connect to fixtures.",
+    "relatedTerms": [
+      "kloset",
+      "wastafel"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "piping"
+    ]
+  },
+  {
+    "id": "kloset",
+    "term": "Kloset",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Water closet or toilet fixture — the seated fixture connected to a drain system for human waste. Kloset is available in various styles: squatting pans (traditional in Indonesia), pedestal bowls (Western style, increasingly standard), and composite systems. Building codes specify trap type, water supply, and ventilation requirements.",
+    "example": "A modern Indonesian residential kloset uses a Western-style porcelain bowl with a soft-close seat, low-flow dual-flush tank (6/3 litre), and an overhead cistern — meeting water conservation standards while providing user comfort.",
+    "relatedTerms": [
+      "wastafel",
+      "septic-tank"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "fixture"
+    ]
+  },
+  {
+    "id": "wastafel",
+    "term": "Wastafel",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Wash basin or sink fixture — a porcelain, stainless steel, or composite fixture used for washing hands, dishes, and laundry. Wastafel is connected to both hot and cold water supply and to a drain system. Kitchen wastafel are typically larger and deeper than bathroom wash basins.",
+    "example": "An Indonesian bathroom wastafel is a simple porcelain bowl wall-mounted on a stainless steel frame, with a single-lever faucet mixing hot and cold water — draining to the septic system via pipa-pvc.",
+    "relatedTerms": [
+      "kloset",
+      "pipa-pvc",
+      "kran"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "fixture"
+    ]
+  },
+  {
+    "id": "bak-mandi",
+    "term": "Bak Mandi",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Bathtub or bathing basin — a large fixture for filling with water for bathing. Bak mandi in Indonesia ranges from simple plastic drums (in rural areas) to porcelain or acrylic bathtubs (in urban housing). Many Indonesian homes do not have bathtubs, preferring showers instead due to space constraints and water conservation.",
+    "example": "An Indonesian residential bathroom has a simple plastic bak mandi (large plastic drum, 50–100 litre capacity) for bathing, typically filled by hand and used with a dipper for washing — more water-efficient than a running shower.",
+    "relatedTerms": [
+      "wastafel",
+      "kloset",
+      "pipa-pvc"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "fixture"
+    ]
+  },
+  {
+    "id": "tandon-air",
+    "term": "Tandon Air",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Water tank or cistern — a large elevated or ground-level reservoir that stores potable water for household use. Tandon air is typically made from plastic (fiberglass or polyethylene), concrete, or stainless steel, and is essential in Indonesia where mains water supply is intermittent or unreliable in many areas. A typical household tandon is 1,000–2,000 litres.",
+    "example": "An Indonesian house has a 1,500-litre plastic tandon air mounted on a steel frame at the roof level — gravity-fed by mains supply when available, storing water for multiple days of household use when mains is unavailable.",
+    "relatedTerms": [
+      "pipa-pvc",
+      "kran",
+      "septic-tank"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "storage"
+    ]
+  },
+  {
+    "id": "septic-tank",
+    "term": "Septic Tank",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Septic tank or wastewater treatment system — an underground chamber where household wastewater is treated through bacterial decomposition before percolation to soil. Septic tanks are sized based on occupancy (typically 3.5–5 m³ for a four-person household) and must be desludged every 2–3 years. They are the standard wastewater treatment system in Indonesian areas without central sewage.",
+    "example": "An Indonesian suburban house has a 4 m³ concrete septic tank buried 2 metres underground — receiving waste from the kloset and wastafel, with an outlet pipe discharging treated effluent to a percolation pit (sumur resapan) beneath the garden.",
+    "relatedTerms": [
+      "kloset",
+      "wastafel",
+      "pipa-pvc"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "sanitation"
+    ]
+  },
+  {
+    "id": "floor-drain",
+    "term": "Floor Drain",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Grate or shower drain — an opening in the floor with a removable strainer that allows water to drain away. Floor drains are used in bathrooms, kitchens, and wet areas to accommodate water spillage and to support hose-based cleaning. Proper floor slope toward the drain and a trap (P-trap) below the grate are essential to prevent drain flies and sewer gases.",
+    "example": "An Indonesian bathroom floor is sloped at 1–2% toward a floor drain equipped with a removable grate and a P-trap below — allowing spillage from showers and bucket cleaning to drain away while remaining dry for most of the day.",
+    "relatedTerms": [
+      "pipa-pvc",
+      "rabat-beton",
+      "waterproofing"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "drainage"
+    ]
+  },
+  {
+    "id": "kran",
+    "term": "Kran",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Faucet or tap — the valve fixture that controls flow of water from pipes. Kran is available in various styles (single-lever, dual-handle, etc.) and materials (brass, stainless steel, chrome-plated). Quality kran seal materials directly affect durability in high-usage applications like kitchen sinks.",
+    "example": "An Indonesian kitchen wastafel uses a single-lever stainless-steel kran with a curved spout — allowing one-handed operation and easy adjustment between hot and cold water.",
+    "relatedTerms": [
+      "pipa-pvc",
+      "wastafel"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "plumbing",
+      "hardware"
+    ]
+  },
+  {
+    "id": "kabel-listrik",
+    "term": "Kabel Listrik",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Electrical cable — insulated conductors (copper or aluminium) that carry electrical current from the main panel (panel-listrik) to outlets, fixtures, and equipment. Kabel listrik is specified by conductor size (cross-sectional area in mm²), insulation type, and voltage rating. Indonesian installation codes (PUIL) specify minimum sizes and safety requirements.",
+    "example": "An Indonesian house main distribution uses 10 mm² kabel-listrik from the street meter to the panel-listrik, with smaller sizes (4 mm², 2.5 mm², 1.5 mm²) to individual circuits for lighting, outlets, and appliances.",
+    "relatedTerms": [
+      "panel-listrik",
+      "stop-kontak"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "electrical",
+      "wiring"
+    ]
+  },
+  {
+    "id": "stop-kontak",
+    "term": "Stop Kontak",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Electrical outlet or receptacle — the socket fixed to a wall or built into furniture where portable appliances plug in to access power. Stop kontak varies by voltage, phase, and current rating, with Indonesian homes using primarily 16A, 220V single-phase outlets. Safety outlets include shuttered designs and ground pins.",
+    "example": "An Indonesian residential stop-kontak is a simple dual socket rated 16A 220V with ground pin — mounted at 30 cm height on walls and 15 cm height at countertops (kitchens) to allow safe appliance connections.",
+    "relatedTerms": [
+      "kabel-listrik",
+      "saklar"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "electrical",
+      "outlet"
+    ]
+  },
+  {
+    "id": "saklar",
+    "term": "Saklar",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Light switch or electrical switch — the device that opens and closes an electrical circuit to control lights or appliances. Saklar is available in toggle, push-button, or rotary designs and is rated by voltage and current capacity. Standard Indonesian residential saklar are rated for 10A 250V.",
+    "example": "An Indonesian room has a saklar mounted at 120 cm height beside the doorway, controlling the overhead light — a simple toggle switch with a white plastic cover plate, standard in most homes.",
+    "relatedTerms": [
+      "kabel-listrik",
+      "stop-kontak"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "electrical",
+      "switch"
+    ]
+  },
+  {
+    "id": "panel-listrik",
+    "term": "Panel Listrik",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Electrical panel or distribution board — the main enclosure where incoming power is metered, distributed, and protected. The panel-listrik contains circuit breakers for each circuit, a main breaker, and ground connections. Indonesian installation codes require a lockable panel located at an accessible point near the main entry.",
+    "example": "An Indonesian house panel-listrik is mounted beside the front entrance — receiving 4400VA three-phase power from the utility, with a 63A main breaker and individual circuit breakers for lighting, outlets, air conditioning, and water heater circuits.",
+    "relatedTerms": [
+      "kabel-listrik",
+      "stop-kontak",
+      "saklar",
+      "ac-split"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "electrical",
+      "distribution"
+    ]
+  },
+  {
+    "id": "ac-split",
+    "term": "AC Split",
+    "section": "building-performance-physics",
+    "difficulty": "beginner",
+    "definition": "Split-type air conditioning system — a comfort cooling system consisting of a wall-mounted or ceiling indoor unit connected via refrigerant lines to an outdoor compressor unit. AC split is the dominant cooling system in Indonesian commercial and residential buildings, preferred for its efficiency, quiet operation, and flexibility in room zoning.",
+    "example": "An Indonesian bedroom uses a 1.5-ton AC split with an inverter compressor — the unit maintaining 24°C setpoint with individual temperature control, more efficient than window units while producing minimal noise.",
+    "relatedTerms": [
+      "ventilasi-silang",
+      "orientasi-bangunan",
+      "thermal-comfort"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "mechanical",
+      "cooling"
+    ]
+  },
+  {
+    "id": "exhaust-fan",
+    "term": "Exhaust Fan",
+    "section": "building-performance-physics",
+    "difficulty": "beginner",
+    "definition": "Ventilation fan or exhaust fan — a mechanical fan that removes moist or polluted air from a room and exhausts it outside. Exhaust fans are used in kitchens, bathrooms, and laundries to remove humidity and odours. In Indonesian humid climates, exhaust fans are essential to prevent mould growth in bathrooms.",
+    "example": "An Indonesian bathroom uses a ceiling-mounted exhaust fan operated by a humidistat — automatically running when humidity exceeds 60% to remove moisture from showers, preventing mould on walls and ceilings.",
+    "relatedTerms": [
+      "ventilasi-silang"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "mechanical",
+      "ventilation"
+    ]
+  },
+  {
+    "id": "kanstin",
+    "term": "Kanstin",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Kerb or curb — a concrete or stone edge that separates a road, paving, or walkway from an adjoining surface. Kanstin is typically 10–15 cm high and 15–20 cm wide, serving both a functional role (drainage, traffic control) and a visual role (defining edges and organisation of space).",
+    "example": "An Indonesian residential street features concrete kanstin defining the edge between the paved driveway and the surrounding grass — 12 cm high and sloped for drainage, painted white or left grey concrete.",
+    "relatedTerms": [
+      "paving-block",
+      "tanah-urug"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "landscape",
+      "hardscape"
+    ]
+  },
+  {
+    "id": "tanah-urug",
+    "term": "Tanah Urug",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Fill soil or backfill material — earth or other soil material used to fill areas, raise grades, or backfill foundations. Tanah urug must be compacted in layers to prevent settling and is often mixed with cement (tanah semen) to increase strength and prevent erosion. Quality of tanah urug directly affects site stability and the longevity of overlying pavements.",
+    "example": "An Indonesian building site uses tanah urug compacted to 95% standard proctor density to raise the finished floor level 1 metre above the surrounding terrain — the fill material compacted in 30 cm lifts to prevent differential settlement.",
+    "relatedTerms": [
+      "pondasi-batu-kali",
+      "paving-block"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "site-work",
+      "earthwork"
+    ]
+  },
+  {
+    "id": "geotextile",
+    "term": "Geotextile",
+    "section": "sustainability",
+    "difficulty": "intermediate",
+    "definition": "Geotextile membrane — a permeable fabric layer placed over soil to separate materials, filter water, and control erosion. Geotextile is commonly used under paving-blocks and grass-blocks to prevent soil migration into the drainage layer while allowing water percolation. It also strengthens weak soils by distributing loads.",
+    "example": "An Indonesian parking area uses geotextile laid over the subgrade before the gravel drainage layer and paving blocks — the fabric allowing water infiltration while preventing fines from the subgrade from mixing into the drainage layer.",
+    "relatedTerms": [
+      "paving-block",
+      "grass-block",
+      "rth"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "landscape",
+      "sustainable"
+    ]
+  },
+  {
+    "id": "batu-koral",
+    "term": "Batu Koral",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Coral aggregate or coral rubble — stone chips and fragments from dead coral reefs, used in concrete mixes and as a coarse landscaping material in Indonesian coastal areas. Batu koral is cheaper than granite aggregate and is locally available in island regions, though salt content requires careful rinsing before use in structural concrete.",
+    "example": "An Indonesian island resort uses batu koral for landscape pathways and drainage layers — the grey, porous coral rock combining water permeability with a distinctive coastal aesthetic.",
+    "relatedTerms": [
+      "batu-split",
+      "paving-block"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "aggregate",
+      "coastal"
+    ]
+  },
+  {
+    "id": "batu-sikat",
+    "term": "Batu Sikat",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "River rock or pea gravel — smooth, rounded stone pebbles 10–25 mm in diameter, used decoratively in landscaping and in concrete finishes (exposed aggregate). Batu sikat provides visual interest while reducing cost compared to larger decorative stone.",
+    "example": "An Indonesian house landscape uses batu sikat in flower beds as an attractive, water-permeable ground cover — the smooth river rocks allowing water infiltration while creating a finished appearance.",
+    "relatedTerms": [
+      "batu-split",
+      "paving-block",
+      "rabat-beton"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "aggregate",
+      "landscape"
+    ]
+  },
+  {
+    "id": "pagar-besi",
+    "term": "Pagar Besi",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "Iron fence or steel fence — a perimeter enclosure made from steel bars, tubes, or mesh welded to vertical posts. Pagar besi is used to define property boundaries, control access, and provide security. Design ranges from simple utilitarian bars to ornate decorative designs.",
+    "example": "An Indonesian residential property uses a welded steel pagar besi — horizontal rails between vertical tubes at 1.5 metre height, painted black, defining the street frontage and preventing casual entry.",
+    "relatedTerms": [
+      "teralis"
+    ],
+    "tags": [
+      "indonesian",
+      "materials",
+      "fence",
+      "landscape"
     ]
   }
 ]
