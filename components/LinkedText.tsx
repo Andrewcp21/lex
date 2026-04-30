@@ -50,9 +50,10 @@ export default function LinkedText({ text, allEntries, currentEntryId, className
 
   const segments: Segment[] = [];
   let lastIndex = 0;
+  let match: RegExpExecArray | null;
 
-  for (const match of text.matchAll(pattern)) {
-    const matchStart = match.index!;
+  while ((match = pattern.exec(text)) !== null) {
+    const matchStart = match.index;
     const matchText = match[0];
     const matchEnd = matchStart + matchText.length;
 
