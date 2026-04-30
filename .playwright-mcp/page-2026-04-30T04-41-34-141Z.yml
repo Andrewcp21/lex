@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Design Styles & Movements" [ref=e16] [cursor=pointer]:
+        - /url: /section/design-styles-movements
+      - generic [ref=e17]:
+        - heading "Modernism" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: DESIGN STYLES & MOVEMENTS
+          - generic [ref=e21]: beginner
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]: A broad architectural movement of the 20th century that rejected historical ornament in favour of functional clarity, new materials (concrete, steel, glass), and the honest expression of structure. Modernism was rooted in the belief that architecture should serve the present, not imitate the past.
+      - generic [ref=e25]:
+        - heading "Example" [level=2] [ref=e26]
+        - paragraph [ref=e27]: "The Villa Savoye in Poissy by Le Corbusier (1931) embodies the five points of modern architecture: pilotis, free plan, free facade, ribbon windows, and roof garden."
+      - generic [ref=e28]:
+        - heading "Key Figures" [level=2] [ref=e29]
+        - list [ref=e30]:
+          - listitem [ref=e31]: — Le Corbusier — Villa Savoye
+          - listitem [ref=e32]: — Mies van der Rohe — Barcelona Pavilion
+          - listitem [ref=e33]: — Walter Gropius — Bauhaus Building
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - heading "Related Terms" [level=3] [ref=e37]
+          - generic [ref=e38]: click any term to explore
+        - img [ref=e39]:
+          - generic [ref=e43]: MODERNISM
+          - link "INTERNATIONAL STYLE" [ref=e44] [cursor=pointer]:
+            - /url: /entry/international-style
+            - generic [ref=e45]: INTERNATIONAL
+            - generic [ref=e46]: STYLE
+          - link "BAUHAUS" [ref=e47] [cursor=pointer]:
+            - /url: /entry/bauhaus
+            - generic [ref=e48]: BAUHAUS
+      - generic [ref=e49]:
+        - heading "Tags" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "movement" [ref=e52] [cursor=pointer]:
+            - /url: /?q=movement
+          - link "20th-century" [ref=e53] [cursor=pointer]:
+            - /url: /?q=20th-century
+          - link "theory" [ref=e54] [cursor=pointer]:
+            - /url: /?q=theory
+      - heading "From Wikipedia" [level=2] [ref=e56]
+      - button "Copy link" [ref=e59] [cursor=pointer]
+  - contentinfo [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]: Kosa Rupa
+      - generic [ref=e63]: An architect's dictionary — 520 terms, 15 sections.

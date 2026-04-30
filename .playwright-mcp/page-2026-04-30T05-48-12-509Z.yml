@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: Ctrl K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Architectural Terms & Theory" [ref=e16] [cursor=pointer]:
+        - /url: /section/architectural-terms-theory
+      - generic [ref=e17]:
+        - heading "Proportion" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: ARCHITECTURAL TERMS & THEORY
+          - generic [ref=e21]: beginner
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]:
+          - text: The mathematical relationship between the dimensions of a building's parts and the whole. Proportion governs whether a space or form feels balanced. Systems like the
+          - link "Golden Ratio" [ref=e25] [cursor=pointer]:
+            - /url: /entry/golden-ratio
+          - text: and the Classical Orders provided architects with rules for achieving harmonious proportion.
+      - generic [ref=e26]:
+        - heading "Example" [level=2] [ref=e27]
+        - paragraph [ref=e28]:
+          - text: The Parthenon in Athens (438 BC) was designed with obsessive attention to proportion — even its
+          - link "columns" [ref=e29] [cursor=pointer]:
+            - /url: /entry/column
+          - text: taper and lean inward slightly to correct for optical distortions.
+      - generic [ref=e30]:
+        - heading "Tags" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - link "geometry" [ref=e33] [cursor=pointer]:
+            - /url: /?q=geometry
+          - link "classical" [ref=e34] [cursor=pointer]:
+            - /url: /?q=classical
+          - link "composition" [ref=e35] [cursor=pointer]:
+            - /url: /?q=composition
+      - heading "From Wikipedia" [level=2] [ref=e37]
+      - button "Copy link" [ref=e40] [cursor=pointer]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - heading "Related Terms" [level=3] [ref=e44]
+          - generic [ref=e45]: click any term to explore
+        - img [ref=e46]:
+          - link "GRID" [ref=e58] [cursor=pointer]:
+            - /url: /entry/grid
+            - generic [ref=e59]: GRID
+          - link "HIERARCHY" [ref=e60] [cursor=pointer]:
+            - /url: /entry/hierarchy
+            - generic [ref=e61]: HIERARCHY
+          - link "GOLDEN RATIO" [ref=e62] [cursor=pointer]:
+            - /url: /entry/golden-ratio
+            - generic [ref=e63]: GOLDEN RATIO
+          - link "MODULE" [ref=e64] [cursor=pointer]:
+            - /url: /entry/module
+            - generic [ref=e65]: MODULE
+          - link "SCALE" [ref=e66] [cursor=pointer]:
+            - /url: /entry/scale
+            - generic [ref=e67]: SCALE
+          - generic [ref=e68]: PROPORTION
+  - contentinfo [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: Kosa Rupa
+      - generic [ref=e72]: An architect's dictionary — 520 terms, 15 sections.
+  - alert [ref=e73]

@@ -1,0 +1,55 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Architectural Terms & Theory" [ref=e16] [cursor=pointer]:
+        - /url: /section/architectural-terms-theory
+      - generic [ref=e17]:
+        - heading "Axis" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: ARCHITECTURAL TERMS & THEORY
+          - generic [ref=e21]: beginner
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]: An imaginary line used to organise space, movement, or visual direction in a design. Buildings and rooms are often arranged symmetrically or sequentially along an axis to create order and hierarchy. An axis can be physical — a corridor, a path — or purely visual.
+      - generic [ref=e25]:
+        - heading "Example" [level=2] [ref=e26]
+        - paragraph [ref=e27]: The main axis of the Palace of Versailles runs east–west from the king's bedchamber through the Hall of Mirrors and out into the garden, organising the entire estate.
+      - generic [ref=e29]:
+        - heading "Related Terms" [level=3] [ref=e30]
+        - generic [ref=e31]:
+          - link "Symmetry" [ref=e32] [cursor=pointer]:
+            - /url: /entry/symmetry
+          - link "Datum" [ref=e33] [cursor=pointer]:
+            - /url: /entry/datum
+          - link "Hierarchy" [ref=e34] [cursor=pointer]:
+            - /url: /entry/hierarchy
+          - link "Procession" [ref=e35] [cursor=pointer]:
+            - /url: /entry/procession
+      - generic [ref=e36]:
+        - heading "Tags" [level=2] [ref=e37]
+        - generic [ref=e38]:
+          - link "composition" [ref=e39] [cursor=pointer]:
+            - /url: /?q=composition
+          - link "order" [ref=e40] [cursor=pointer]:
+            - /url: /?q=order
+          - link "space" [ref=e41] [cursor=pointer]:
+            - /url: /?q=space
+      - button "Copy link" [ref=e43] [cursor=pointer]
+  - contentinfo [ref=e44]:
+    - generic [ref=e45]:
+      - generic [ref=e46]: Kosa Rupa
+      - generic [ref=e47]: An architect's dictionary — 520 terms, 15 sections.

@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: Ctrl K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Key Figures" [ref=e16] [cursor=pointer]:
+        - /url: /section/key-figures
+      - generic [ref=e17]:
+        - heading "Le Corbusier" [level=1] [ref=e18]
+        - paragraph [ref=e19]: /lə kɔːrbjuːˈzjeɪ/
+        - generic [ref=e20]:
+          - generic [ref=e21]: KEY FIGURES
+          - generic [ref=e22]: beginner
+      - generic [ref=e23]:
+        - heading "Definition" [level=2] [ref=e24]
+        - paragraph [ref=e25]: Swiss-French architect and urban theorist (1887–1965), born Charles-Édouard Jeanneret, and one of the founding figures of modern architecture. He developed the Five Points of Architecture, the Modulor proportional system, and ideas about mass housing that transformed the built environment worldwide — for better and worse.
+      - generic [ref=e26]:
+        - heading "Example" [level=2] [ref=e27]
+        - paragraph [ref=e28]: The Unité d'Habitation in Marseille (1952) — a self-contained vertical city of 337 apartments with shops, a gym, and a rooftop terrace — was Le Corbusier's prototype for collective urban living.
+      - generic [ref=e30]:
+        - heading "Related Terms" [level=3] [ref=e31]
+        - generic [ref=e32]:
+          - link "Modernism" [ref=e33] [cursor=pointer]:
+            - /url: /entry/modernism
+          - link "International Style" [ref=e34] [cursor=pointer]:
+            - /url: /entry/international-style
+      - generic [ref=e35]:
+        - heading "Tags" [level=2] [ref=e36]
+        - generic [ref=e37]:
+          - link "architect" [ref=e38] [cursor=pointer]:
+            - /url: /?q=architect
+          - link "theorist" [ref=e39] [cursor=pointer]:
+            - /url: /?q=theorist
+          - link "20th-century" [ref=e40] [cursor=pointer]:
+            - /url: /?q=20th-century
+      - generic [ref=e41]:
+        - heading "From Wikipedia" [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - img "Le Corbusier" [ref=e52]
+          - generic [ref=e53]:
+            - paragraph [ref=e54]: Charles-Édouard Jeanneret, known as Le Corbusier, was a French-Swiss architectural designer, painter, urban planner and writer who was one of the pioneers of what is now regarded as modern architecture. He was born in Switzerland to French-speaking Swiss parents and acquired French nationality in 1930.
+            - link "Read more on Wikipedia →" [ref=e55] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Le_Corbusier
+      - button "Copy link" [ref=e45] [cursor=pointer]
+  - contentinfo [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]: Kosa Rupa
+      - generic [ref=e49]: An architect's dictionary — 520 terms, 15 sections.
+  - alert [ref=e50]

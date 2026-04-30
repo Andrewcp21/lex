@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: Ctrl K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e16]:
+      - heading "404" [level=1] [ref=e17]
+      - heading "This page could not be found." [level=2] [ref=e19]
+  - contentinfo [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: Kosa Rupa
+      - generic [ref=e23]: An architect's dictionary — 520 terms, 15 sections.
+  - alert [ref=e24]

@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - paragraph [ref=e4]: Kosa Rupa — Architect's Dictionary
+      - generic [ref=e5]: ·
+      - generic [ref=e7]:
+        - textbox "Search architectural terms…" [ref=e8]
+        - text: ⌘K
+      - generic [ref=e9]:
+        - button "A–Z" [ref=e10]
+        - link "Explore" [ref=e11] [cursor=pointer]:
+          - /url: /explore
+  - contentinfo [ref=e12]:
+    - generic [ref=e13]: Kosa RupaAn architect's dictionary — 520 terms, 15 sections.

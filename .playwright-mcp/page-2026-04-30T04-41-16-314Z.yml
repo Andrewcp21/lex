@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: Ctrl K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Design Styles & Movements" [ref=e16] [cursor=pointer]:
+        - /url: /section/design-styles-movements
+      - generic [ref=e17]:
+        - heading "Brutalism" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: DESIGN STYLES & MOVEMENTS
+          - generic [ref=e21]: beginner
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]: An architectural style of the 1950s–70s characterised by the bold, unfinished expression of structural materials — particularly raw (béton brut) concrete. Brutalism valued honesty of materials, strong geometric forms, and social purpose. It was associated with social housing, universities, and civic buildings.
+      - generic [ref=e25]:
+        - heading "Example" [level=2] [ref=e26]
+        - paragraph [ref=e27]: The Barbican Estate in London (completed 1976) is one of the largest Brutalist housing complexes in Europe — raw concrete towers, elevated walkways, and a dense urban world unto itself.
+      - generic [ref=e28]:
+        - heading "Key Figures" [level=2] [ref=e29]
+        - list [ref=e30]:
+          - listitem [ref=e31]: — Alison and Peter Smithson — Robin Hood Gardens
+          - listitem [ref=e32]: — Paul Rudolph — Yale Art and Architecture Building
+          - listitem [ref=e33]: — Marcel Breuer — Whitney Museum of American Art
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - heading "Related Terms" [level=3] [ref=e37]
+          - generic [ref=e38]: click any term to explore
+        - img [ref=e39]:
+          - generic [ref=e43]: BRUTALISM
+          - link "MODERNISM" [ref=e44] [cursor=pointer]:
+            - /url: /entry/modernism
+            - generic [ref=e45]: MODERNISM
+          - link "CONCRETE" [ref=e46] [cursor=pointer]:
+            - /url: /entry/concrete
+            - generic [ref=e47]: CONCRETE
+      - generic [ref=e48]:
+        - heading "Tags" [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - link "movement" [ref=e51] [cursor=pointer]:
+            - /url: /?q=movement
+          - link "20th-century" [ref=e52] [cursor=pointer]:
+            - /url: /?q=20th-century
+          - link "concrete" [ref=e53] [cursor=pointer]:
+            - /url: /?q=concrete
+      - generic [ref=e54]:
+        - heading "From Wikipedia" [level=2] [ref=e55]
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: Brutalist architecture is an architectural style that emerged during the 1950s in the United Kingdom, among the reconstruction projects of the post-war era. Brutalist buildings are known for minimalist construction showcasing the bare building materials and structural elements over decorative design.
+          - link "Read more on Wikipedia →" [ref=e65] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/Brutalist_architecture
+      - button "Copy link" [ref=e58] [cursor=pointer]
+  - contentinfo [ref=e59]:
+    - generic [ref=e60]:
+      - generic [ref=e61]: Kosa Rupa
+      - generic [ref=e62]: An architect's dictionary — 520 terms, 15 sections.
+  - alert [ref=e66]

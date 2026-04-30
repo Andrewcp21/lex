@@ -1,0 +1,87 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Building Performance & Physics" [ref=e16] [cursor=pointer]:
+        - /url: /section/building-performance-physics
+      - generic [ref=e17]:
+        - heading "Thermal Bridge" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: BUILDING PERFORMANCE & PHYSICS
+          - generic [ref=e21]: intermediate
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]:
+          - text: A location in a building's fabric where heat flows more readily than through the surrounding insulated area — typically at structural connections, window frames, or where
+          - link "insulation" [ref=e25] [cursor=pointer]:
+            - /url: /entry/insulation
+          - text: is interrupted. Thermal
+          - link "bridges" [ref=e26] [cursor=pointer]:
+            - /url: /entry/bridge
+          - text: reduce energy performance, can cause
+          - link "condensation" [ref=e27] [cursor=pointer]:
+            - /url: /entry/condensation
+          - text: and mould, and must be carefully detailed to minimise their impact.
+      - generic [ref=e28]:
+        - heading "Example" [level=2] [ref=e29]
+        - paragraph [ref=e30]:
+          - text: A
+          - link "concrete" [ref=e31] [cursor=pointer]:
+            - /url: /entry/concrete
+          - text: balcony slab that penetrates the
+          - link "insulation" [ref=e32] [cursor=pointer]:
+            - /url: /entry/insulation
+          - text: layer of an apartment building creates a classic thermal
+          - link "bridge" [ref=e33] [cursor=pointer]:
+            - /url: /entry/bridge
+          - text: — cold is conducted into the building at every floor, causing
+          - link "condensation" [ref=e34] [cursor=pointer]:
+            - /url: /entry/condensation
+          - text: and dramatically increasing heat loss.
+      - generic [ref=e35]:
+        - heading "Tags" [level=2] [ref=e36]
+        - generic [ref=e37]:
+          - link "performance" [ref=e38] [cursor=pointer]:
+            - /url: /?q=performance
+          - link "detail" [ref=e39] [cursor=pointer]:
+            - /url: /?q=detail
+          - link "energy" [ref=e40] [cursor=pointer]:
+            - /url: /?q=energy
+      - heading "From Wikipedia" [level=2] [ref=e42]
+      - button "Copy link" [ref=e45] [cursor=pointer]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "Related Terms" [level=3] [ref=e49]
+          - generic [ref=e50]: click any term to explore
+        - img [ref=e51]:
+          - link "U-VALUE" [ref=e61] [cursor=pointer]:
+            - /url: /entry/u-value
+            - generic [ref=e62]: U-VALUE
+          - link "INSULATION" [ref=e63] [cursor=pointer]:
+            - /url: /entry/insulation
+            - generic [ref=e64]: INSULATION
+          - link "CONDENSATION" [ref=e65] [cursor=pointer]:
+            - /url: /entry/condensation
+            - generic [ref=e66]: CONDENSATION
+          - link "PASSIVE HOUSE" [ref=e67] [cursor=pointer]:
+            - /url: /entry/passive-house
+            - generic [ref=e68]: PASSIVE HOUSE
+          - generic [ref=e69]: THERMAL
+          - generic [ref=e70]: BRIDGE
+  - contentinfo [ref=e71]:
+    - generic [ref=e72]:
+      - generic [ref=e73]: Kosa Rupa
+      - generic [ref=e74]: An architect's dictionary — 520 terms, 15 sections.

@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Codes & Standards" [ref=e16] [cursor=pointer]:
+        - /url: /section/codes-standards
+      - generic [ref=e17]:
+        - heading "Americans with Disabilities Act" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: CODES & STANDARDS
+          - generic [ref=e21]: beginner
+          - generic [ref=e22]: ADA
+      - generic [ref=e23]:
+        - heading "Definition" [level=2] [ref=e24]
+        - paragraph [ref=e25]: A US civil rights law (1990) that prohibits discrimination against people with disabilities. In architecture, ADA Standards for Accessible Design set specific requirements for ramps, door widths, bathroom layouts, parking, and wayfinding that apply to all public buildings and facilities.
+      - generic [ref=e26]:
+        - heading "Example" [level=2] [ref=e27]
+        - paragraph [ref=e28]: Every new public building in the US must comply with ADA Standards — for instance, requiring at least one entrance without steps, and toilet facilities usable from a wheelchair.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Related Terms" [level=3] [ref=e32]
+          - generic [ref=e33]: click any term to explore
+        - img [ref=e34]:
+          - generic [ref=e38]: AMERICANS WITH
+          - generic [ref=e39]: DISABILITIES ACT
+          - link "ACCESSIBILITY" [ref=e40] [cursor=pointer]:
+            - /url: /entry/accessibility
+            - generic [ref=e41]: ACCESSIBILITY
+          - link "BUILDING CODE" [ref=e42] [cursor=pointer]:
+            - /url: /entry/building-code
+            - generic [ref=e43]: BUILDING CODE
+      - generic [ref=e44]:
+        - heading "Tags" [level=2] [ref=e45]
+        - generic [ref=e46]:
+          - link "regulation" [ref=e47] [cursor=pointer]:
+            - /url: /?q=regulation
+          - link "USA" [ref=e48] [cursor=pointer]:
+            - /url: /?q=USA
+          - link "inclusion" [ref=e49] [cursor=pointer]:
+            - /url: /?q=inclusion
+      - heading "From Wikipedia" [level=2] [ref=e51]
+      - button "Copy link" [ref=e54] [cursor=pointer]
+  - contentinfo [ref=e55]:
+    - generic [ref=e56]:
+      - generic [ref=e57]: Kosa Rupa
+      - generic [ref=e58]: An architect's dictionary — 520 terms, 15 sections.

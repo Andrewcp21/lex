@@ -1,0 +1,67 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Home" [ref=e16] [cursor=pointer]:
+        - /url: /
+      - heading "About" [level=1] [ref=e17]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - heading "What is this" [level=2] [ref=e20]
+          - paragraph [ref=e21]: Kosa Rupa is an architect's dictionary — a fast, offline-capable personal reference for architecture students and beginners. It covers 520 terms across 15 sections, from structural systems and design movements to professional practice and building physics.
+        - generic [ref=e22]:
+          - heading "How to use it" [level=2] [ref=e23]
+          - paragraph [ref=e24]: Search with ⌘K / Ctrl K or browse by section from the homepage. Each entry has a plain-language definition, a real-world example, and links to related terms — designed to build a connected understanding of architectural concepts, not just isolated definitions.
+        - generic [ref=e25]:
+          - heading "Sections" [level=2] [ref=e26]
+          - generic [ref=e27]:
+            - link "Architectural Terms & Theory" [ref=e28] [cursor=pointer]:
+              - /url: /section/architectural-terms-theory
+            - link "Building Materials & Construction" [ref=e29] [cursor=pointer]:
+              - /url: /section/building-materials-construction
+            - link "Structural Systems" [ref=e30] [cursor=pointer]:
+              - /url: /section/structural-systems
+            - link "Design Styles & Movements" [ref=e31] [cursor=pointer]:
+              - /url: /section/design-styles-movements
+            - link "Tools, Software & Technology" [ref=e32] [cursor=pointer]:
+              - /url: /section/tools-software-technology
+            - link "Sustainability" [ref=e33] [cursor=pointer]:
+              - /url: /section/sustainability
+            - link "Codes & Standards" [ref=e34] [cursor=pointer]:
+              - /url: /section/codes-standards
+            - link "Urban Design" [ref=e35] [cursor=pointer]:
+              - /url: /section/urban-design
+            - link "Key Figures" [ref=e36] [cursor=pointer]:
+              - /url: /section/key-figures
+            - link "Geometry & Mathematics" [ref=e37] [cursor=pointer]:
+              - /url: /section/geometry-mathematics
+            - link "Building History & Typologies" [ref=e38] [cursor=pointer]:
+              - /url: /section/building-history-typologies
+            - link "Architecture Across Cultures" [ref=e39] [cursor=pointer]:
+              - /url: /section/architecture-across-cultures
+            - link "Professional Practice" [ref=e40] [cursor=pointer]:
+              - /url: /section/professional-practice
+            - link "Building Performance & Physics" [ref=e41] [cursor=pointer]:
+              - /url: /section/building-performance-physics
+            - link "Representation & Communication" [ref=e42] [cursor=pointer]:
+              - /url: /section/representation-communication
+        - generic [ref=e43]:
+          - heading "Built by" [level=2] [ref=e44]
+          - paragraph [ref=e45]: An experimental tool by Good Fruit Studio. No backend, no tracking, no database. All data is static JSON — it works fully offline once loaded.
+  - contentinfo [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]: Kosa Rupa
+      - generic [ref=e49]: An architect's dictionary — 520 terms, 15 sections.

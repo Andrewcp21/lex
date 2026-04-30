@@ -1,0 +1,58 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Building Materials & Construction" [ref=e16] [cursor=pointer]:
+        - /url: /section/building-materials-construction
+      - generic [ref=e17]:
+        - heading "Reinforced Concrete" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: BUILDING MATERIALS & CONSTRUCTION
+          - generic [ref=e21]: beginner
+          - generic [ref=e22]: RC
+      - generic [ref=e23]:
+        - heading "Definition" [level=2] [ref=e24]
+        - paragraph [ref=e25]: Concrete combined with embedded steel reinforcement bars (rebar) to compensate for concrete's weakness in tension. Concrete handles compression; steel handles tension. Together they make a composite material capable of spanning large distances and supporting complex structural forms.
+      - generic [ref=e26]:
+        - heading "Example" [level=2] [ref=e27]
+        - paragraph [ref=e28]: Auguste Perret's Rue Franklin apartment building in Paris (1903) was one of the first to use a reinforced concrete frame as both structure and architectural expression.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Related Terms" [level=3] [ref=e32]
+          - generic [ref=e33]: click any term to explore
+        - img [ref=e34]:
+          - generic [ref=e38]: REINFORCED CONCRETE
+          - link "CONCRETE" [ref=e39] [cursor=pointer]:
+            - /url: /entry/concrete
+            - generic [ref=e40]: CONCRETE
+          - link "FORMWORK" [ref=e41] [cursor=pointer]:
+            - /url: /entry/formwork
+            - generic [ref=e42]: FORMWORK
+      - generic [ref=e43]:
+        - heading "Tags" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - link "material" [ref=e46] [cursor=pointer]:
+            - /url: /?q=material
+          - link "structure" [ref=e47] [cursor=pointer]:
+            - /url: /?q=structure
+          - link "composite" [ref=e48] [cursor=pointer]:
+            - /url: /?q=composite
+      - heading "From Wikipedia" [level=2] [ref=e50]
+      - button "Copy link" [ref=e53] [cursor=pointer]
+  - contentinfo [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]: Kosa Rupa
+      - generic [ref=e57]: An architect's dictionary — 520 terms, 15 sections.

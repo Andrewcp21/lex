@@ -1,0 +1,65 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Sustainability" [ref=e16] [cursor=pointer]:
+        - /url: /section/sustainability
+      - generic [ref=e17]:
+        - heading "Thermal Mass" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: SUSTAINABILITY
+          - generic [ref=e21]: intermediate
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]:
+          - text: The ability of a material to absorb, store, and slowly release heat. Heavy materials like
+          - link "concrete" [ref=e25] [cursor=pointer]:
+            - /url: /entry/concrete
+          - text: ", brick, and stone have high thermal mass — they absorb heat during the day and release it at night, moderating temperature swings. When used strategically, thermal mass can reduce mechanical heating and cooling."
+      - generic [ref=e26]:
+        - heading "Example" [level=2] [ref=e27]
+        - paragraph [ref=e28]:
+          - text: The ancient
+          - link "Adobe" [ref=e29] [cursor=pointer]:
+            - /url: /entry/adobe
+          - text: buildings of the American Southwest use thick clay walls with high thermal mass — cool in the desert day, warm during cold desert nights — a passive climate control strategy 1,000 years old.
+      - generic [ref=e30]:
+        - heading "Tags" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - link "performance" [ref=e33] [cursor=pointer]:
+            - /url: /?q=performance
+          - link "physics" [ref=e34] [cursor=pointer]:
+            - /url: /?q=physics
+          - link "passive" [ref=e35] [cursor=pointer]:
+            - /url: /?q=passive
+      - heading "From Wikipedia" [level=2] [ref=e37]
+      - button "Copy link" [ref=e40] [cursor=pointer]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - heading "Related Terms" [level=3] [ref=e44]
+          - generic [ref=e45]: click any term to explore
+        - img [ref=e46]:
+          - link "U-VALUE" [ref=e52] [cursor=pointer]:
+            - /url: /entry/u-value
+            - generic [ref=e53]: U-VALUE
+          - link "INSULATION" [ref=e54] [cursor=pointer]:
+            - /url: /entry/insulation
+            - generic [ref=e55]: INSULATION
+          - generic [ref=e56]: THERMAL MASS
+  - contentinfo [ref=e57]:
+    - generic [ref=e58]:
+      - generic [ref=e59]: Kosa Rupa
+      - generic [ref=e60]: An architect's dictionary — 520 terms, 15 sections.

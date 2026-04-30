@@ -1,0 +1,673 @@
+[     634ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[   63279ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[   63947ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[   64093ms] [LOG] [Fast Refresh] done in 145ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[   66053ms] [LOG] [Fast Refresh] done in 2106ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  271249ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  286770ms] [ERROR] ./components/SearchBar.tsx
+Error: 
+  x Unexpected token `div`. Expected jsx identifier
+    ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\SearchBar.tsx:77:1]
+ 77 |   };
+ 78 | 
+ 79 |   return (
+ 80 |     <div className="relative w-full max-w-xl">
+    :      ^^^
+ 81 |       <div className="flex items-center border border-[#0A0A0A] bg-white">
+ 82 |         <input
+ 83 |           ref={inputRef}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/SearchBar.tsx
+./components/SiteHeader.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  287201ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  288062ms] [LOG] [Fast Refresh] done in 862ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  288067ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  288192ms] [LOG] [Fast Refresh] done in 124ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  288379ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion?_rsc=24nge:0
+[  290229ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[  290591ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  290708ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HomeScreen.tsx
+./app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  290813ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  290902ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HomeScreen.tsx
+./app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  291031ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HomeScreen.tsx
+./app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  291138ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/wiki/Proportion:0
+[  291150ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/a5ff56e5d2a62904.webpack.hot-update.json:0
+[  291151ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:112
+[  291182ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/wiki/Proportion:0
+[  291204ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/entry/proportion:0
+[  291670ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  291853ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+
+Caused by:
+    Syntax Error
+    at processResult (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\webpack\bundle5.js:28:400590)
+    at <unknown> (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8645)
+    at <unknown> (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5019)
+    at r.callback (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+[  291837ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  291843ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  291873ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[  292139ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HomeScreen.tsx
+./app/page.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  292260ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HomeScreen.tsx
+./app/page.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  292277ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/9fb8aa77cd9d5505.webpack.hot-update.json:0
+[  292277ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:347
+[  292284ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  292310ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/entry/proportion:0
+[  292723ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  292861ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+
+Caused by:
+    Syntax Error
+    at processResult (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\webpack\bundle5.js:28:400590)
+    at <unknown> (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8645)
+    at <unknown> (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5019)
+    at r.callback (file://C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+[  292863ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  292868ms] [ERROR] ./components/HomeScreen.tsx
+Error: 
+  x Expression expected
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:173:1]
+ 173 |   };
+ 174 | 
+ 175 |   return (
+ 176 |     <>
+     :      ^
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+ 179 |         {/* Brand label */}
+     `----
+
+  x Expected ',', got '< (jsx tag start)'
+     ,-[C:\Users\Lenovo\Documents\03_Projects\KosaRupa\kosa-rupa\components\HomeScreen.tsx:175:1]
+ 175 |   return (
+ 176 |     <>
+ 177 |       {/* Main centered layout */}
+ 178 |       <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
+     :       ^
+ 179 |         {/* Brand label */}
+ 180 |         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
+ 181 |           Kosa Rupa — Architect&apos;s Dictionary
+     `----
+
+Caused by:
+    Syntax Error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  331702ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[  342067ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[  342902ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/9fb8aa77cd9d5505.webpack.hot-update.json:0
+[  342903ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[  343274ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  343443ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  344482ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  345561ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  346608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  347780ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  348832ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  349925ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  351054ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  352110ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  353173ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  354233ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  355297ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  356351ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  357392ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  358457ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  359518ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  360590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  362192ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  363261ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  364361ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  365439ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  366500ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  368048ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  369104ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  370167ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  371413ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  372617ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  373745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  374797ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  376337ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  377416ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  378480ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  379534ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  380893ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  381950ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  383019ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  384619ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  385705ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  386803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  387858ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  388914ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  389976ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  391028ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  392119ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  393178ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  394221ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  395279ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  396352ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  397417ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  398479ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  399538ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  400840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  401899ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  402940ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  404011ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  405054ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  406089ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  407148ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  408191ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  409256ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  410317ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  411371ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  412428ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  413484ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  414540ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  415597ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  416658ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  417732ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  418808ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  419918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  421004ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  422100ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  423158ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  424211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  425293ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  426356ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  427395ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  428438ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  429484ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  430536ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  431573ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  432603ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  433647ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  434693ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  435728ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  436768ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  437802ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  438836ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  439907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  440965ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  442024ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  443052ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  444094ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  445125ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  446169ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  447215ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  448257ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  449301ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  450332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  451399ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  452470ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  453547ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  454609ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  455649ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  456700ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  457738ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  458776ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  459802ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  460831ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  461869ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  462899ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  463941ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  464976ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  466016ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  467054ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  468092ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  469123ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  470148ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  471195ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  472228ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  473261ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  474302ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  475344ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  476403ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  477431ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  478475ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  479507ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  480544ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  481582ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  482614ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  483656ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  484686ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  485729ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  486770ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  487811ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  488856ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  489883ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  490915ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  491942ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  492972ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  494003ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  495043ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  496075ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  497113ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  498144ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  499185ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  500229ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  501263ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  502305ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  503346ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  504389ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  505437ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  506468ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  507516ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  508564ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  509602ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  510639ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  511673ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  512716ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  513761ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  514792ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  515821ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  516853ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  517886ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  518925ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  519964ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  521006ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  522033ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  523078ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  524113ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  525146ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  526182ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  527227ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  528251ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  529275ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  530332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  531368ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  532406ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  533451ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  534488ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  535519ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  536561ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  537590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  538635ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  539676ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  540708ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  541739ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  542773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  543809ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  544842ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  545872ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  546903ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  547927ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  548956ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  549988ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  551019ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  552069ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  553115ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  554151ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  555193ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  556229ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  557264ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  558298ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  559341ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  560375ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  561403ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  562433ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  563470ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  564504ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  565529ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  566569ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  567613ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  568655ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  569698ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  573399ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[  581348ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  581795ms] [LOG] [Fast Refresh] done in 446ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  581796ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion?_rsc=24nge:0
+[  581853ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  581899ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  582921ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  583955ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  584987ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  586020ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  587047ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  588085ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  589128ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  590163ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  591187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  592213ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  593249ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  594292ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion:0
+[  596180ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[  603669ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  604031ms] [LOG] [Fast Refresh] done in 363ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  610768ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  610963ms] [LOG] [Fast Refresh] done in 195ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  643055ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  644083ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  645195ms] [LOG] [Fast Refresh] done in 1111ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  646765ms] [LOG] [Fast Refresh] done in 2681ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 4075751ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4079692ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4080282ms] [LOG] [Fast Refresh] done in 590ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 4080287ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4081038ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion?_rsc=24nge:0
+[ 4083000ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 4181219ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4182091ms] [LOG] [Fast Refresh] done in 871ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5096280ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5099171ms] [LOG] [Fast Refresh] done in 2894ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5202970ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5203640ms] [LOG] [Fast Refresh] done in 671ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5559356ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5560368ms] [LOG] [Fast Refresh] done in 1013ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5607030ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5607556ms] [LOG] [Fast Refresh] done in 525ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6017439ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6019551ms] [LOG] [Fast Refresh] done in 2116ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6036490ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6037262ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6037370ms] [LOG] [Fast Refresh] done in 109ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6039511ms] [LOG] [Fast Refresh] done in 2249ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6055534ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6055801ms] [LOG] [Fast Refresh] done in 267ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6055803ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6056107ms] [LOG] [Fast Refresh] done in 303ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6056244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/entry/proportion?_rsc=24nge:0
+[ 6057935ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 6068852ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6069547ms] [LOG] [Fast Refresh] done in 694ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6073385ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6073923ms] [LOG] [Fast Refresh] done in 539ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6315939ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6320567ms] [LOG] [Fast Refresh] done in 4629ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6322790ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6323610ms] [LOG] [Fast Refresh] done in 820ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6339004ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 6351760ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 6468966ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6469380ms] [LOG] [Fast Refresh] done in 414ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6701144ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6701734ms] [LOG] [Fast Refresh] done in 589ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6723874ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6724170ms] [LOG] [Fast Refresh] done in 296ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7327376ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7331941ms] [LOG] [Fast Refresh] done in 4565ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7337399ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7342564ms] [LOG] [Fast Refresh] done in 5165ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7346403ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7346929ms] [LOG] [Fast Refresh] done in 526ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7352091ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7353887ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7353960ms] [LOG] [Fast Refresh] done in 74ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7355412ms] [LOG] [Fast Refresh] done in 1525ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43

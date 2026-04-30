@@ -1,0 +1,9 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - heading "404" [level=1] [ref=e5]
+      - heading "This page could not be found." [level=2] [ref=e7]
+  - contentinfo [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: Kosa Rupa
+      - generic [ref=e11]: An architect's dictionary — 520 terms, 15 sections.

@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "← All Sections" [ref=e17] [cursor=pointer]:
+          - /url: /explore
+        - heading "Architectural Terms & Theory" [level=1] [ref=e18]
+        - paragraph [ref=e19]: Core vocabulary used in design thinking, drawing, and critique.
+        - paragraph [ref=e20]: 10 Terms
+      - generic [ref=e21]:
+        - generic [ref=e22]: "Filter:"
+        - button "All" [ref=e23] [cursor=pointer]
+        - button "beginner" [ref=e24] [cursor=pointer]
+        - button "intermediate" [ref=e25] [cursor=pointer]
+        - button "advanced" [ref=e26] [cursor=pointer]
+        - generic [ref=e27]: 10 shown
+      - generic [ref=e29]:
+        - link "Axis An imaginary line used to organise space, movement, or visual direction in a design. Buildings and rooms are often arran… beginner VIEW →" [ref=e31] [cursor=pointer]:
+          - /url: /entry/axis
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - heading "Axis" [level=3] [ref=e34]
+              - paragraph [ref=e35]: An imaginary line used to organise space, movement, or visual direction in a design. Buildings and rooms are often arran…
+            - generic [ref=e36]:
+              - generic [ref=e37]: beginner
+              - generic [ref=e38]: VIEW →
+        - link "Datum A reference element — a line, plane, or volume — that anchors or organises other elements in a composition. Other forms … intermediate VIEW →" [ref=e40] [cursor=pointer]:
+          - /url: /entry/datum
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - heading "Datum" [level=3] [ref=e43]
+              - paragraph [ref=e44]: A reference element — a line, plane, or volume — that anchors or organises other elements in a composition. Other forms …
+            - generic [ref=e45]:
+              - generic [ref=e46]: intermediate
+              - generic [ref=e47]: VIEW →
+        - link "Facade The primary exterior face of a building, usually the front-facing elevation that addresses a street or public space. The… beginner VIEW →" [ref=e49] [cursor=pointer]:
+          - /url: /entry/facade
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - heading "Facade" [level=3] [ref=e52]
+              - paragraph [ref=e53]: The primary exterior face of a building, usually the front-facing elevation that addresses a street or public space. The…
+            - generic [ref=e54]:
+              - generic [ref=e55]: beginner
+              - generic [ref=e56]: VIEW →
+        - link "Fenestration The arrangement, proportion, and design of windows and openings in a building's facade. Fenestration affects light, vent… intermediate VIEW →" [ref=e58] [cursor=pointer]:
+          - /url: /entry/fenestration
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - heading "Fenestration" [level=3] [ref=e61]
+              - paragraph [ref=e62]: The arrangement, proportion, and design of windows and openings in a building's facade. Fenestration affects light, vent…
+            - generic [ref=e63]:
+              - generic [ref=e64]: intermediate
+              - generic [ref=e65]: VIEW →
+        - link "Hierarchy The principle that some elements in a design are more important than others, expressed through size, position, material,… beginner VIEW →" [ref=e67] [cursor=pointer]:
+          - /url: /entry/hierarchy
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - heading "Hierarchy" [level=3] [ref=e70]
+              - paragraph [ref=e71]: The principle that some elements in a design are more important than others, expressed through size, position, material,…
+            - generic [ref=e72]:
+              - generic [ref=e73]: beginner
+              - generic [ref=e74]: VIEW →
+        - link "Procession A planned sequence of spaces through which a person moves, each one preparing them for the next. Great architecture ofte… intermediate VIEW →" [ref=e76] [cursor=pointer]:
+          - /url: /entry/procession
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - heading "Procession" [level=3] [ref=e79]
+              - paragraph [ref=e80]: A planned sequence of spaces through which a person moves, each one preparing them for the next. Great architecture ofte…
+            - generic [ref=e81]:
+              - generic [ref=e82]: intermediate
+              - generic [ref=e83]: VIEW →
+        - link "Proportion The mathematical relationship between the dimensions of a building's parts and the whole. Proportion governs whether a s… beginner VIEW →" [ref=e85] [cursor=pointer]:
+          - /url: /entry/proportion
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - heading "Proportion" [level=3] [ref=e88]
+              - paragraph [ref=e89]: The mathematical relationship between the dimensions of a building's parts and the whole. Proportion governs whether a s…
+            - generic [ref=e90]:
+              - generic [ref=e91]: beginner
+              - generic [ref=e92]: VIEW →
+        - link "Rhythm The repetition of elements — columns, windows, bays, or structural members — at regular or varied intervals to create vi… beginner VIEW →" [ref=e94] [cursor=pointer]:
+          - /url: /entry/rhythm
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - heading "Rhythm" [level=3] [ref=e97]
+              - paragraph [ref=e98]: The repetition of elements — columns, windows, bays, or structural members — at regular or varied intervals to create vi…
+            - generic [ref=e99]:
+              - generic [ref=e100]: beginner
+              - generic [ref=e101]: VIEW →
+        - link "Scale The perceived size of a building or space relative to the human body or to its surroundings. A building can be physicall… beginner VIEW →" [ref=e103] [cursor=pointer]:
+          - /url: /entry/scale
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - heading "Scale" [level=3] [ref=e106]
+              - paragraph [ref=e107]: The perceived size of a building or space relative to the human body or to its surroundings. A building can be physicall…
+            - generic [ref=e108]:
+              - generic [ref=e109]: beginner
+              - generic [ref=e110]: VIEW →
+        - link "Symmetry A condition in which one half of a composition mirrors the other about a central axis. Symmetry conveys stability, forma… beginner VIEW →" [ref=e112] [cursor=pointer]:
+          - /url: /entry/symmetry
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - heading "Symmetry" [level=3] [ref=e115]
+              - paragraph [ref=e116]: A condition in which one half of a composition mirrors the other about a central axis. Symmetry conveys stability, forma…
+            - generic [ref=e117]:
+              - generic [ref=e118]: beginner
+              - generic [ref=e119]: VIEW →
+  - contentinfo [ref=e120]:
+    - generic [ref=e121]:
+      - generic [ref=e122]: Kosa Rupa
+      - generic [ref=e123]: An architect's dictionary — 520 terms, 15 sections.

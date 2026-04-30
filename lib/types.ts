@@ -5,14 +5,9 @@ export type SectionId =
   | 'design-styles-movements'
   | 'tools-software-technology'
   | 'sustainability'
-  | 'codes-standards'
-  | 'urban-design'
   | 'key-figures'
-  | 'geometry-mathematics'
   | 'building-history-typologies'
-  | 'architecture-across-cultures'
   | 'professional-practice'
-  | 'building-performance-physics'
   | 'representation-communication';
 
 export type Difficulty = 'beginner' | 'intermediate' | 'advanced';

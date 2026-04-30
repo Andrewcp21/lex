@@ -1310,7 +1310,7 @@
   {
     "id": "building-code",
     "term": "Building Code",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "A set of legal regulations governing the minimum standards for the design, construction, and occupancy of buildings. Codes cover structural safety, fire protection, accessibility, energy performance, and health. Compliance is mandatory and verified through the planning and building control process.",
     "example": "The International Building Code (IBC), published by the International Code Council, is adopted in whole or in part by most US states and is the basis for building regulation across North America.",
@@ -1339,7 +1339,7 @@
   {
     "id": "fire-rating",
     "term": "Fire Rating",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "A classification that indicates how long a structural element or material can withstand a standardised fire test before failing — expressed in minutes or hours (e.g. 30, 60, 90, 120 minutes). Building codes specify minimum fire ratings for structural elements, walls, floors, and doors based on building use and height.",
     "example": "A 60-minute fire-rated party wall between two terraced houses must maintain its structural integrity and prevent flame and hot gas from passing through for at least 60 minutes in a standard furnace test.",
@@ -1359,7 +1359,7 @@
   {
     "id": "accessibility",
     "term": "Accessibility",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "The design of buildings so that people of all abilities — including those using wheelchairs, walking aids, or with sensory impairments — can access and use them independently. Most building codes mandate minimum accessibility standards. In the UK this is addressed by Part M of the Building Regulations.",
     "example": "The Pompidou Centre in Paris (1977) was a pioneer of accessibility with ramps, wide circulation, and level entries — radical for a major cultural building of its era.",
@@ -1380,7 +1380,7 @@
   {
     "id": "planning-permission",
     "term": "Planning Permission",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "Formal approval from a local planning authority to carry out development — including new buildings, significant alterations, or changes of use. In the UK, most building works require planning permission. Applications are assessed against local development plans, design guidance, and consultee responses.",
     "example": "The shard in London required a complex planning process involving the London Borough of Southwark, the Mayor of London, and even VOSA before consent was finally granted in 2003.",
@@ -1403,7 +1403,7 @@
   {
     "id": "part-l",
     "term": "Part L",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "The section of the UK Building Regulations covering the conservation of fuel and power — in practice, the energy performance requirements for new buildings and major renovations. Part L sets maximum U-values for building fabric elements and requires minimum Energy Performance Certificate (EPC) ratings.",
     "example": "The 2021 update to Part L increased energy efficiency requirements by approximately 31% for new homes and 27% for new commercial buildings compared to the 2013 standards — a major step toward the 2025 Future Homes Standard.",
@@ -1424,7 +1424,7 @@
     "id": "ada",
     "term": "Americans with Disabilities Act",
     "abbreviation": "ADA",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "A US civil rights law (1990) that prohibits discrimination against people with disabilities. In architecture, ADA Standards for Accessible Design set specific requirements for ramps, door widths, bathroom layouts, parking, and wayfinding that apply to all public buildings and facilities.",
     "example": "Every new public building in the US must comply with ADA Standards — for instance, requiring at least one entrance without steps, and toilet facilities usable from a wheelchair.",
@@ -1444,7 +1444,7 @@
   {
     "id": "structural-engineer",
     "term": "Structural Engineer",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "A specialist engineer responsible for designing the structural system of a building — ensuring it can safely support all loads (gravity, wind, seismic) within acceptable limits of strength and deflection. Structural engineers work alongside architects and must certify that the building's structure complies with codes before construction.",
     "example": "Arup's structural engineers worked with Jørn Utzon on the Sydney Opera House to develop the geometry and structural solution for the iconic shell roofs — a collaboration without which the building could not have been built.",
@@ -1465,7 +1465,7 @@
     "id": "epc",
     "term": "Energy Performance Certificate",
     "abbreviation": "EPC",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "A document rating the energy efficiency of a building on a scale from A (most efficient) to G (least efficient). In the UK, EPCs are required when a property is built, sold, or let. The rating is based on the building's fabric, systems, and estimated running costs.",
     "example": "Since 2020, UK landlords cannot let a property with an EPC rating below E — and proposed future legislation may require a minimum of C, driving major retrofit investment across the housing stock.",
@@ -1485,7 +1485,7 @@
   {
     "id": "party-wall",
     "term": "Party Wall",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "A wall shared between two properties, typically between terraced or semi-detached houses. In the UK, the Party Wall etc. Act 1996 requires property owners to notify neighbours and in some cases obtain agreement before carrying out works that affect a party wall.",
     "example": "A homeowner in London wishing to excavate a basement beneath a terraced house must issue party wall notices to both neighbours and, if disputed, appoint a surveyor to agree on protective measures.",
@@ -1505,7 +1505,7 @@
   {
     "id": "listed-building",
     "term": "Listed Building",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "In the UK, a building officially recognised for its special architectural or historic interest and placed on a statutory list. Any alterations to a listed building — even minor internal changes — require Listed Building Consent in addition to planning permission. Grades are I (most significant), II*, and II.",
     "example": "The Battersea Power Station in London (Grade II*) required extensive negotiation of heritage requirements during its conversion into a mixed-use development, completed in phases from 2017 to 2022.",
@@ -1526,7 +1526,7 @@
   {
     "id": "public-space",
     "term": "Public Space",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "Areas of a city that are open and accessible to everyone without charge — streets, squares, parks, and waterfronts. Public space is the connective tissue of urban life. Its quality determines how people move through, dwell in, and relate to a city. Well-designed public space encourages social interaction and democratic participation.",
     "example": "The High Line in New York, converted from an abandoned elevated freight railway into a public park (2009–2014), became one of the most visited public spaces in the world and sparked widespread interest in adaptive reuse.",
@@ -1549,7 +1549,7 @@
   {
     "id": "masterplan",
     "term": "Masterplan",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "A comprehensive plan for the development of an area — defining land uses, street networks, public spaces, building heights, and phasing. Masterplans provide a framework for coordinating multiple buildings and projects across time. They are used for new districts, regeneration areas, and campus developments.",
     "example": "The Canary Wharf masterplan in London (1985 onwards) by SOM transformed derelict docklands into a financial district through a structured framework of streets, towers, and public squares.",
@@ -1572,7 +1572,7 @@
   {
     "id": "urban-grain",
     "term": "Urban Grain",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "The pattern and texture of a city's blocks, plots, and buildings as seen from above. Fine-grained cities have many small plots with varied buildings; coarse-grained cities have large superblocks or single-ownership developments. Urban grain affects walkability, diversity, and the character of streets.",
     "example": "The medieval street pattern of Bologna has an extremely fine grain — narrow plots, mixed uses, continuous arcades — producing one of Europe's most liveable and walkable city centres.",
@@ -1592,7 +1592,7 @@
   {
     "id": "mixed-use",
     "term": "Mixed Use",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "Development that combines different types of programme — housing, retail, offices, leisure — within a single building or district. Mixed use creates active streets throughout the day, reduces car dependency, and supports local economies. It is the opposite of zoning that separates uses into single-use districts.",
     "example": "Jane Jacobs championed mixed use in 'The Death and Life of Great American Cities' (1961), arguing that separating uses had killed American cities — a thesis that transformed urban planning worldwide.",
@@ -1613,7 +1613,7 @@
   {
     "id": "density",
     "term": "Density",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "A measure of how intensively land is used, typically expressed as dwellings per hectare (dph) or floor area ratio (FAR). High density allows more people to live close to services, reducing travel distances. Density alone does not determine liveability — it must be paired with quality of public space and mix of uses.",
     "example": "Manhattan in New York has one of the highest residential densities in the USA (over 27,000 people per km²), yet is considered highly liveable due to its parks, transit, and fine-grained street network.",
@@ -1636,7 +1636,7 @@
   {
     "id": "active-frontage",
     "term": "Active Frontage",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "A building facade that engages visually and physically with the street — through shop windows, entrances, permeable fencing, or activities visible from outside. Active frontages generate pedestrian interest and surveillance. Their opposite is the blank wall or servicing facade that creates dead zones.",
     "example": "Copenhagen's Strøget pedestrian street is defined by continuous active frontages — shops, cafes, and display windows at ground level for its entire length, creating exceptional pedestrian life.",
@@ -1657,7 +1657,7 @@
     "id": "genius-loci",
     "term": "Genius Loci",
     "phonetic": "/ˈdʒiːniəs ˈloʊsaɪ/",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "advanced",
     "definition": "Latin for 'spirit of a place.' In architecture and urbanism, genius loci refers to the distinctive, intangible character that makes a place feel unique — its light, materials, scale, topography, sounds, and accumulated memory. Architects like Christian Norberg-Schulz argued that good architecture should respond to and reinforce this spirit.",
     "example": "The city of Siena in Tuscany has an extraordinarily strong genius loci — its ochre brick, shell-shaped central piazza, and hill topography create a consistency of character almost unaltered since the 14th century.",
@@ -1677,7 +1677,7 @@
   {
     "id": "street-network",
     "term": "Street Network",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "The system of streets, lanes, and paths that structure a city or district. The pattern of the network — grid, radial, organic — shapes movement, development patterns, and urban character. Highly connected networks with short blocks encourage walking; cul-de-sac layouts increase car dependence.",
     "example": "The grid plan of Manhattan, codified in the 1811 Commissioners' Plan, has proven remarkably adaptable over 200 years — supporting everything from 19th-century brownstones to 21st-century supertall skyscrapers.",
@@ -1697,7 +1697,7 @@
   {
     "id": "placemaking",
     "term": "Placemaking",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "A collaborative approach to urban design that centres on creating public spaces people want to use — not just infrastructure, but places with identity, activity, and comfort. Placemaking is informed by how people actually inhabit and perceive spaces, often involving community participation.",
     "example": "Times Square in New York was transformed from a traffic-dominated junction to a pedestrian plaza (2009) through a simple placemaking intervention — closing Broadway to cars and adding seating — without rebuilding a single structure.",
@@ -1718,7 +1718,7 @@
   {
     "id": "zoning",
     "term": "Zoning",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "A legal mechanism that divides a city or municipality into zones, each with rules about what land uses are permitted and what buildings can be built — their height, bulk, setback, and use. Zoning became widespread in the 20th century but has been criticised for enforcing separation of uses and car dependency.",
     "example": "New York City adopted the first comprehensive zoning resolution in the US in 1916, partly in response to the Equitable Building (1915) — a skyscraper that blocked light from adjacent streets, prompting rules on setbacks and height limits.",
@@ -1944,7 +1944,7 @@
     "id": "golden-ratio",
     "term": "Golden Ratio",
     "phonetic": "/ˈɡoʊldən ˈreɪʃioʊ/",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "intermediate",
     "definition": "A proportion, approximately 1:1.618, considered aesthetically ideal and found throughout nature, art, and architecture. A golden rectangle can be divided into a square and a smaller golden rectangle indefinitely. The ratio appears in classical temples, Renaissance art, and many natural forms — whether by design or coincidence remains debated.",
     "example": "The facade of the Parthenon in Athens can be inscribed within a golden rectangle, and its proportional system is often cited as an example of the ratio in architecture — though scholars debate how intentional this was.",
@@ -1964,7 +1964,7 @@
   {
     "id": "module",
     "term": "Module",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "intermediate",
     "definition": "A standardised unit of measurement used to regulate the dimensions of a building and its components. Working to a module ensures that prefabricated elements, structural grids, and cladding panels are coordinated without wasteful cutting. Many architects design on a 100mm or 300mm grid to align with standard brick and panel dimensions.",
     "example": "The 3.6m structural grid of the Eames House in Pacific Palisades (1949) was derived directly from standard steel sections available in the postwar market — the building was assembled from catalogue components on a module.",
@@ -1984,7 +1984,7 @@
   {
     "id": "grid",
     "term": "Grid",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A regular network of horizontal and vertical lines used to organise structure, space, and circulation in architecture. Structural grids align columns and beams; planning grids coordinate room layouts. The grid is one of the most powerful ordering devices in design — predictable, efficient, and adaptable.",
     "example": "The structural grid of Mies van der Rohe's Crown Hall in Chicago (1956) is a 6×6 bay steel frame — utterly consistent, with no interior columns to interrupt the universal open space.",
@@ -2004,7 +2004,7 @@
   {
     "id": "golden-section",
     "term": "Golden Section",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "intermediate",
     "definition": "A division of a line segment into two parts such that the ratio of the larger part to the smaller equals the ratio of the whole to the larger part — both equal to approximately 1.618. The golden section is closely related to the golden ratio and the Fibonacci sequence. It has been used by architects and artists for millennia as a guide to harmonious proportion.",
     "example": "Le Corbusier developed his Modulor system — a proportional scale based on the golden section and the human body — and applied it to the design of the Unité d'Habitation (1952).",
@@ -2025,7 +2025,7 @@
     "id": "tessellation",
     "term": "Tessellation",
     "phonetic": "/ˌtɛs.ɪˈleɪ.ʃən/",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "intermediate",
     "definition": "The covering of a plane with a repeating pattern of one or more shapes, with no gaps or overlaps. In architecture, tessellation is used for floor tiling, structural panellisation, and facade systems. Complex tessellations can produce rich patterns and also solve structural problems in dome and gridshell design.",
     "example": "The glass roof of the British Museum's Great Court in London by Foster + Partners (2000) uses a tessellation of 3,312 uniquely shaped triangular glass panels — each slightly different — to cover the circular space between existing buildings.",
@@ -2045,7 +2045,7 @@
   {
     "id": "fractal",
     "term": "Fractal",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "advanced",
     "definition": "A geometric form that exhibits self-similarity at different scales — zoom in and the pattern repeats. Fractals occur in nature (coastlines, trees, snowflakes) and have been used in architecture to create complexity that feels natural. Fractal analysis has also been used to distinguish authentic and forged Mondrian paintings.",
     "example": "The Koch snowflake facade pattern of many Islamic geometric tile systems is fractal in character — zoom into the star pattern and a similar star pattern appears within it.",
@@ -2065,7 +2065,7 @@
   {
     "id": "section-cut",
     "term": "Section",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "An orthographic drawing showing what a building looks like when cut through by an imaginary vertical plane. The section reveals the internal heights, relationships between floors, structural elements, and the spatial drama of a building in a way that a plan cannot. It is one of the most important analytical tools in architecture.",
     "example": "A section through the Pantheon in Rome reveals one of the most powerful geometric discoveries in architecture — the interior can accommodate a perfect sphere whose diameter equals the height of the building.",
@@ -2085,7 +2085,7 @@
   {
     "id": "pythagoras",
     "term": "Pythagorean Theorem",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "The mathematical principle that in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides (a² + b² = c²). Used constantly in construction — for setting out right-angle corners on site, calculating rafter lengths, and checking that structures are square.",
     "example": "The 3-4-5 triangle — a right triangle with sides of 3, 4, and 5 units — is the most practical application of the Pythagorean theorem on a building site. Measuring these distances confirms a true right angle without instruments.",
@@ -2105,7 +2105,7 @@
   {
     "id": "pi",
     "term": "Pi (π)",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "The mathematical constant approximately equal to 3.14159, representing the ratio of a circle's circumference to its diameter. Pi is used whenever architects or engineers calculate the geometry of circular or curved elements — domes, arches, columns, and curved plans.",
     "example": "Designing the circular oculus of the Pantheon (diameter 8.7m) requires pi to calculate the precise curvature of the surrounding concrete dome and the area of light it admits at different times of day.",
@@ -2126,7 +2126,7 @@
     "id": "trigonometry",
     "term": "Trigonometry",
     "phonetic": "/ˌtrɪɡ.əˈnɒm.ɪ.tri/",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "intermediate",
     "definition": "The branch of mathematics dealing with the relationships between angles and sides of triangles. In architecture, trigonometry is used to calculate roof pitches, set out sloped ground, determine sight lines, and resolve the geometry of complex structural systems.",
     "example": "An architect designing a staircase must use trigonometry to ensure the string angle, riser height, and going all comply with building regulations within the constraints of the floor-to-floor height.",
@@ -2368,7 +2368,7 @@
     "id": "feng-shui",
     "term": "Feng Shui",
     "phonetic": "/fʌŋ ʃweɪ/",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "A Chinese philosophical system that governs the orientation, layout, and design of buildings and cities in relation to the flow of qi (life energy). Feng Shui principles influence site selection, building orientation, room arrangement, and the placement of doors and windows. It has shaped Chinese urban design for over 3,000 years.",
     "example": "The Forbidden City in Beijing (1420) was laid out according to strict feng shui principles — aligned on a north–south axis, with mountains to the north and water to the south, expressing cosmic and political order.",
@@ -2388,7 +2388,7 @@
   {
     "id": "pagoda",
     "term": "Pagoda",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "A multi-tiered tower of East Asian origin used as a Buddhist temple or monument. The pagoda evolved from the Indian stupa, transforming as it spread through China, Korea, Japan, and Southeast Asia. Each tier has its own projecting roof, creating a distinctive silhouette. Most pagodas are built in stone, brick, or timber.",
     "example": "The Giant Wild Goose Pagoda in Xi'an, China (652 AD) is a seven-storey Buddhist tower built to house sacred scriptures brought from India — a landmark of Tang dynasty architecture that still stands.",
@@ -2409,7 +2409,7 @@
     "id": "mosque",
     "term": "Mosque",
     "phonetic": "/mɒsk/",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "The principal building type of Islamic worship — a place of prayer oriented towards Mecca (the qibla direction). The key elements of a mosque are the prayer hall, the mihrab (niche indicating qibla), the minbar (pulpit), and typically a minaret (tower from which the call to prayer is broadcast). Mosques reflect an enormous variety of regional styles.",
     "example": "The Great Mosque of Córdoba in Spain (begun 785 AD) is one of architecture's treasures — its forest of double-arched columns, alternating in red brick and white stone, creates an endlessly repeating interior of hypnotic beauty.",
@@ -2433,7 +2433,7 @@
     "id": "stupa",
     "term": "Stupa",
     "phonetic": "/ˈstuːpə/",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "A hemispherical Buddhist monument, originally built to house sacred relics. The stupa is one of the oldest architectural forms in South and Southeast Asia, and its geometry — dome, spire, encircling path — has symbolic cosmological meaning. Stupas evolved into the pagoda as Buddhism spread eastward.",
     "example": "The Great Stupa at Sanchi, India (3rd century BC), commissioned by Emperor Ashoka, is the oldest stone structure in India and a foundational monument of Buddhist architecture — its four gateways are covered in relief carvings of extraordinary quality.",
@@ -2453,7 +2453,7 @@
   {
     "id": "adobe",
     "term": "Adobe",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "A natural building material made from earth, clay, sand, and sometimes organic matter (straw), formed into bricks and dried in the sun. Adobe has been used in hot, dry climates for thousands of years. Its high thermal mass makes it ideal for desert environments — absorbing heat during the day and releasing it slowly at night.",
     "example": "The Great Mosque of Djenné in Mali (rebuilt 1907) is the world's largest mud-brick building — an extraordinary adobe structure with protruding wooden beams (torons) used as scaffolding during its annual communal replastering.",
@@ -2474,7 +2474,7 @@
     "id": "shoji",
     "term": "Shoji",
     "phonetic": "/ˈʃoʊdʒi/",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "A traditional Japanese sliding screen made of translucent paper (washi) stretched over a wooden lattice frame. Shoji screens serve as walls, doors, and windows — they diffuse light softly, provide privacy without visual opacity, and can be removed entirely to open a space to the garden. They embody the Japanese spatial principle of ma (interval).",
     "example": "The Katsura Imperial Villa in Kyoto (early 17th century) uses shoji extensively — rooms shift from enclosed to open simply by sliding screens, dissolving the boundary between interior and garden.",
@@ -2494,7 +2494,7 @@
   {
     "id": "rammed-earth",
     "term": "Rammed Earth",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "A construction technique in which layers of moist earth — typically a mix of gravel, sand, silt, and clay — are compacted in temporary formwork to form solid walls. Rammed earth walls are dense, durable, fire-resistant, and have high thermal mass. The technique is experiencing a contemporary revival for its sustainability.",
     "example": "The Nk'Mip Desert Cultural Centre in British Columbia by HBBH Architects (2006) uses rammed earth walls made from local desert soil — anchoring the building climatically and culturally to its Okanagan First Nation context.",
@@ -2515,7 +2515,7 @@
     "id": "marae",
     "term": "Marae",
     "phonetic": "/mɑːˈraɪ/",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "A sacred communal gathering place central to Māori culture in New Zealand. The marae complex typically includes a wharenui (meeting house) decorated with elaborate carvings representing ancestors, an outdoor courtyard (atea), and ancillary buildings. It is the centre of cultural, ceremonial, and social life.",
     "example": "Te Papa Tongarewa, New Zealand's national museum in Wellington (1998), incorporates a marae at its heart — one of the few marae located within a public building, making Māori culture architecturally central to the institution.",
@@ -2536,7 +2536,7 @@
     "id": "hammam",
     "term": "Hammam",
     "phonetic": "/həˈmɑːm/",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "A traditional Islamic bathhouse with a sequence of rooms at different temperatures — from a cold room (barid) through a warm room (wastani) to a hot steam room (harara). The hammam has been central to social life in the Islamic world for over a thousand years, serving as a place of cleanliness, relaxation, and community.",
     "example": "The Çemberlitaş Hamamı in Istanbul by Sinan (1584) remains in operation today — its domed steam room, lit by star-shaped skylights, is one of the finest examples of Ottoman bath architecture.",
@@ -2765,7 +2765,7 @@
   {
     "id": "u-value",
     "term": "U-Value",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "A measure of how much heat passes through a building element (wall, roof, floor, or window) per unit area, per degree of temperature difference — expressed in W/m²K. The lower the U-value, the better the insulation. Building regulations specify maximum U-values for new construction; Passive House standards require much lower values.",
     "example": "A standard double-glazed window might have a U-value of 1.6 W/m²K; a triple-glazed Passive House window achieves 0.8 or below — halving the heat lost through the same area of glass.",
@@ -2785,7 +2785,7 @@
   {
     "id": "thermal-bridge",
     "term": "Thermal Bridge",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "A location in a building's fabric where heat flows more readily than through the surrounding insulated area — typically at structural connections, window frames, or where insulation is interrupted. Thermal bridges reduce energy performance, can cause condensation and mould, and must be carefully detailed to minimise their impact.",
     "example": "A concrete balcony slab that penetrates the insulation layer of an apartment building creates a classic thermal bridge — cold is conducted into the building at every floor, causing condensation and dramatically increasing heat loss.",
@@ -2805,7 +2805,7 @@
   {
     "id": "acoustics",
     "term": "Acoustics",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "The science of sound in buildings — covering how sound is generated, transmitted through air and structure, reflected off surfaces, and absorbed. Architects and acoustic engineers design for appropriate reverberation in concert halls, speech intelligibility in offices, and sound insulation between dwellings.",
     "example": "The Elbphilharmonie concert hall in Hamburg by Herzog & de Meuron (2017) contains a 2,100-seat concert hall clad in 10,000 uniquely shaped acoustic panels — individually CNC-milled to distribute reflected sound with precision.",
@@ -2825,7 +2825,7 @@
   {
     "id": "daylighting",
     "term": "Daylighting",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "The deliberate use of natural light to illuminate building interiors, reducing reliance on artificial lighting and improving occupant wellbeing. Effective daylighting considers window size, orientation, glazing type, and the penetration of light deep into a plan. Metrics include Daylight Factor and LEED daylight credits.",
     "example": "Renzo Piano's Menil Collection museum in Houston (1987) uses a roof of concrete 'leaves' and translucent diffusing panels to admit a precisely controlled, even quality of natural light throughout the galleries.",
@@ -2849,7 +2849,7 @@
   {
     "id": "thermal-comfort",
     "term": "Thermal Comfort",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "The condition in which a building's occupants feel neither too hot nor too cold — influenced by air temperature, radiant temperature, humidity, air movement, clothing, and activity level. Designing for thermal comfort means going beyond meeting energy regulations to consider how people actually experience a space.",
     "example": "The Eastgate Centre in Harare by Mick Pearce (1996) uses a passive ventilation system modelled on termite mounds to maintain thermal comfort without air conditioning in Zimbabwe's climate.",
@@ -2872,7 +2872,7 @@
   {
     "id": "condensation",
     "term": "Condensation",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "The process by which water vapour in air turns into liquid water when it contacts a surface below the dew point temperature. Interstitial condensation — within the fabric of a wall — can cause structural damage and mould. Building details must manage vapour flow to prevent moisture accumulation within the construction.",
     "example": "Poorly insulated cold bridges around window frames commonly lead to surface condensation and black mould growth in older flats — a health risk that affects millions of UK tenants.",
@@ -2892,7 +2892,7 @@
   {
     "id": "sound-insulation",
     "term": "Sound Insulation",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "The ability of a building element — wall, floor, or ceiling — to reduce the transmission of sound between spaces. Sound insulation is measured in decibels (dB) and is regulated by building codes for party walls and floors between dwellings. It is achieved through mass, isolation, absorption, and decoupling.",
     "example": "The floating floors of the Barbican Centre concert halls in London sit on rubber isolators, completely decoupled from the building structure — preventing vibration from underground trains from reaching the concert hall.",
@@ -2912,7 +2912,7 @@
   {
     "id": "heat-pump",
     "term": "Heat Pump",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "A mechanical system that moves heat from a cold source (air, ground, or water) to a warm space, providing heating at efficiencies greater than 100% — unlike direct electric resistance heating. Ground-source heat pumps extract heat from the ground via buried pipes; air-source heat pumps extract it from outside air.",
     "example": "The retrofit of many UK Victorian terraced houses now includes air-source heat pumps, replacing gas boilers as the primary heating system — a transition required to meet the UK's 2050 net-zero targets.",
@@ -2932,7 +2932,7 @@
   {
     "id": "ventilation",
     "term": "Mechanical Ventilation",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "The use of fans and ductwork to move fresh air into and stale air out of a building. In well-insulated modern buildings, mechanical ventilation is essential because airtight construction prevents accidental air infiltration. Mechanical Ventilation with Heat Recovery (MVHR) reclaims heat from outgoing air to pre-warm incoming fresh air.",
     "example": "Every certified Passive House building must include an MVHR system — typically recovering over 80% of the heat in exhaust air — making mechanical ventilation a key component of achieving near-zero energy demand.",
@@ -2952,7 +2952,7 @@
   {
     "id": "overheating",
     "term": "Overheating",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "A condition in which a building becomes uncomfortably hot, typically during summer, due to excessive solar gains through glazing, poor ventilation, high internal heat gains, or the urban heat island effect. As climate change intensifies, overheating is becoming a critical design consideration even in temperate climates.",
     "example": "The Heatwave of 2003 in Europe caused 70,000 excess deaths — many in poorly ventilated apartments and care homes that had never been designed for extreme heat, prompting a rethink of overheating risk in temperate-climate buildings.",
@@ -3362,7 +3362,7 @@
   {
     "id": "rumah-joglo",
     "term": "Rumah Joglo",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "The most prestigious form of traditional Javanese house, characterised by a tall central roof supported by four main columns (saka guru) that carry a tiered pyramidal crown. The joglo roof form communicates social status — only aristocratic and priyayi-class families were traditionally permitted to build them. The main space beneath the central roof (pendopo) is an open pavilion used for receiving guests and ceremonial functions.",
     "example": "The Keraton Yogyakarta, the royal palace of the Sultanate of Yogyakarta, contains multiple pendopo pavilions with classic joglo roof forms, each scaled to the rank of ceremony conducted within, demonstrating how the typology encodes social hierarchy in architectural form.",
@@ -3384,7 +3384,7 @@
   {
     "id": "rumah-gadang",
     "term": "Rumah Gadang",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "The traditional communal longhouse of the Minangkabau people of West Sumatra, recognisable by its dramatic upswept roof ridges that curve skyward at each end like buffalo horns (gonjong). Rumah gadang is a matrilineal household structure — rooms are allocated to daughters and their families. The building is raised on posts and oriented north, with richly carved wood facades expressing family lineage and cosmological beliefs.",
     "example": "The traditional village of Nagari Sijunjung in West Sumatra preserves entire rows of rumah gadang, where the layered gonjong rooflines create an immediately recognisable Minangkabau skyline that has become one of Indonesia's most iconic architectural images.",
@@ -3405,7 +3405,7 @@
   {
     "id": "rumah-panggung",
     "term": "Rumah Panggung",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "A vernacular house type raised on stilts above the ground, found across the Indonesian archipelago from Kalimantan to Sulawesi. The elevated floor separates living space from ground moisture, insects, and flooding, while the underfloor void provides ventilation and storage. Rumah panggung reflects an ecological logic adapted to tropical lowland and riverine environments, with stilt height in some traditions indicating household social rank.",
     "example": "The traditional Bugis houses of South Sulawesi are raised 2–3 metres on hardwood posts, with the height of the floor above ground calibrated to the social status of the occupant — the higher the floor, the more prestigious the household.",
@@ -3427,7 +3427,7 @@
   {
     "id": "rumah-adat",
     "term": "Rumah Adat",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "A generic term for traditional or customary houses built according to indigenous practices and governed by adat (customary law). Indonesia has over 300 ethnic groups, each with distinct rumah adat typologies that encode cosmological beliefs, social hierarchies, and ecological adaptations in their spatial organisation, structural system, and ornament. Rumah adat are living cultural documents — their forms are not arbitrary but carry meaning.",
     "example": "The Tongkonan of the Toraja people in Sulawesi is one of Indonesia's most celebrated rumah adat — a boat-shaped house on stilts with a dramatically curved roof, oriented east–west to align with the cosmological axis of life and death significant in Torajan belief.",
@@ -3449,7 +3449,7 @@
     "id": "imb",
     "term": "IMB (Izin Mendirikan Bangunan)",
     "abbreviation": "IMB",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "Izin Mendirikan Bangunan — the Indonesian building construction permit required before any building work can commence. The IMB is issued by local government and verifies that the proposed building complies with spatial planning regulations, KDB, KLB, and GSB requirements. In 2021, the IMB was formally replaced by the PBG (Persetujuan Bangunan Gedung) system under Government Regulation No. 16/2021, though the term IMB remains in common usage.",
     "example": "Before constructing a house in Jakarta, the owner must obtain an IMB/PBG from the Dinas Cipta Karya, submitting architectural drawings, site plans, and structural calculations for review against the applicable spatial plan (RDTR) for that zone.",
@@ -3472,7 +3472,7 @@
     "id": "kdb",
     "term": "KDB (Koefisien Dasar Bangunan)",
     "abbreviation": "KDB",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Koefisien Dasar Bangunan — the building coverage ratio, expressed as a percentage of the total site area that may be covered by the building footprint at ground level. A KDB of 60% means that on a 500 m² site, the building's ground floor footprint cannot exceed 300 m². KDB is set by the local spatial plan and varies by zone — commercial areas typically allow higher KDB than residential zones.",
     "example": "In a dense urban zone in Jakarta with a KDB of 80%, a developer with a 1,000 m² site can build a footprint of up to 800 m² at ground level, with the remaining 200 m² required as open or soft-landscaped area contributing to the RTH requirement.",
@@ -3495,7 +3495,7 @@
     "id": "klb",
     "term": "KLB (Koefisien Lantai Bangunan)",
     "abbreviation": "KLB",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Koefisien Lantai Bangunan — the floor area ratio (FAR), representing the total permitted floor area as a multiple of the site area. A KLB of 3.0 on a 500 m² site allows a maximum total floor area of 1,500 m², achievable as a three-storey building with full KDB coverage or a taller building with a smaller footprint. KLB and KDB together control both the density and the vertical distribution of development on a site.",
     "example": "A high-rise site in Jakarta's CBD may carry a KLB of 10 or higher, permitting skyscrapers whose total floor area is ten times the land area, while a low-density residential zone may limit KLB to 1.2–1.8, effectively preventing development beyond two storeys.",
@@ -3518,7 +3518,7 @@
     "id": "gsb",
     "term": "GSB (Garis Sempadan Bangunan)",
     "abbreviation": "GSB",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Garis Sempadan Bangunan — the mandatory setback line defining the minimum distance a building must be set back from a road edge, property boundary, or water body. GSB protects public space, ensures fire access, and provides a visual buffer between buildings and the street. Setback distances are established by local regulations and typically increase proportionally with road width.",
     "example": "In a residential area in Bandung with a 10-metre road, the applicable GSB may be 5 metres, meaning no part of the building can cross the setback line drawn 5 metres back from the road boundary — enforced during the IMB/PBG application process.",
@@ -3540,7 +3540,7 @@
     "id": "rth",
     "term": "RTH (Ruang Terbuka Hijau)",
     "abbreviation": "RTH",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "Ruang Terbuka Hijau — open green space, a legally mandated component of Indonesian urban planning under Law No. 26/2007 on Spatial Planning. Cities must allocate a minimum of 30% of their total area as RTH, divided between public green space (20%) and private green space (10%). RTH encompasses public parks, street trees, riverbank buffers, and private gardens, and is intended to support urban ecology, flood management, and thermal comfort.",
     "example": "Jakarta's green space deficit — the city achieved roughly 9% RTH against the 30% legal target by the 2010s — has driven policy to convert former industrial land into public parks, including the Hutan Kota series, as part of efforts to close the gap.",
@@ -3650,7 +3650,7 @@
   {
     "id": "ventilasi-silang",
     "term": "Ventilasi Silang",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "Cross-ventilation — the arrangement of openings on opposite or adjacent sides of a space so that wind pressure differences drive airflow through the building. Ventilasi silang is a fundamental passive cooling strategy in tropical architecture, capable of reducing perceived indoor temperatures significantly without mechanical systems. Effective cross-ventilation requires inlet and outlet openings aligned with prevailing wind directions, with an unobstructed wind path between them.",
     "example": "Traditional Javanese rumah joglo achieve ventilasi silang through the open-sided pendopo pavilion — the absence of walls at ground level allows unimpeded airflow across the floor, while the tiered central roof creates a stack effect that draws warm air upward through the crown.",
@@ -3694,7 +3694,7 @@
   {
     "id": "shading-device",
     "term": "Shading Device",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "An architectural element — overhang, fin, louvre, or perforated screen — that intercepts direct solar radiation before it reaches the facade or glazing behind it. In the Indonesian tropics, shading devices are critical to controlling heat gain and glare. The required projection depth depends on the solar angle at the relevant latitude, facade orientation, and time of day; south-facing and north-facing facades require different geometries than east- or west-facing ones.",
     "example": "The University of Indonesia Library in Depok (2011) features a continuous deep canopy around its entire perimeter that shades all facades from direct solar radiation while admitting diffuse skylight — a strategy that reduces the building's mechanical cooling load significantly in Jakarta's humid tropical climate.",
@@ -3847,7 +3847,7 @@
   {
     "id": "pendopo",
     "term": "Pendopo",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "An open-sided pavilion that forms the front and most public part of a traditional Javanese compound — the space for receiving guests, holding ceremonies, and public gatherings. The pendopo has no enclosing walls; its roof is supported by columns alone, making it permeable to air and view. Its form communicates the owner's status through size, roof type, and column finish, with the joglo roof reserved for the highest rank.",
     "example": "The pendopo of the Puro Mangkunegaran palace in Surakarta (built 1757) is one of the largest in Java — a vast open pavilion roofed in a grand joglo form and floored in polished marble, capable of hosting hundreds of guests for royal ceremonies.",
@@ -3890,7 +3890,7 @@
   {
     "id": "kampung",
     "term": "Kampung",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "An informal urban settlement — a dense, organically grown neighbourhood characterised by narrow pedestrian lanes, mixed uses, high social cohesion, and incremental self-built construction. Kampung are a fundamental fabric of Indonesian cities, housing a majority of urban residents. Far from being merely slums, kampung have rich spatial variety and community infrastructure, and have become the focus of progressive urban design interventions that improve conditions without displacing residents.",
     "example": "The Kampung Improvement Programme (KIP) initiated in Jakarta and Surabaya in the 1970s — later cited by the World Bank as a model — upgraded drainage, paths, and sanitation in dense kampung without demolition, demonstrating that improvement and community preservation are compatible.",
@@ -3912,7 +3912,7 @@
   {
     "id": "alun-alun",
     "term": "Alun-Alun",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "The central open square of a traditional Javanese city, located in front of the kraton (royal palace) and the main mosque. Alun-alun is the spatial and ceremonial heart of the Javanese urban order — a flat, grassed or paved field framed by the palace, mosque, government offices, and market. It functions as a space for military parades, public gatherings, markets, and everyday recreation. Two banyan trees (waringin) are traditionally planted at the centre.",
     "example": "The alun-alun of Yogyakarta remains a functioning public space in front of the Keraton, flanked by the Masjid Agung to the west — its spatial arrangement unchanged from the 18th-century urban plan and still used for the royal Sekaten festival each year.",
@@ -3935,7 +3935,7 @@
   {
     "id": "pura",
     "term": "Pura",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "A Balinese Hindu temple compound organised around a series of progressively sacred courtyards separated by split gates (candi bentar) and roofed shrines (meru). Pura are not buildings in the Western sense but landscapes — outdoor ceremonial spaces defined by walls, gates, and pagoda-like towers. Every Balinese village maintains multiple pura for different ritual functions, and their spatial hierarchy reflects the cosmological order of the Balinese universe.",
     "example": "Pura Besakih on the slopes of Mount Agung is Bali's most sacred temple complex — a series of over 80 individual shrines ascending the mountain, with multi-tiered meru towers rising up to 11 roofs to indicate the rank of the deity enshrined.",
@@ -4023,7 +4023,7 @@
     "id": "pbg",
     "term": "PBG (Persetujuan Bangunan Gedung)",
     "abbreviation": "PBG",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Persetujuan Bangunan Gedung — the building approval system that replaced the IMB (Izin Mendirikan Bangunan) under Government Regulation No. 16 of 2021 and Law No. 11 of 2020 (Cipta Kerja / Job Creation Law). PBG shifts from a permit-based to a compliance-based system: the applicant submits technical documents demonstrating compliance with building standards, and the government reviews and approves rather than granting a discretionary permit. The PBG is issued before construction; the SLF is issued after.",
     "example": "Under the PBG system, a developer in Surabaya submits architectural, structural, and MEP drawings through the online SIMBG (Sistem Informasi Manajemen Bangunan Gedung) platform, which routes the application to the relevant technical reviewers before issuing the PBG approval to commence construction.",
@@ -4047,7 +4047,7 @@
     "id": "slf",
     "term": "SLF (Sertifikat Laik Fungsi)",
     "abbreviation": "SLF",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Sertifikat Laik Fungsi — the certificate of occupancy issued after a building is completed and inspected, confirming it is fit for its intended use. The SLF verifies that the completed building conforms to the approved PBG documents and meets applicable safety, health, comfort, and accessibility standards. Without an SLF, a building cannot legally be occupied, and utilities such as electricity and water connections may be withheld.",
     "example": "A new hotel in Bali must obtain an SLF before opening — the process involves a site inspection by the Dinas Cipta Karya to verify that the building as built matches the approved PBG drawings and that fire safety, structural, and accessibility requirements are met.",
@@ -4069,7 +4069,7 @@
     "id": "rdtr",
     "term": "RDTR (Rencana Detail Tata Ruang)",
     "abbreviation": "RDTR",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "advanced",
     "definition": "Rencana Detail Tata Ruang — the detailed spatial plan at the district or sub-district level that sets the land use zoning, KDB, KLB, GSB, and RTH requirements for every plot in an urban area. The RDTR is the key regulatory document consulted during the PBG application process and drives all development decisions. It is prepared by local government and must conform to the higher-level RTRW (Rencana Tata Ruang Wilayah).",
     "example": "Jakarta's RDTR divides the city into fine-grained sub-zones — each parcel is assigned a zone code that specifies permitted uses, maximum KDB, KLB, building height, and GSB — so an architect can determine a site's full development parameters before designing.",
@@ -4140,7 +4140,7 @@
     "id": "amdal",
     "term": "AMDAL (Analisis Mengenai Dampak Lingkungan)",
     "abbreviation": "AMDAL",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "advanced",
     "definition": "Analisis Mengenai Dampak Lingkungan — Indonesia's environmental impact assessment, required for large or sensitive development projects before permits are issued. AMDAL evaluates the potential environmental, social, and health impacts of a proposed project and establishes mitigation measures. It is governed by Law No. 32/2009 on Environmental Protection and Management and is mandatory for projects above certain size thresholds or located in environmentally sensitive areas.",
     "example": "A new resort development on a Bali beach would require an AMDAL process — including baseline environmental surveys, impact prediction, public consultation with affected communities, and a mitigation plan — before the PBG application can be submitted to the local government.",
@@ -4293,7 +4293,7 @@
   {
     "id": "natah",
     "term": "Natah",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "The central open courtyard of a traditional Balinese house compound, around which all pavilions (bale) are arranged. The natah is not merely a residual space between buildings — it is the spatial and cosmological heart of the compound, used for ceremonies, daily offerings, and family gatherings. Its orientation follows the Balinese cosmic axis of kaja (towards the mountain, sacred) and kelod (towards the sea, profane), which governs the placement of every pavilion around it.",
     "example": "In a traditional Balinese compound in Ubud, the natah is a swept earth or grass courtyard roughly 8–12 metres across, with the family temple (sanggah) at the kaja-kangin (sacred northeast) corner, the main sleeping pavilion facing the natah, and the kitchen at the kelod (southern) end.",
@@ -4316,7 +4316,7 @@
   {
     "id": "meru",
     "term": "Meru",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "A multi-tiered shrine tower found in Balinese Hindu temples (pura), with an odd number of thatched roofs stacked vertically — from 3 to 11 tiers — where the number of tiers indicates the rank of the deity or ancestor enshrined within. The meru form represents Mount Meru, the cosmic mountain at the centre of the Hindu universe. Structurally, meru are timber-framed towers with ijuk (sugar palm fibre) thatched roofs that must be periodically replaced.",
     "example": "The 11-tiered meru at Pura Besakih is the highest rank possible and is dedicated to the supreme deity — its stack of diminishing thatched roofs rising over 15 metres creates the iconic silhouette that defines the Balinese temple skyline.",
@@ -4339,7 +4339,7 @@
   {
     "id": "bale",
     "term": "Bale",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "An open or semi-open pavilion within a Balinese compound or temple, with a raised floor, a pitched roof, and no or minimal walls. Each bale serves a specific function — sleeping, receiving guests, storage, or ceremony — and its position around the natah, its roof form, and its size are all governed by adat (customary law). The bale is the fundamental spatial unit of Balinese architecture, equivalent in importance to the pendopo in Javanese building culture.",
     "example": "The bale dangin (east pavilion) of a traditional Balinese compound is reserved for ceremonial use — it faces the natah on the kaja-kangin axis and is the space where family rites of passage, including tooth-filing and wedding ceremonies, are performed.",
@@ -4362,7 +4362,7 @@
   {
     "id": "sanggah",
     "term": "Sanggah",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "The family temple — a small sacred enclosure within a Balinese house compound, located at the most auspicious kaja-kangin (northeast) corner of the natah. The sanggah contains shrines dedicated to deified ancestors and household deities, and is the site of daily offerings and regular family ceremonies. No Balinese compound is complete without a sanggah — its construction precedes that of all other buildings on the site.",
     "example": "Before a Balinese family builds their house, the sanggah is established first — a small walled enclosure with stone or brick shrines consecrated in a ceremony — because the ancestors must be housed before the living can occupy the compound.",
@@ -4384,7 +4384,7 @@
   {
     "id": "betang",
     "term": "Betang",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "The traditional communal longhouse of the Dayak people of Kalimantan (Borneo), raised on hardwood posts and housing an entire extended community under one roof. A betang can be 30–150 metres long and contains individual family apartments (bilik) arranged along a central communal corridor. The building's elevated structure, defensive positioning, and communal organisation reflect the social and environmental conditions of Kalimantan's forested riverine landscape.",
     "example": "The Betang Ensaid Panjang in West Kalimantan, over 180 metres long and raised 3 metres on ulin posts, houses multiple Dayak families in individual bilik rooms opening onto a shared veranda — its scale and social organisation making it one of the most remarkable communal dwelling forms in Southeast Asia.",
@@ -4406,7 +4406,7 @@
   {
     "id": "honai",
     "term": "Honai",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "The traditional circular dwelling of the Dani and related highland peoples of Papua, with a conical grass-thatched roof that descends almost to ground level and a small low doorway requiring occupants to crouch when entering. The honai has no windows — its dark, smoky interior is deliberately designed to retain warmth at elevations above 1,600 metres in the Baliem Valley, where nights are cold despite the equatorial latitude. Men and women traditionally occupy separate honai within the same compound.",
     "example": "In the Baliem Valley near Wamena, Dani villages consist of clusters of honai grouped within a wooden palisade — the round form and thick thatched roof of each dwelling acting as insulation against the highland cold, demonstrating how vernacular architecture adapts precisely to local climate regardless of broader tropical context.",
@@ -4427,7 +4427,7 @@
   {
     "id": "rumah-bolon",
     "term": "Rumah Bolon",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "The traditional house of the Batak people of North Sumatra, raised on heavy hardwood posts with a dramatically steep saddle roof that sweeps up at both ends and is thatched with ijuk or corrugated iron in contemporary versions. Rumah bolon are communal structures housing multiple related families, with the interior divided into sleeping areas along the sides and a central shared space. The facade is richly decorated with geometric Batak motifs in the characteristic red, black, and white colour palette.",
     "example": "The preserved rumah bolon village of Huta Siallagan on Samosir Island in Lake Toba retains its original layout — a cluster of facing longhouses with carved and painted facades arranged around a shared stone-paved courtyard — demonstrating the complete spatial and social organisation of a traditional Batak settlement.",
@@ -4450,7 +4450,7 @@
   {
     "id": "baileo",
     "term": "Baileo",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "The traditional communal meeting house of the indigenous Alifuru communities of Maluku (the Moluccas), used for village assemblies, ceremonies, and the storage of sacred objects. The baileo is an open-sided raised pavilion — its lack of walls symbolising the transparency and openness of customary governance. It is oriented to face the village square and is the most sacred secular building in a Maluku village, constructed and maintained by the whole community.",
     "example": "The baileo of Booi village on Saparua Island in Maluku is a classic example — an open rectangular pavilion raised on posts, with a thatched roof and no walls, positioned at the centre of the village facing the namalatu (meeting ground) where community decisions are made.",
@@ -4472,7 +4472,7 @@
   {
     "id": "dalem",
     "term": "Dalem",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "The innermost and most private part of a traditional Javanese house compound — the enclosed residential core, located behind the pendopo and pringgitan and accessible only to family members and intimate guests. The dalem contains the senthong (sleeping chambers), including the central senthong tengah, which is the most sacred space of the house, associated with the goddess Sri and used for storing heirlooms and offerings. The progression from pendopo to dalem maps the transition from public to private, from secular to sacred.",
     "example": "In the Keraton Yogyakarta, the dalem is the residential quarters of the Sultan's family, separated from the public pendopo by a series of gates and the pringgitan — a spatial sequence that enforces strict access hierarchy and mirrors the Javanese cosmological order of inner and outer worlds.",
@@ -4495,7 +4495,7 @@
   {
     "id": "pringgitan",
     "term": "Pringgitan",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "intermediate",
     "definition": "The semi-public transitional space in a traditional Javanese house compound, located between the open pendopo at the front and the private dalem at the rear. The pringgitan mediates between public and private life — it is where wayang kulit (shadow puppet) performances were traditionally held, its name derived from 'ringgit' (puppet). Architecturally, it is typically a covered verandah or enclosed room that can be opened to either the pendopo or the dalem depending on the occasion.",
     "example": "In a traditional priyayi house in Surakarta, the pringgitan is a long narrow space between the pendopo columns and the dalem entrance — its floor slightly elevated above the pendopo and below the dalem, physically encoding the three-tier hierarchy of Javanese domestic space.",
@@ -4735,7 +4735,7 @@
   {
     "id": "bangunan-cagar-budaya",
     "term": "Bangunan Cagar Budaya",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "A heritage-listed building — a structure formally designated for cultural heritage protection under Indonesian Law No. 11 of 2010 on Cultural Heritage (Cagar Budaya). Designation restricts demolition, alteration, and incompatible development, requiring special permits for any work affecting the structure, fabric, or setting of the listed building. Local governments maintain registers of bangunan cagar budaya, and violations carry criminal as well as administrative penalties.",
     "example": "The Lawang Sewu building in Semarang — the former Dutch East Indies Railways headquarters (1904) — is a bangunan cagar budaya protected at national level, meaning any renovation work requires approval from the Ministry of Education and Culture and must preserve the original facade, structural system, and spatial character.",
@@ -5596,7 +5596,7 @@
   {
     "id": "hyperbola",
     "term": "Hyperbola",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "advanced",
     "definition": "A mathematical curve formed by the intersection of a cone and a plane at a specific angle. Hyperbolic forms appear in architecture as cooling towers, hyperboloid structures, and certain vaults.",
     "example": "Hyperboloid cooling towers at power plants create dramatic curved forms that are structurally efficient and visually striking.",
@@ -5615,7 +5615,7 @@
   {
     "id": "hyperboloid",
     "term": "Hyperboloid",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "advanced",
     "definition": "A three-dimensional surface generated by rotating a hyperbola around one of its axes. Hyperboloid structures are doubly curved and provide structural efficiency with minimal material.",
     "example": "Vladimir Shukhov's hyperboloid radio towers (early 1900s) use the hyperboloid geometry to create efficient, elegant structures that became symbols of Russian constructivism.",
@@ -6166,7 +6166,7 @@
   {
     "id": "vernacular",
     "term": "Vernacular",
-    "section": "architecture-across-cultures",
+    "section": "building-history-typologies",
     "difficulty": "beginner",
     "definition": "Architecture built by local communities using regional materials, traditional techniques, and common sense responses to climate and culture. Vernacular architecture is typically anonymous, evolving gradually.",
     "example": "Japanese timber farmhouses use deep eaves, adjustable shutters, and modular post-and-beam systems that respond to seasonal climate variations.",
@@ -6869,7 +6869,7 @@
   {
     "id": "ductility",
     "term": "Ductility",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "advanced",
     "definition": "The ability of a material to deform significantly before breaking, absorbing energy and allowing warning before failure. Ductile materials are desirable in earthquake-prone regions.",
     "example": "Steel's ductility allows it to bend significantly before breaking, making it ideal for earthquake-resistant structures.",
@@ -8389,7 +8389,7 @@
   {
     "id": "plaza",
     "term": "Plaza",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "An open public square, often at the center of a city or district. Plazas serve as gathering spaces for markets, celebrations, and civic activities.",
     "example": "European plazas like the Plaza Mayor in Madrid are focal points of city life.",
@@ -8408,7 +8408,7 @@
   {
     "id": "street",
     "term": "Street",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "A public thoroughfare for pedestrian and vehicular traffic, lined by buildings and public activity. Streets are fundamental urban infrastructure and social spaces.",
     "example": "Paris's tree-lined Avenues create distinctive character and walkability.",
@@ -8427,7 +8427,7 @@
   {
     "id": "waterfront",
     "term": "Waterfront",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "The land and structures along a body of water (river, harbor, lake). Waterfronts are valuable for commerce, recreation, and place-making.",
     "example": "Revitalized waterfronts like London's Thames have become vibrant public spaces.",
@@ -8446,7 +8446,7 @@
   {
     "id": "walkability",
     "term": "Walkability",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "The degree to which an area is pedestrian-friendly, with safe, comfortable streets and close proximity to amenities. High walkability reduces car dependence.",
     "example": "Walkable neighborhoods have grocery stores, schools, and services within 10-minute walks.",
@@ -8465,7 +8465,7 @@
   {
     "id": "public-transit",
     "term": "Public Transit",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "Shared transportation systems (buses, trains, metros) serving the public. Public transit reduces car dependence and enables urban accessibility.",
     "example": "The London Underground and Paris Metro are essential urban transit systems.",
@@ -8484,7 +8484,7 @@
   {
     "id": "block",
     "term": "Block",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "An urban area bounded by streets on all sides. Block size affects walkability, permeability, and neighborhood character.",
     "example": "Small blocks in Paris (about 100m x 100m) create walkable, permeable neighborhoods.",
@@ -8503,7 +8503,7 @@
   {
     "id": "node",
     "term": "Node",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "A significant point or junction in an urban fabric, like a plaza, transit station, or landmark. Nodes organize navigation and create focal points.",
     "example": "Transit nodes become vibrant urban centers where pedestrians and transportation intersect.",
@@ -8522,7 +8522,7 @@
   {
     "id": "permeable",
     "term": "Permeable",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "The quality of urban areas allowing easy pedestrian movement and visual connection through streets and passages. Permeable designs encourage exploration.",
     "example": "Permeable medieval towns with interconnected passages feel more walkable than car-oriented grids.",
@@ -8541,7 +8541,7 @@
   {
     "id": "landmark",
     "term": "Landmark",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "beginner",
     "definition": "A distinctive building or feature that aids navigation and creates visual identity. Landmarks are focal points that orient people in cities.",
     "example": "Big Ben, the Eiffel Tower, and Christ the Redeemer are iconic urban landmarks.",
@@ -8560,7 +8560,7 @@
   {
     "id": "place-making",
     "term": "Place-Making",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "The collaborative process of transforming public spaces into beloved community places. Place-making involves design, programming, and community engagement.",
     "example": "Tactical urbanism like parklets and pop-up gardens create identity in underutilized spaces.",
@@ -8579,7 +8579,7 @@
   {
     "id": "edge",
     "term": "Edge",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "A linear element that separates or connects different districts, like a waterfront, wall, or transition zone. Edges define urban boundaries and identity.",
     "example": "The Thames edge in London separates neighborhoods while providing public access and recreation.",
@@ -8598,7 +8598,7 @@
   {
     "id": "infill-development",
     "term": "Infill Development",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "Development that fills vacant lots or underutilized sites within existing urban areas. Infill increases density and vitality while maintaining neighborhood character.",
     "example": "Infill housing in older neighborhoods can increase density without sprawl.",
@@ -8902,7 +8902,7 @@
   {
     "id": "angle",
     "term": "Angle",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "The figure formed by two lines meeting at a point. Angles (measured in degrees) are fundamental to geometry and form composition.",
     "example": "Right angles (90°) are common in architecture, while acute and obtuse angles create visual interest.",
@@ -8921,7 +8921,7 @@
   {
     "id": "arc",
     "term": "Arc",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A curved line that is part of a circle. Arcs are fundamental to arches, domes, and curved forms.",
     "example": "Roman arches use circular arcs to span openings.",
@@ -8940,7 +8940,7 @@
   {
     "id": "circle",
     "term": "Circle",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A round two-dimensional shape with all points equidistant from a center. Circles are fundamental to planning and circular buildings.",
     "example": "The Pantheon's circular plan creates a perfect geometric form.",
@@ -8959,7 +8959,7 @@
   {
     "id": "cone",
     "term": "Cone",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A three-dimensional shape with a circular base tapering to a point. Cone geometry appears in structures, roofs, and sculpture.",
     "example": "Conical roof forms in yurts and traditional tents efficiently shed water and wind.",
@@ -8978,7 +8978,7 @@
   {
     "id": "cylinder",
     "term": "Cylinder",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A three-dimensional shape with two parallel circular bases connected by a curved surface. Cylinders appear as columns, towers, and cylindrical rooms.",
     "example": "Cylindrical towers are common in medieval architecture.",
@@ -8997,7 +8997,7 @@
   {
     "id": "diagonal",
     "term": "Diagonal",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A line connecting non-adjacent corners of a polygon. Diagonals create visual dynamism and are structural in bracing systems.",
     "example": "Diagonal bracing strengthens structures while creating dynamic visual patterns.",
@@ -9016,7 +9016,7 @@
   {
     "id": "ellipse",
     "term": "Ellipse",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "intermediate",
     "definition": "A curved shape resembling a flattened circle, defined by two focal points. Ellipses create elongated, dynamic forms.",
     "example": "Elliptical amphitheaters like the Colosseum create optimal sightlines and acoustics.",
@@ -9035,7 +9035,7 @@
   {
     "id": "fibonacci-sequence",
     "term": "Fibonacci Sequence",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "advanced",
     "definition": "A mathematical sequence where each number is the sum of the previous two (1, 1, 2, 3, 5, 8, 13...). The ratio approaches the golden ratio.",
     "example": "Fibonacci spirals appear in nautilus shells and some natural architectural forms.",
@@ -9054,7 +9054,7 @@
   {
     "id": "geometry",
     "term": "Geometry",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "The mathematical study of shapes, sizes, and spatial relationships. Geometry is fundamental to architecture for creating form and ensuring proportion.",
     "example": "Platonic solids (tetrahedron, cube, octahedron, dodecahedron, icosahedron) inspire geometric architectural forms.",
@@ -9073,7 +9073,7 @@
   {
     "id": "line",
     "term": "Line",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A one-dimensional geometric element extending infinitely in two directions. Lines define boundaries, create direction, and structure composition.",
     "example": "The horizon line creates visual balance and perspective in architectural drawings.",
@@ -9092,7 +9092,7 @@
   {
     "id": "polygon",
     "term": "Polygon",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A closed shape with straight sides. Common polygons include triangles, squares, pentagons, and hexagons.",
     "example": "Regular polygons like hexagons appear in Islamic geometric patterns.",
@@ -9111,7 +9111,7 @@
   {
     "id": "air-infiltration",
     "term": "Air Infiltration",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "Unintended airflow through gaps and cracks in building envelopes. Controlling air infiltration improves energy efficiency and thermal comfort.",
     "example": "Blower door tests measure air infiltration rates.",
@@ -9130,7 +9130,7 @@
   {
     "id": "air-quality",
     "term": "Air Quality",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "The presence of contaminants (CO2, VOCs, pollutants) affecting health and comfort. Good air quality requires ventilation and low-emission materials.",
     "example": "Green buildings specify low-VOC paints and finishes.",
@@ -9149,7 +9149,7 @@
   {
     "id": "glare",
     "term": "Glare",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "Excessive brightness causing discomfort or disability. Controlling glare requires shading, orientation, and surface properties.",
     "example": "Window shading systems control glare while allowing daylight.",
@@ -9168,7 +9168,7 @@
   {
     "id": "humidity",
     "term": "Humidity",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "The amount of water vapor in air, affecting comfort and material durability. Optimal indoor humidity is 30-60%.",
     "example": "HVAC systems regulate humidity to maintain comfort and prevent mold.",
@@ -9187,7 +9187,7 @@
   {
     "id": "light-shelf",
     "term": "Light Shelf",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "advanced",
     "definition": "A horizontal reflective surface that bounces daylight deep into a building interior. Light shelves extend daylighting into spaces far from windows.",
     "example": "Light shelves in offices distribute daylight beyond 10 meters from the window.",
@@ -9206,7 +9206,7 @@
   {
     "id": "visible-light-transmission",
     "term": "Visible Light Transmission",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "advanced",
     "definition": "The percentage of visible light passing through a material (measured 0-100%). VLT affects daylighting and view quality.",
     "example": "Clear glass has ~90% VLT, while tinted glass may be 50%.",
@@ -9320,7 +9320,7 @@
   {
     "id": "accessibility-standards",
     "term": "Accessibility Standards",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Regulations ensuring buildings are usable by people of all abilities, including mobility, vision, and hearing impairments. ADA and similar standards define ramps, doorways, restrooms, signage.",
     "example": "ADA standards require wheelchair-accessible ramps with 1:12 slope ratios on public buildings.",
@@ -9339,7 +9339,7 @@
   {
     "id": "energy-code",
     "term": "Energy Code",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Regulations governing building energy efficiency, including insulation, HVAC, lighting, and renewable energy requirements. Energy codes reduce operational carbon emissions.",
     "example": "ASHRAE 90.1 sets minimum energy efficiency standards for new buildings and major renovations.",
@@ -9358,7 +9358,7 @@
   {
     "id": "fire-code",
     "term": "Fire Code",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "beginner",
     "definition": "Regulations addressing fire prevention, egress, fire-rated assemblies, sprinkler systems, and emergency response. Fire codes save lives and protect property.",
     "example": "Fire codes require minimum stairwell widths, maximum travel distances to exits, and fire-rated door assemblies.",
@@ -9377,7 +9377,7 @@
   {
     "id": "zoning-ordinance",
     "term": "Zoning Ordinance",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Local regulations governing land use, building setbacks, building heights, density, and use restrictions. Zoning ordinances shape urban form and neighborhood character.",
     "example": "Zoning ordinances specify residential height limits, required parking ratios, and setback distances from property lines.",
@@ -9396,7 +9396,7 @@
   {
     "id": "certification-standards",
     "term": "Certification Standards",
-    "section": "codes-standards",
+    "section": "professional-practice",
     "difficulty": "intermediate",
     "definition": "Voluntary standards certifying building performance (LEED, WELL, Passive House, etc.). Certifications validate sustainability, health, and energy performance claims.",
     "example": "LEED certification recognizes buildings meeting sustainability criteria across site, water, energy, materials, and indoor quality.",
@@ -9852,7 +9852,7 @@
   {
     "id": "thermal-resistance",
     "term": "Thermal Resistance (R-Value)",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "A material's resistance to heat flow, measured in R-value (higher is better). Thermal resistance is essential for calculating insulation effectiveness and energy performance.",
     "example": "High R-value insulation significantly reduces heating and cooling loads in buildings.",
@@ -9871,7 +9871,7 @@
   {
     "id": "solar-gain",
     "term": "Solar Gain",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "Heat entering buildings through glazing and solar radiation. Controlling solar gain through orientation, shading, and glazing properties is crucial for energy efficiency.",
     "example": "South-facing windows in passive solar design maximize winter solar gain while minimizing summer overheating.",
@@ -9890,7 +9890,7 @@
   {
     "id": "sound-transmission",
     "term": "Sound Transmission",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "The passage of sound through building assemblies. Sound transmission class (STC) ratings measure acoustic isolation performance of walls and windows.",
     "example": "High STC-rated windows reduce external noise transmission into buildings.",
@@ -9909,7 +9909,7 @@
   {
     "id": "decibel",
     "term": "Decibel (dB)",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "beginner",
     "definition": "A logarithmic unit measuring sound intensity relative to a reference level. Decibels quantify acoustic performance and noise levels in buildings.",
     "example": "Normal conversation is approximately 60 dB, while office background noise is typically 50-60 dB.",
@@ -9928,7 +9928,7 @@
   {
     "id": "air-tightness",
     "term": "Air-Tightness",
-    "section": "building-performance-physics",
+    "section": "structural-systems",
     "difficulty": "intermediate",
     "definition": "The degree to which a building envelope prevents unintended air leakage. Air-tightness is measured through blower door testing and is critical for energy efficiency.",
     "example": "Passive house standards require extremely low air infiltration rates, typically 0.6 ACH50 or less.",
@@ -10023,7 +10023,7 @@
   {
     "id": "third-place",
     "term": "Third Place",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "Public gathering spaces distinct from home (first place) and work (second place) where people socialize and build community. Third places include cafes, parks, and markets.",
     "example": "Coffee shops and public markets serve as third places fostering informal community gathering.",
@@ -10042,7 +10042,7 @@
   {
     "id": "gentrification",
     "term": "Gentrification",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "The process where revitalized urban areas attract higher-income residents and businesses, often displacing existing communities. Gentrification raises equity and affordability concerns.",
     "example": "Waterfront revitalizations improve neighborhoods but often increase property values and displacement.",
@@ -10061,7 +10061,7 @@
   {
     "id": "new-urbanism",
     "term": "New Urbanism",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "Urban design movement promoting walkable, mixed-use neighborhoods with human-scale development. New urbanism rejects sprawl and advocates sustainable, livable communities.",
     "example": "New urbanist developments feature mixed-use town centers, diverse housing, and strong public transit.",
@@ -10080,7 +10080,7 @@
   {
     "id": "tactical-urbanism",
     "term": "Tactical Urbanism",
-    "section": "urban-design",
+    "section": "sustainability",
     "difficulty": "intermediate",
     "definition": "Small-scale, community-led design interventions creating immediate change in public spaces. Tactical urbanism includes parklets, pop-up parks, and temporary installations.",
     "example": "Temporary parklets and painted pedestrian zones demonstrate potential improvements before permanent investment.",
@@ -10232,7 +10232,7 @@
   {
     "id": "hyperbolic-paraboloid",
     "term": "Hyperbolic Paraboloid",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "advanced",
     "definition": "A three-dimensional curved surface defined by two opposing parabolic curves. Hyperbolic paraboloids create dramatic vaults with minimal material.",
     "example": "Félix Candela's thin shell structures use hyperbolic paraboloid geometry to create expressive forms.",
@@ -10251,7 +10251,7 @@
   {
     "id": "hexagon",
     "term": "Hexagon",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "beginner",
     "definition": "A six-sided polygon with equal sides and angles (in regular hexagons). Hexagons tessellate efficiently and appear in nature and Islamic geometric patterns.",
     "example": "Hexagonal tessellations appear in Islamic tilework and modern computational design.",
@@ -10365,7 +10365,7 @@
   {
     "id": "sine-wave",
     "term": "Sine Wave",
-    "section": "geometry-mathematics",
+    "section": "architectural-terms-theory",
     "difficulty": "intermediate",
     "definition": "A smooth, periodic curve oscillating between maximum and minimum values. Sine waves appear in natural phenomena and computational design of organic curves.",
     "example": "Undulating roof forms in contemporary architecture often follow sine wave curves.",
@@ -10475,5 +10475,1047 @@
       "design"
     ],
     "indonesianTerm": "studi preseden"
+  },
+  {
+    "id": "window",
+    "term": "Window",
+    "indonesianTerm": "jendela",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "An opening in a wall or roof that allows light and ventilation, typically fitted with glass panes and a frame.",
+    "example": "A bay window projects outward from the building facade and provides additional interior light.",
+    "relatedTerms": [
+      "door",
+      "opening",
+      "glazing",
+      "frame"
+    ],
+    "tags": [
+      "opening",
+      "light",
+      "ventilation"
+    ]
+  },
+  {
+    "id": "door",
+    "term": "Door",
+    "indonesianTerm": "pintu",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A movable barrier that opens and closes an entrance or passage between spaces.",
+    "example": "A revolving door allows continuous flow of people entering and exiting a building lobby.",
+    "relatedTerms": [
+      "window",
+      "threshold",
+      "frame",
+      "hinges"
+    ],
+    "tags": [
+      "opening",
+      "access",
+      "circulation"
+    ]
+  },
+  {
+    "id": "wall",
+    "term": "Wall",
+    "indonesianTerm": "tembok",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A vertical structure that encloses or divides space, supporting loads or providing barriers.",
+    "example": "A load-bearing wall carries the weight of the structure above it, while a partition wall simply divides interior space.",
+    "relatedTerms": [
+      "partition",
+      "bearing-wall",
+      "facade",
+      "shear-wall"
+    ],
+    "tags": [
+      "structure",
+      "enclosure",
+      "vertical"
+    ]
+  },
+  {
+    "id": "roof",
+    "term": "Roof",
+    "indonesianTerm": "atap",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "The upper covering of a building that protects the interior from weather and elements.",
+    "example": "A pitched roof sheds water quickly, while a flat roof maximizes interior space.",
+    "relatedTerms": [
+      "pitched-roof",
+      "flat-roof",
+      "parapet",
+      "dormer"
+    ],
+    "tags": [
+      "enclosure",
+      "weather-protection",
+      "structure"
+    ]
+  },
+  {
+    "id": "floor",
+    "term": "Floor",
+    "indonesianTerm": "lantai",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A horizontal surface that forms the base of a room or story level within a building.",
+    "example": "Concrete floors provide durability and stability for multi-story office buildings.",
+    "relatedTerms": [
+      "ceiling",
+      "joist",
+      "slab",
+      "deck"
+    ],
+    "tags": [
+      "horizontal",
+      "structure",
+      "surface"
+    ]
+  },
+  {
+    "id": "ceiling",
+    "term": "Ceiling",
+    "indonesianTerm": "langit-langit",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "The upper surface of an interior space that closes off the area above.",
+    "example": "A suspended ceiling conceals mechanical systems while providing acoustic absorption.",
+    "relatedTerms": [
+      "floor",
+      "soffit",
+      "joist",
+      "dropped-ceiling"
+    ],
+    "tags": [
+      "horizontal",
+      "interior",
+      "surface"
+    ]
+  },
+  {
+    "id": "staircase",
+    "term": "Staircase",
+    "indonesianTerm": "tangga",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A series of steps connecting different floor levels, enabling vertical circulation.",
+    "example": "A spiral staircase saves floor space while providing access between levels.",
+    "relatedTerms": [
+      "stair",
+      "step",
+      "landing",
+      "banister",
+      "railing"
+    ],
+    "tags": [
+      "circulation",
+      "vertical",
+      "connection"
+    ]
+  },
+  {
+    "id": "skylight",
+    "term": "Skylight",
+    "indonesianTerm": "cahaya dari atas",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "An opening in a roof or ceiling fitted with glass to admit natural light into the space below.",
+    "example": "A skylight over an atrium brings daylight deep into the building interior.",
+    "relatedTerms": [
+      "window",
+      "opening",
+      "clerestory",
+      "fenestration"
+    ],
+    "tags": [
+      "opening",
+      "light",
+      "roof"
+    ]
+  },
+  {
+    "id": "transom",
+    "term": "Transom",
+    "indonesianTerm": "jendela atas",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A horizontal bar dividing a window, or a window above a door for light and ventilation.",
+    "example": "Transom windows above interior doors allow light to pass between rooms.",
+    "relatedTerms": [
+      "window",
+      "mullion",
+      "clerestory",
+      "opening"
+    ],
+    "tags": [
+      "opening",
+      "light",
+      "ventilation"
+    ]
+  },
+  {
+    "id": "opening",
+    "term": "Opening",
+    "indonesianTerm": "bukaan",
+    "section": "architectural-terms-theory",
+    "difficulty": "beginner",
+    "definition": "A gap or passage in a wall, facade, or other structure, for access, light, or ventilation.",
+    "example": "Large openings create visual connection between interior and exterior spaces.",
+    "relatedTerms": [
+      "window",
+      "door",
+      "aperture",
+      "fenestration"
+    ],
+    "tags": [
+      "design",
+      "circulation",
+      "light"
+    ]
+  },
+  {
+    "id": "clerestory",
+    "term": "Clerestory",
+    "indonesianTerm": "clerestory",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A series of windows high in a wall that allow light to penetrate deep into a building.",
+    "example": "Medieval cathedrals use clerestory windows to illuminate the nave with natural light.",
+    "relatedTerms": [
+      "window",
+      "skylight",
+      "light",
+      "ventilation"
+    ],
+    "tags": [
+      "opening",
+      "light",
+      "historical"
+    ]
+  },
+  {
+    "id": "partition",
+    "term": "Partition",
+    "indonesianTerm": "sekat",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A non-structural wall that divides interior space without supporting loads.",
+    "example": "Office partitions create private work areas while allowing flexible reconfiguration.",
+    "relatedTerms": [
+      "wall",
+      "bearing-wall",
+      "stud",
+      "drywall"
+    ],
+    "tags": [
+      "interior",
+      "non-structural",
+      "division"
+    ]
+  },
+  {
+    "id": "curtain-wall",
+    "term": "Curtain Wall",
+    "indonesianTerm": "dinding tirai",
+    "section": "building-materials-construction",
+    "difficulty": "advanced",
+    "definition": "A non-structural exterior wall system that hangs from the building frame, typically of glass or metal.",
+    "example": "Modern skyscrapers use aluminum and glass curtain walls to minimize weight and maximize transparency.",
+    "relatedTerms": [
+      "facade",
+      "cladding",
+      "glazing",
+      "frame"
+    ],
+    "tags": [
+      "exterior",
+      "non-structural",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "pillar",
+    "term": "Pillar",
+    "indonesianTerm": "pilar",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "A vertical support structure, typically freestanding and often more massive or decorative than a column.",
+    "example": "Temple pillars carved with relief sculpture serve both structural and ceremonial functions.",
+    "relatedTerms": [
+      "column",
+      "pilaster",
+      "capital",
+      "base"
+    ],
+    "tags": [
+      "structure",
+      "vertical",
+      "support"
+    ]
+  },
+  {
+    "id": "pilaster",
+    "term": "Pilaster",
+    "indonesianTerm": "pilaster",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A shallow, flattened column or pier projecting slightly from a wall surface.",
+    "example": "Pilasters on a Renaissance facade provide vertical emphasis and articulation.",
+    "relatedTerms": [
+      "column",
+      "pillar",
+      "engaged-column",
+      "buttress"
+    ],
+    "tags": [
+      "vertical",
+      "ornament",
+      "articulation"
+    ]
+  },
+  {
+    "id": "soffit",
+    "term": "Soffit",
+    "indonesianTerm": "soffit",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "The underside of a horizontal structural element, such as a beam, arch, or eave.",
+    "example": "Painted soffits under eaves provide visual contrast and hide structural elements.",
+    "relatedTerms": [
+      "fascia",
+      "eave",
+      "overhang",
+      "ceiling"
+    ],
+    "tags": [
+      "underside",
+      "detail",
+      "exterior"
+    ]
+  },
+  {
+    "id": "fascia",
+    "term": "Fascia",
+    "indonesianTerm": "fascia",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A flat surface at the edge of a roof or soffit that faces outward, often carrying gutters.",
+    "example": "A decorative wooden fascia board finishes the edge of a pitched roof.",
+    "relatedTerms": [
+      "soffit",
+      "eave",
+      "gutter",
+      "trim"
+    ],
+    "tags": [
+      "exterior",
+      "detail",
+      "edge"
+    ]
+  },
+  {
+    "id": "deck",
+    "term": "Deck",
+    "indonesianTerm": "dek",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "An open platform or outdoor floor attached to a building or structure.",
+    "example": "A rooftop deck provides outdoor space and views in urban environments.",
+    "relatedTerms": [
+      "platform",
+      "balcony",
+      "terrace",
+      "patio"
+    ],
+    "tags": [
+      "horizontal",
+      "outdoor",
+      "platform"
+    ]
+  },
+  {
+    "id": "platform",
+    "term": "Platform",
+    "indonesianTerm": "platform",
+    "section": "architectural-terms-theory",
+    "difficulty": "intermediate",
+    "definition": "An elevated horizontal surface or stage, often freestanding or semi-detached.",
+    "example": "A performance platform in a plaza serves as stage and gathering space.",
+    "relatedTerms": [
+      "deck",
+      "dais",
+      "podium",
+      "stage"
+    ],
+    "tags": [
+      "horizontal",
+      "elevated",
+      "functional"
+    ]
+  },
+  {
+    "id": "loft",
+    "term": "Loft",
+    "indonesianTerm": "loft",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A room or space directly under the roof or in the upper floor of a building, often high-ceilinged.",
+    "example": "Industrial lofts converted from warehouses feature exposed brick and large open floor plans.",
+    "relatedTerms": [
+      "attic",
+      "mezzanine",
+      "upper-floor",
+      "open-plan"
+    ],
+    "tags": [
+      "space",
+      "interior",
+      "upper-level"
+    ]
+  },
+  {
+    "id": "pitched-roof",
+    "term": "Pitched Roof",
+    "indonesianTerm": "atap miring",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A roof with one or more slopes, designed to shed water and snow effectively.",
+    "example": "A gable pitched roof with steep angles is common in snowy climates.",
+    "relatedTerms": [
+      "roof",
+      "gable",
+      "slope",
+      "ridge"
+    ],
+    "tags": [
+      "roof",
+      "water-shedding",
+      "slope"
+    ]
+  },
+  {
+    "id": "flat-roof",
+    "term": "Flat Roof",
+    "indonesianTerm": "atap datar",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A roof with minimal or no slope, maximizing usable interior space.",
+    "example": "Modern flat roofs can support rooftop gardens, solar panels, or mechanical equipment.",
+    "relatedTerms": [
+      "roof",
+      "parapet",
+      "membrane",
+      "drainage"
+    ],
+    "tags": [
+      "roof",
+      "modern",
+      "usable-space"
+    ]
+  },
+  {
+    "id": "parapet",
+    "term": "Parapet",
+    "indonesianTerm": "parapet",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A wall or railing at the edge of a roof, balcony, or terrace for safety and aesthetic purposes.",
+    "example": "A crenellated parapet on a castle provides both defense and architectural character.",
+    "relatedTerms": [
+      "railing",
+      "safety-barrier",
+      "roof",
+      "flat-roof"
+    ],
+    "tags": [
+      "safety",
+      "edge",
+      "barrier"
+    ]
+  },
+  {
+    "id": "mansard",
+    "term": "Mansard Roof",
+    "indonesianTerm": "atap mansard",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A roof with four sides and two slopes per side, creating additional usable floor space.",
+    "example": "Mansard roofs are characteristic of French Baroque and Haussmann-era Parisian buildings.",
+    "relatedTerms": [
+      "pitched-roof",
+      "gambrel",
+      "dormer",
+      "roof"
+    ],
+    "tags": [
+      "roof",
+      "historical",
+      "usable-space"
+    ]
+  },
+  {
+    "id": "dormer",
+    "term": "Dormer",
+    "indonesianTerm": "dormer",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A window or gabled projection that rises from a sloped roof, providing light and headroom to attic spaces.",
+    "example": "A row of dormers breaks up the roofline and creates additional interior volume.",
+    "relatedTerms": [
+      "window",
+      "gable",
+      "roof",
+      "attic"
+    ],
+    "tags": [
+      "roof",
+      "window",
+      "attic"
+    ]
+  },
+  {
+    "id": "stair",
+    "term": "Stair",
+    "indonesianTerm": "anak tangga",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A single step or flight of steps connecting two different floor levels.",
+    "example": "A monumental staircase becomes a focal point and gathering space in classical buildings.",
+    "relatedTerms": [
+      "staircase",
+      "step",
+      "landing",
+      "riser",
+      "tread"
+    ],
+    "tags": [
+      "circulation",
+      "vertical",
+      "connection"
+    ]
+  },
+  {
+    "id": "step",
+    "term": "Step",
+    "indonesianTerm": "langkah",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "An individual horizontal surface for stepping on, part of a staircase or ramp.",
+    "example": "Each step consists of a tread (horizontal) and a riser (vertical) portion.",
+    "relatedTerms": [
+      "stair",
+      "tread",
+      "riser",
+      "staircase"
+    ],
+    "tags": [
+      "circulation",
+      "vertical",
+      "detail"
+    ]
+  },
+  {
+    "id": "landing",
+    "term": "Landing",
+    "indonesianTerm": "bordes",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A flat platform or intermediate floor between flights of stairs where direction changes.",
+    "example": "A landing provides a moment of rest and allows stairs to change direction efficiently.",
+    "relatedTerms": [
+      "staircase",
+      "balcony",
+      "platform",
+      "platform"
+    ],
+    "tags": [
+      "circulation",
+      "rest",
+      "transition"
+    ]
+  },
+  {
+    "id": "banister",
+    "term": "Banister",
+    "indonesianTerm": "pegangan tangga",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "The railing and supporting posts along a staircase or balcony.",
+    "example": "A curved mahogany banister adds elegance to a grand staircase.",
+    "relatedTerms": [
+      "railing",
+      "balustrade",
+      "handrail",
+      "newel"
+    ],
+    "tags": [
+      "safety",
+      "detail",
+      "ornament"
+    ]
+  },
+  {
+    "id": "railing",
+    "term": "Railing",
+    "indonesianTerm": "pegangan",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A protective barrier of posts and bars along stairs, balconies, or edges to prevent falls.",
+    "example": "Modern glass railings maintain visibility while providing safety.",
+    "relatedTerms": [
+      "banister",
+      "balustrade",
+      "handrail",
+      "parapet"
+    ],
+    "tags": [
+      "safety",
+      "barrier",
+      "protection"
+    ]
+  },
+  {
+    "id": "handrail",
+    "term": "Handrail",
+    "indonesianTerm": "pegangan tangan",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A rail held by hand for support while using stairs or walking.",
+    "example": "Ergonomic handrails must be continuous and at a consistent height for safety.",
+    "relatedTerms": [
+      "railing",
+      "banister",
+      "balustrade",
+      "accessibility"
+    ],
+    "tags": [
+      "safety",
+      "accessibility",
+      "support"
+    ]
+  },
+  {
+    "id": "balcony",
+    "term": "Balcony",
+    "indonesianTerm": "balkon",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "An elevated platform projecting from a building wall, surrounded by a railing.",
+    "example": "Balconies on an apartment building provide outdoor space and ventilation to each unit.",
+    "relatedTerms": [
+      "deck",
+      "terrace",
+      "loggia",
+      "railing"
+    ],
+    "tags": [
+      "exterior",
+      "platform",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "balustrade",
+    "term": "Balustrade",
+    "indonesianTerm": "balustrade",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A row of decorative balusters (small posts) supporting a railing.",
+    "example": "Renaissance palaces feature elaborate stone balustrades on terraces and bridges.",
+    "relatedTerms": [
+      "baluster",
+      "railing",
+      "banister",
+      "balcony"
+    ],
+    "tags": [
+      "ornament",
+      "railing",
+      "detail"
+    ]
+  },
+  {
+    "id": "lintel",
+    "term": "Lintel",
+    "indonesianTerm": "lintel",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "A horizontal structural beam spanning above an opening (window or door) to support the load above.",
+    "example": "A stone lintel spans across a Gothic window, supporting the masonry above.",
+    "relatedTerms": [
+      "beam",
+      "arch",
+      "sill",
+      "jamb"
+    ],
+    "tags": [
+      "structure",
+      "opening",
+      "load-bearing"
+    ]
+  },
+  {
+    "id": "footing",
+    "term": "Footing",
+    "indonesianTerm": "pondasi tapak",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "The lowest part of a foundation that spreads the load over a wider area of soil.",
+    "example": "Spread footings distribute concentrated column loads to prevent soil compression.",
+    "relatedTerms": [
+      "foundation",
+      "slab",
+      "pier",
+      "bearing-capacity"
+    ],
+    "tags": [
+      "foundation",
+      "soil",
+      "load-distribution"
+    ]
+  },
+  {
+    "id": "basement",
+    "term": "Basement",
+    "indonesianTerm": "ruang bawah tanah",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A story or floor below the main ground level of a building, partially or entirely below grade.",
+    "example": "Basements provide storage, mechanical space, and additional floor area in urban buildings.",
+    "relatedTerms": [
+      "below-grade",
+      "foundation",
+      "cellar",
+      "sub-level"
+    ],
+    "tags": [
+      "below-grade",
+      "space",
+      "interior"
+    ]
+  },
+  {
+    "id": "slab",
+    "term": "Slab",
+    "indonesianTerm": "lantai beton",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "A flat, horizontal structural member of concrete that spans between supports, forming a floor or foundation.",
+    "example": "A concrete slab-on-grade combines the foundation and floor in a single element.",
+    "relatedTerms": [
+      "floor",
+      "foundation",
+      "concrete",
+      "footing"
+    ],
+    "tags": [
+      "structure",
+      "horizontal",
+      "concrete"
+    ]
+  },
+  {
+    "id": "pier",
+    "term": "Pier",
+    "indonesianTerm": "tiang pancang",
+    "section": "structural-systems",
+    "difficulty": "intermediate",
+    "definition": "A column-like foundation element driven deep into the ground to reach stable soil or bedrock.",
+    "example": "Piles or piers support a building when surface soil is too soft to bear loads.",
+    "relatedTerms": [
+      "foundation",
+      "footing",
+      "piling",
+      "bearing-capacity"
+    ],
+    "tags": [
+      "foundation",
+      "deep",
+      "load-bearing"
+    ]
+  },
+  {
+    "id": "plinth",
+    "term": "Plinth",
+    "indonesianTerm": "plint",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "The projecting or recessed base of a building, column, or wall where it meets the ground.",
+    "example": "A stone plinth raises a timber-frame building above ground, protecting it from moisture.",
+    "relatedTerms": [
+      "base",
+      "foundation",
+      "baseboard",
+      "podium"
+    ],
+    "tags": [
+      "base",
+      "detail",
+      "transition"
+    ]
+  },
+  {
+    "id": "room",
+    "term": "Room",
+    "indonesianTerm": "ruangan",
+    "section": "architectural-terms-theory",
+    "difficulty": "beginner",
+    "definition": "An enclosed space within a building, separated by walls, used for a specific function or purpose.",
+    "example": "A living room serves as a social gathering space while a bedroom provides privacy for sleeping.",
+    "relatedTerms": [
+      "space",
+      "chamber",
+      "interior",
+      "programmatic-function"
+    ],
+    "tags": [
+      "space",
+      "interior",
+      "functional"
+    ]
+  },
+  {
+    "id": "space",
+    "term": "Space",
+    "indonesianTerm": "ruang",
+    "section": "architectural-terms-theory",
+    "difficulty": "beginner",
+    "definition": "An area or volume within a building designed for human use and movement.",
+    "example": "Open-plan spaces eliminate interior walls to create flexible, flowing environments.",
+    "relatedTerms": [
+      "room",
+      "volume",
+      "program",
+      "spatial-organization"
+    ],
+    "tags": [
+      "space",
+      "interior",
+      "design-concept"
+    ]
+  },
+  {
+    "id": "chamber",
+    "term": "Chamber",
+    "indonesianTerm": "ruang besar",
+    "section": "architectural-terms-theory",
+    "difficulty": "intermediate",
+    "definition": "A large or formal room or hall, often in governmental, institutional, or religious buildings.",
+    "example": "A parliamentary chamber serves as the meeting hall for elected representatives.",
+    "relatedTerms": [
+      "hall",
+      "room",
+      "council-chamber",
+      "ceremonial-space"
+    ],
+    "tags": [
+      "space",
+      "formal",
+      "institutional"
+    ]
+  },
+  {
+    "id": "lobby",
+    "term": "Lobby",
+    "indonesianTerm": "lobi",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "An entrance hall or waiting area in a public building, hotel, or office.",
+    "example": "A tall lobby with multiple floors of balconies creates a dramatic entry experience.",
+    "relatedTerms": [
+      "entrance",
+      "vestibule",
+      "foyer",
+      "hall"
+    ],
+    "tags": [
+      "entrance",
+      "public",
+      "gathering"
+    ]
+  },
+  {
+    "id": "atrium",
+    "term": "Atrium",
+    "indonesianTerm": "atrium",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A large, often multi-story central space open to the sky or topped with glass, creating visual connection.",
+    "example": "A sunlit atrium brings natural light deep into a large building and serves as a social gathering space.",
+    "relatedTerms": [
+      "hall",
+      "court",
+      "lobby",
+      "open-plan"
+    ],
+    "tags": [
+      "space",
+      "light",
+      "gathering"
+    ]
+  },
+  {
+    "id": "vestibule",
+    "term": "Vestibule",
+    "indonesianTerm": "vestibul",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A small entrance room or hall between the outside and the main interior space.",
+    "example": "A vestibule acts as an airlock, preventing weather and heat loss when entering a building.",
+    "relatedTerms": [
+      "foyer",
+      "lobby",
+      "entrance",
+      "threshold"
+    ],
+    "tags": [
+      "entrance",
+      "transition",
+      "thermal-buffer"
+    ]
+  },
+  {
+    "id": "anteroom",
+    "term": "Anteroom",
+    "indonesianTerm": "ruang pendahulu",
+    "section": "architectural-terms-theory",
+    "difficulty": "intermediate",
+    "definition": "A small room or space leading to or serving as an entrance to a larger or more important room.",
+    "example": "An anteroom outside an executive office controls access and provides privacy.",
+    "relatedTerms": [
+      "vestibule",
+      "foyer",
+      "waiting-room",
+      "threshold"
+    ],
+    "tags": [
+      "transition",
+      "entrance",
+      "control"
+    ]
+  },
+  {
+    "id": "molding",
+    "term": "Molding",
+    "indonesianTerm": "profil",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "A decorative or structural linear element with a shaped profile, used to finish edges or transitions.",
+    "example": "Crown molding at the ceiling-wall junction provides visual enrichment and hides the joint.",
+    "relatedTerms": [
+      "trim",
+      "cornice",
+      "baseboard",
+      "dado"
+    ],
+    "tags": [
+      "detail",
+      "ornament",
+      "finish"
+    ]
+  },
+  {
+    "id": "trim",
+    "term": "Trim",
+    "indonesianTerm": "trim",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "The decorative finish material that frames openings, transitions, or edges in the interior or exterior.",
+    "example": "Wood trim around a window frame provides a finished appearance and helps seal gaps.",
+    "relatedTerms": [
+      "molding",
+      "baseboard",
+      "casing",
+      "detail"
+    ],
+    "tags": [
+      "finish",
+      "detail",
+      "opening"
+    ]
+  },
+  {
+    "id": "sill",
+    "term": "Sill",
+    "indonesianTerm": "ambang jendela",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "The horizontal ledge or threshold at the bottom of a window or door opening.",
+    "example": "A sloped window sill sheds water away from the opening.",
+    "relatedTerms": [
+      "lintel",
+      "jamb",
+      "threshold",
+      "detail"
+    ],
+    "tags": [
+      "opening",
+      "detail",
+      "water-shedding"
+    ]
+  },
+  {
+    "id": "baseboard",
+    "term": "Baseboard",
+    "indonesianTerm": "papan alas",
+    "section": "building-materials-construction",
+    "difficulty": "beginner",
+    "definition": "A horizontal trim board running along the base of interior walls where they meet the floor.",
+    "example": "A tall baseboard protects walls from damage while providing visual weight and proportion.",
+    "relatedTerms": [
+      "plinth",
+      "molding",
+      "trim",
+      "wainscot"
+    ],
+    "tags": [
+      "finish",
+      "detail",
+      "base"
+    ]
+  },
+  {
+    "id": "dado",
+    "term": "Dado",
+    "indonesianTerm": "dado",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "The lower portion of an interior wall, often finished differently (with wainscoting or paneling).",
+    "example": "A painted dado in an institutional building is practical for durability and easy maintenance.",
+    "relatedTerms": [
+      "wainscot",
+      "baseboard",
+      "wall-finish",
+      "paneling"
+    ],
+    "tags": [
+      "finish",
+      "detail",
+      "wall-treatment"
+    ]
+  },
+  {
+    "id": "wainscot",
+    "term": "Wainscot",
+    "indonesianTerm": "wainscot",
+    "section": "building-materials-construction",
+    "difficulty": "intermediate",
+    "definition": "Wooden paneling or wall treatment covering the lower portion of an interior wall.",
+    "example": "Oak wainscoting in a Victorian parlor combines beauty with protection from wear.",
+    "relatedTerms": [
+      "dado",
+      "paneling",
+      "trim",
+      "baseboard"
+    ],
+    "tags": [
+      "finish",
+      "ornament",
+      "wall-treatment"
+    ]
   }
 ]

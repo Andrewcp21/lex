@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Home" [ref=e16] [cursor=pointer]:
+        - /url: /
+      - heading "About" [level=1] [ref=e17]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - heading "What is this" [level=2] [ref=e20]
+          - paragraph [ref=e21]: Kosa Rupa is an architect's dictionary — a fast, offline-capable personal reference for architecture students and beginners. It covers 520 terms across 15 sections, from structural systems and design movements to professional practice and building physics.
+        - generic [ref=e22]:
+          - heading "How to use it" [level=2] [ref=e23]
+          - paragraph [ref=e24]: Search with ⌘K or browse by section from the homepage. Each entry has a plain-language definition, a real-world example, and links to related terms — designed to build a connected understanding of architectural concepts, not just isolated definitions.
+        - generic [ref=e25]:
+          - heading "Sections" [level=2] [ref=e26]
+          - paragraph [ref=e27]: "15 sections cover: Architectural Terms & Theory, Building Materials & Construction, Structural Systems, Design Styles & Movements, Tools & Technology, Sustainability, Codes & Standards, Urban Design, Key Figures, Geometry & Mathematics, Building History, Architecture Across Cultures, Professional Practice, Building Performance & Physics, and Representation & Communication."
+        - generic [ref=e28]:
+          - heading "Built by" [level=2] [ref=e29]
+          - paragraph [ref=e30]: An experimental tool by Good Fruit Studio. No backend, no tracking, no database. All data is static JSON — it works fully offline once loaded.
+  - contentinfo [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]: Kosa Rupa
+      - generic [ref=e34]: An architect's dictionary — 520 terms, 15 sections.

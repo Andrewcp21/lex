@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - heading "Explore" [level=1] [ref=e17]
+        - paragraph [ref=e18]: 15 sections — 520 terms
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - heading "Browse by Section" [level=2] [ref=e21]
+          - generic [ref=e22]: 15 Sections
+        - generic [ref=e23]:
+          - link "01 60 TERMS Architectural Terms & Theory Core vocabulary used in design thinking, drawing, and critique. EXPLORE →" [ref=e25] [cursor=pointer]:
+            - /url: /section/architectural-terms-theory
+            - generic [ref=e26]:
+              - generic [ref=e27]:
+                - generic [ref=e28]: "01"
+                - generic [ref=e29]: 60 TERMS
+              - generic [ref=e30]:
+                - heading "Architectural Terms & Theory" [level=2] [ref=e31]
+                - paragraph [ref=e32]: Core vocabulary used in design thinking, drawing, and critique.
+              - generic [ref=e34]: EXPLORE →
+          - link "02 50 TERMS Building Materials & Construction The physical substances and methods used to build structures. EXPLORE →" [ref=e36] [cursor=pointer]:
+            - /url: /section/building-materials-construction
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e39]: "02"
+                - generic [ref=e40]: 50 TERMS
+              - generic [ref=e41]:
+                - heading "Building Materials & Construction" [level=2] [ref=e42]
+                - paragraph [ref=e43]: The physical substances and methods used to build structures.
+              - generic [ref=e45]: EXPLORE →
+          - link "03 40 TERMS Structural Systems How buildings stand up — forces, frames, and load paths. EXPLORE →" [ref=e47] [cursor=pointer]:
+            - /url: /section/structural-systems
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]: "03"
+                - generic [ref=e51]: 40 TERMS
+              - generic [ref=e52]:
+                - heading "Structural Systems" [level=2] [ref=e53]
+                - paragraph [ref=e54]: How buildings stand up — forces, frames, and load paths.
+              - generic [ref=e56]: EXPLORE →
+          - link "04 50 TERMS Design Styles & Movements Architectural periods, styles, and the ideas that shaped them. EXPLORE →" [ref=e58] [cursor=pointer]:
+            - /url: /section/design-styles-movements
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - generic [ref=e61]: "04"
+                - generic [ref=e62]: 50 TERMS
+              - generic [ref=e63]:
+                - heading "Design Styles & Movements" [level=2] [ref=e64]
+                - paragraph [ref=e65]: Architectural periods, styles, and the ideas that shaped them.
+              - generic [ref=e67]: EXPLORE →
+          - link "05 40 TERMS Tools, Software & Technology Digital and physical tools used in architectural practice. EXPLORE →" [ref=e69] [cursor=pointer]:
+            - /url: /section/tools-software-technology
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: "05"
+                - generic [ref=e73]: 40 TERMS
+              - generic [ref=e74]:
+                - heading "Tools, Software & Technology" [level=2] [ref=e75]
+                - paragraph [ref=e76]: Digital and physical tools used in architectural practice.
+              - generic [ref=e78]: EXPLORE →
+          - link "06 30 TERMS Sustainability Green design, energy performance, and ecological thinking. EXPLORE →" [ref=e80] [cursor=pointer]:
+            - /url: /section/sustainability
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e83]: "06"
+                - generic [ref=e84]: 30 TERMS
+              - generic [ref=e85]:
+                - heading "Sustainability" [level=2] [ref=e86]
+                - paragraph [ref=e87]: Green design, energy performance, and ecological thinking.
+              - generic [ref=e89]: EXPLORE →
+          - link "07 25 TERMS Codes & Standards Regulations, safety codes, and compliance frameworks. EXPLORE →" [ref=e91] [cursor=pointer]:
+            - /url: /section/codes-standards
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: "07"
+                - generic [ref=e95]: 25 TERMS
+              - generic [ref=e96]:
+                - heading "Codes & Standards" [level=2] [ref=e97]
+                - paragraph [ref=e98]: Regulations, safety codes, and compliance frameworks.
+              - generic [ref=e100]: EXPLORE →
+          - link "08 30 TERMS Urban Design Cities, public space, and the design of the built environment at scale. EXPLORE →" [ref=e102] [cursor=pointer]:
+            - /url: /section/urban-design
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - generic [ref=e105]: "08"
+                - generic [ref=e106]: 30 TERMS
+              - generic [ref=e107]:
+                - heading "Urban Design" [level=2] [ref=e108]
+                - paragraph [ref=e109]: Cities, public space, and the design of the built environment at scale.
+              - generic [ref=e111]: EXPLORE →
+          - link "09 30 TERMS Key Figures Architects, theorists, and thinkers who shaped the discipline. EXPLORE →" [ref=e113] [cursor=pointer]:
+            - /url: /section/key-figures
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e116]: "09"
+                - generic [ref=e117]: 30 TERMS
+              - generic [ref=e118]:
+                - heading "Key Figures" [level=2] [ref=e119]
+                - paragraph [ref=e120]: Architects, theorists, and thinkers who shaped the discipline.
+              - generic [ref=e122]: EXPLORE →
+          - link "10 25 TERMS Geometry & Mathematics The mathematical principles underlying architectural form. EXPLORE →" [ref=e124] [cursor=pointer]:
+            - /url: /section/geometry-mathematics
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e127]: "10"
+                - generic [ref=e128]: 25 TERMS
+              - generic [ref=e129]:
+                - heading "Geometry & Mathematics" [level=2] [ref=e130]
+                - paragraph [ref=e131]: The mathematical principles underlying architectural form.
+              - generic [ref=e133]: EXPLORE →
+          - link "11 30 TERMS Building History & Typologies Building types across time — their origins, forms, and uses. EXPLORE →" [ref=e135] [cursor=pointer]:
+            - /url: /section/building-history-typologies
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic [ref=e138]: "11"
+                - generic [ref=e139]: 30 TERMS
+              - generic [ref=e140]:
+                - heading "Building History & Typologies" [level=2] [ref=e141]
+                - paragraph [ref=e142]: Building types across time — their origins, forms, and uses.
+              - generic [ref=e144]: EXPLORE →
+          - link "12 25 TERMS Architecture Across Cultures Traditions, vernacular forms, and regional architectures worldwide. EXPLORE →" [ref=e146] [cursor=pointer]:
+            - /url: /section/architecture-across-cultures
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e149]: "12"
+                - generic [ref=e150]: 25 TERMS
+              - generic [ref=e151]:
+                - heading "Architecture Across Cultures" [level=2] [ref=e152]
+                - paragraph [ref=e153]: Traditions, vernacular forms, and regional architectures worldwide.
+              - generic [ref=e155]: EXPLORE →
+          - link "13 30 TERMS Professional Practice How architecture works as a profession — process, contracts, and roles. EXPLORE →" [ref=e157] [cursor=pointer]:
+            - /url: /section/professional-practice
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e160]: "13"
+                - generic [ref=e161]: 30 TERMS
+              - generic [ref=e162]:
+                - heading "Professional Practice" [level=2] [ref=e163]
+                - paragraph [ref=e164]: How architecture works as a profession — process, contracts, and roles.
+              - generic [ref=e166]: EXPLORE →
+          - link "14 25 TERMS Building Performance & Physics Heat, light, sound, and air — the physical behaviour of buildings. EXPLORE →" [ref=e168] [cursor=pointer]:
+            - /url: /section/building-performance-physics
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - generic [ref=e171]: "14"
+                - generic [ref=e172]: 25 TERMS
+              - generic [ref=e173]:
+                - heading "Building Performance & Physics" [level=2] [ref=e174]
+                - paragraph [ref=e175]: Heat, light, sound, and air — the physical behaviour of buildings.
+              - generic [ref=e177]: EXPLORE →
+          - link "15 30 TERMS Representation & Communication Drawing, modelling, and presenting architectural ideas. EXPLORE →" [ref=e179] [cursor=pointer]:
+            - /url: /section/representation-communication
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - generic [ref=e182]: "15"
+                - generic [ref=e183]: 30 TERMS
+              - generic [ref=e184]:
+                - heading "Representation & Communication" [level=2] [ref=e185]
+                - paragraph [ref=e186]: Drawing, modelling, and presenting architectural ideas.
+              - generic [ref=e188]: EXPLORE →
+  - contentinfo [ref=e189]:
+    - generic [ref=e190]:
+      - generic [ref=e191]: Kosa Rupa
+      - generic [ref=e192]: An architect's dictionary — 520 terms, 15 sections.

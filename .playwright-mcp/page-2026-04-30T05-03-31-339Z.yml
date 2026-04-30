@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Design Styles & Movements" [ref=e16] [cursor=pointer]:
+        - /url: /section/design-styles-movements
+      - generic [ref=e17]:
+        - heading "Brutalism" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: DESIGN STYLES & MOVEMENTS
+          - generic [ref=e21]: beginner
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]: An architectural style of the 1950s–70s characterised by the bold, unfinished expression of structural materials — particularly raw (béton brut) concrete. Brutalism valued honesty of materials, strong geometric forms, and social purpose. It was associated with social housing, universities, and civic buildings.
+      - generic [ref=e25]:
+        - heading "Example" [level=2] [ref=e26]
+        - paragraph [ref=e27]: The Barbican Estate in London (completed 1976) is one of the largest Brutalist housing complexes in Europe — raw concrete towers, elevated walkways, and a dense urban world unto itself.
+      - generic [ref=e28]:
+        - heading "Key Figures" [level=2] [ref=e29]
+        - list [ref=e30]:
+          - listitem [ref=e31]: — Alison and Peter Smithson — Robin Hood Gardens
+          - listitem [ref=e32]: — Paul Rudolph — Yale Art and Architecture Building
+          - listitem [ref=e33]: — Marcel Breuer — Whitney Museum of American Art
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - heading "Related Terms" [level=3] [ref=e37]
+          - generic [ref=e38]: click any term to explore
+        - img [ref=e39]:
+          - generic [ref=e51]: BRUTALISM
+          - link "MODERNISM" [ref=e52] [cursor=pointer]:
+            - /url: /entry/modernism
+            - generic [ref=e53]: MODERNISM
+          - link "CONCRETE" [ref=e54] [cursor=pointer]:
+            - /url: /entry/concrete
+            - generic [ref=e55]: CONCRETE
+          - link "REINFORCED CONCRETE" [ref=e56] [cursor=pointer]:
+            - /url: /entry/reinforced-concrete
+            - generic [ref=e57]: REINFORCED
+            - generic [ref=e58]: CONCRETE
+          - link "LE CORBUSIER" [ref=e59] [cursor=pointer]:
+            - /url: /entry/le-corbusier
+            - generic [ref=e60]: LE CORBUSIER
+          - link "POSTMODERNISM" [ref=e61] [cursor=pointer]:
+            - /url: /entry/postmodernism
+            - generic [ref=e62]: POSTMODERNISM
+          - link "HOUSING" [ref=e63] [cursor=pointer]:
+            - /url: /entry/housing
+            - generic [ref=e64]: HOUSING
+      - generic [ref=e65]:
+        - heading "Tags" [level=2] [ref=e66]
+        - generic [ref=e67]:
+          - link "movement" [ref=e68] [cursor=pointer]:
+            - /url: /?q=movement
+          - link "20th-century" [ref=e69] [cursor=pointer]:
+            - /url: /?q=20th-century
+          - link "concrete" [ref=e70] [cursor=pointer]:
+            - /url: /?q=concrete
+      - heading "From Wikipedia" [level=2] [ref=e72]
+      - button "Copy link" [ref=e75] [cursor=pointer]
+  - contentinfo [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]: Kosa Rupa
+      - generic [ref=e79]: An architect's dictionary — 520 terms, 15 sections.

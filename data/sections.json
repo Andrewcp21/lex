@@ -1,12 +1,12 @@
 [
   {
     "id": "architectural-terms-theory",
-    "name": "Architectural Terms & Theory",
+    "name": "Theory & Mathematics",
     "slug": "architectural-terms-theory",
     "color": "red",
     "icon": "Ruler",
-    "description": "Core vocabulary used in design thinking, drawing, and critique.",
-    "entryCount": 60
+    "description": "Core vocabulary, design thinking, geometry, and mathematical principles underlying architectural form.",
+    "entryCount": 90
   },
   {
     "id": "building-materials-construction",
@@ -15,16 +15,16 @@
     "color": "yellow",
     "icon": "Layers",
     "description": "The physical substances and methods used to build structures.",
-    "entryCount": 50
+    "entryCount": 96
   },
   {
     "id": "structural-systems",
-    "name": "Structural Systems",
+    "name": "Structure & Physics",
     "slug": "structural-systems",
     "color": "green",
     "icon": "Triangle",
-    "description": "How buildings stand up — forces, frames, and load paths.",
-    "entryCount": 40
+    "description": "How buildings stand up — forces, frames, load paths, and the physical behaviour of buildings.",
+    "entryCount": 68
   },
   {
     "id": "design-styles-movements",
@@ -33,43 +33,34 @@
     "color": "blue",
     "icon": "Palette",
     "description": "Architectural periods, styles, and the ideas that shaped them.",
-    "entryCount": 50
+    "entryCount": 45
   },
   {
     "id": "tools-software-technology",
-    "name": "Tools, Software & Technology",
+    "name": "Tools & Technology",
     "slug": "tools-software-technology",
     "color": "red",
     "icon": "Monitor",
     "description": "Digital and physical tools used in architectural practice.",
-    "entryCount": 40
+    "entryCount": 39
   },
   {
     "id": "sustainability",
-    "name": "Sustainability",
+    "name": "Sustainability & Urban Design",
     "slug": "sustainability",
     "color": "yellow",
     "icon": "Leaf",
-    "description": "Green design, energy performance, and ecological thinking.",
-    "entryCount": 30
+    "description": "Green design, energy performance, ecological thinking, cities, and the built environment at scale.",
+    "entryCount": 59
   },
   {
-    "id": "codes-standards",
-    "name": "Codes & Standards",
-    "slug": "codes-standards",
+    "id": "building-history-typologies",
+    "name": "History & Cultures",
+    "slug": "building-history-typologies",
     "color": "green",
-    "icon": "BookOpen",
-    "description": "Regulations, safety codes, and compliance frameworks.",
-    "entryCount": 25
-  },
-  {
-    "id": "urban-design",
-    "name": "Urban Design",
-    "slug": "urban-design",
-    "color": "blue",
-    "icon": "Map",
-    "description": "Cities, public space, and the design of the built environment at scale.",
-    "entryCount": 30
+    "icon": "Landmark",
+    "description": "Building types across time, traditions, vernacular forms, and regional architectures worldwide.",
+    "entryCount": 59
   },
   {
     "id": "key-figures",
@@ -81,49 +72,13 @@
     "entryCount": 30
   },
   {
-    "id": "geometry-mathematics",
-    "name": "Geometry & Mathematics",
-    "slug": "geometry-mathematics",
-    "color": "yellow",
-    "icon": "Circle",
-    "description": "The mathematical principles underlying architectural form.",
-    "entryCount": 25
-  },
-  {
-    "id": "building-history-typologies",
-    "name": "Building History & Typologies",
-    "slug": "building-history-typologies",
-    "color": "green",
-    "icon": "Landmark",
-    "description": "Building types across time — their origins, forms, and uses.",
-    "entryCount": 30
-  },
-  {
-    "id": "architecture-across-cultures",
-    "name": "Architecture Across Cultures",
-    "slug": "architecture-across-cultures",
-    "color": "blue",
-    "icon": "Globe",
-    "description": "Traditions, vernacular forms, and regional architectures worldwide.",
-    "entryCount": 25
-  },
-  {
     "id": "professional-practice",
-    "name": "Professional Practice",
+    "name": "Practice & Standards",
     "slug": "professional-practice",
     "color": "red",
     "icon": "Briefcase",
-    "description": "How architecture works as a profession — process, contracts, and roles.",
-    "entryCount": 30
-  },
-  {
-    "id": "building-performance-physics",
-    "name": "Building Performance & Physics",
-    "slug": "building-performance-physics",
-    "color": "yellow",
-    "icon": "Thermometer",
-    "description": "Heat, light, sound, and air — the physical behaviour of buildings.",
-    "entryCount": 25
+    "description": "How architecture works as a profession — process, contracts, roles, regulations, and compliance frameworks.",
+    "entryCount": 54
   },
   {
     "id": "representation-communication",
@@ -132,6 +87,6 @@
     "color": "green",
     "icon": "PenTool",
     "description": "Drawing, modelling, and presenting architectural ideas.",
-    "entryCount": 30
+    "entryCount": 32
   }
 ]

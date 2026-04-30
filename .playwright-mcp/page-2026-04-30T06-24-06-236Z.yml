@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kosa Rupa" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - textbox "Search terms…" [ref=e8]
+        - generic [ref=e9]: ⌘K
+      - navigation [ref=e10]:
+        - link "A–Z" [ref=e11] [cursor=pointer]:
+          - /url: /a-z
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "← Building Materials & Construction" [ref=e16] [cursor=pointer]:
+        - /url: /section/building-materials-construction
+      - generic [ref=e17]:
+        - heading "Insulation" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: BUILDING MATERIALS & CONSTRUCTION
+          - generic [ref=e21]: beginner
+      - generic [ref=e22]:
+        - heading "Definition" [level=2] [ref=e23]
+        - paragraph [ref=e24]: Materials used to resist the flow of heat, sound, or moisture through a building's walls, roof, and floor. Thermal insulation reduces heating and cooling loads; acoustic insulation reduces sound transmission. Common types include mineral wool, rigid foam boards, and cellulose.
+      - generic [ref=e25]:
+        - heading "Example" [level=2] [ref=e26]
+        - paragraph [ref=e27]: The Passivhaus-certified Kuchl School in Austria uses 300mm of mineral wool insulation in its walls — far more than code minimum — to achieve near-zero heating demand.
+      - generic [ref=e28]:
+        - heading "Tags" [level=2] [ref=e29]
+        - generic [ref=e30]:
+          - link "material" [ref=e31] [cursor=pointer]:
+            - /url: /?q=material
+          - link "performance" [ref=e32] [cursor=pointer]:
+            - /url: /?q=performance
+          - link "energy" [ref=e33] [cursor=pointer]:
+            - /url: /?q=energy
+      - heading "From Wikipedia" [level=2] [ref=e35]
+      - button "Copy link" [ref=e38] [cursor=pointer]
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Related Terms" [level=3] [ref=e42]
+          - generic [ref=e43]: click any term to explore
+        - img [ref=e44]:
+          - link "THERMAL BRIDGE" [ref=e52] [cursor=pointer]:
+            - /url: /entry/thermal-bridge
+            - generic [ref=e53]: THERMAL
+            - generic [ref=e54]: BRIDGE
+          - link "U-VALUE" [ref=e55] [cursor=pointer]:
+            - /url: /entry/u-value
+            - generic [ref=e56]: U-VALUE
+          - link "PASSIVE HOUSE" [ref=e57] [cursor=pointer]:
+            - /url: /entry/passive-house
+            - generic [ref=e58]: PASSIVE HOUSE
+          - generic [ref=e59]: INSULATION
+  - contentinfo [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]: Kosa Rupa
+      - generic [ref=e63]: An architect's dictionary — 520 terms, 15 sections.
