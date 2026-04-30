@@ -11,10 +11,10 @@ const SVG_COLOR: Record<string, string> = {
 
 const CX = 330;
 const CY = 150;
-const NODE_HALF_W  = 34;
-const L2_RADIUS    = 65;
+const NODE_HALF_W  = 30;
+const L2_RADIUS    = 50;
 const L2_FAN       = 0.35;
-const L2_HALF_W    = 26;
+const L2_HALF_W    = 22;
 const MAX_JITTER   = 12;
 const RADIUS_JITTER = 0.10;
 
@@ -62,7 +62,7 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
   const centerHalfW = Math.max(48, Math.ceil(maxCenterChars * centerFontSize * 0.62 / 2) + 10);
   const centerHalfH = centerLines.length > 1 ? 20 : 14;
 
-  const RADIUS = centerHalfW + NODE_HALF_W + 22;
+  const RADIUS = centerHalfW + NODE_HALF_W + 8;
 
   const nodes = related.map((entry, i) => {
     const baseAngleRad = ((i * (360 / n)) + startAngle(n)) * (Math.PI / 180);
@@ -107,8 +107,8 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
 
   const allX = [
     CX - centerHalfW, CX + centerHalfW,
-    ...nodes.flatMap(nd => { const hw = Math.max(NODE_HALF_W, textHW(nd.lines, 9)); return [nd.x - hw, nd.x + hw]; }),
-    ...l2Nodes.flatMap(nd => { const hw = Math.max(L2_HALF_W, textHW(nd.lines, 7.5)); return [nd.x - hw, nd.x + hw]; }),
+    ...nodes.flatMap(nd => { const hw = Math.max(NODE_HALF_W, textHW(nd.lines, 10)); return [nd.x - hw, nd.x + hw]; }),
+    ...l2Nodes.flatMap(nd => { const hw = Math.max(L2_HALF_W, textHW(nd.lines, 8)); return [nd.x - hw, nd.x + hw]; }),
   ];
   const allY = [
     CY - centerHalfH, CY + centerHalfH,
@@ -122,9 +122,9 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
   const minY = Math.min(...allY) - BREATH;
   const maxY = Math.max(...allY) + BREATH;
 
-  // Minimum width of 520 keeps text scale consistent across sparse layouts
+  // Minimum width of 400 keeps text scale consistent across sparse layouts
   const contentWidth = contentMaxX - contentMinX;
-  const vbWidth = Math.max(520, contentWidth);
+  const vbWidth = Math.max(400, contentWidth);
   const vbMinX = (contentMinX + contentMaxX) / 2 - vbWidth / 2;
   const viewBox = `${vbMinX} ${minY} ${vbWidth} ${maxY - minY}`;
 
@@ -222,7 +222,7 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
                   y={node.y + yOffset + 2.5}
                   textAnchor="middle"
                   fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-                  fontSize={7.5}
+                  fontSize={8}
                   fontWeight={700}
                   letterSpacing="0.1em"
                   fill={node.color}
@@ -247,7 +247,7 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
                   y={node.y + yOffset + 3}
                   textAnchor="middle"
                   fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-                  fontSize={9}
+                  fontSize={10}
                   fontWeight={700}
                   letterSpacing="0.1em"
                   fill={node.color}
