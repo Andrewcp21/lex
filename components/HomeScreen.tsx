@@ -200,7 +200,7 @@ export default function HomeScreen() {
               placeholder="Search architectural terms…"
               className="flex-1 px-6 py-4 text-base font-medium text-[#0A0A0A] placeholder-[#0A0A0A]/30 outline-none bg-transparent"
             />
-            <span className="px-4 text-[10px] font-semibold tracking-[0.15em] text-[#0A0A0A]/30 select-none">
+            <span className="hidden sm:inline px-4 text-[10px] font-semibold tracking-[0.15em] text-[#0A0A0A]/30 select-none">
               {shortcutHint}
             </span>
           </div>
@@ -214,16 +214,23 @@ export default function HomeScreen() {
                   <a
                     key={entry.id}
                     href={`/entry/${entry.id}`}
-                    className={`flex items-center justify-between px-6 py-3 border-b border-[#0A0A0A]/10 last:border-0 ${
+                    className={`relative flex items-center justify-between pl-6 pr-6 py-3 border-b border-[#0A0A0A]/10 last:border-0 ${
                       i === activeIndex
                         ? 'bg-[#0A0A0A] text-white'
                         : 'hover:bg-[#0A0A0A]/5'
                     }`}
+                    onMouseDown={(e) => e.preventDefault()}
                     onClick={() => {
                       setSearchOpen(false);
                       setQuery('');
                     }}
                   >
+                    {/* Color bar — mobile only */}
+                    <span
+                      className={`absolute left-0 top-0 bottom-0 w-[3px] sm:hidden ${
+                        i === activeIndex ? 'bg-white' : colors.bg
+                      }`}
+                    />
                     <div>
                       <span
                         className={`text-sm font-bold uppercase tracking-tight ${
@@ -242,9 +249,10 @@ export default function HomeScreen() {
                         </span>
                       )}
                     </div>
+                    {/* Category badge — desktop only */}
                     {section && (
                       <span
-                        className={`text-[9px] font-semibold tracking-[0.2em] px-2 py-0.5 shrink-0 ${colors.bg} ${colors.text}`}
+                        className={`hidden sm:inline text-[9px] font-semibold tracking-[0.2em] px-2 py-0.5 shrink-0 ${colors.bg} ${colors.text}`}
                       >
                         {section.name.toUpperCase()}
                       </span>
