@@ -11,17 +11,19 @@ const SVG_COLOR: Record<string, string> = {
 
 const CX = 330;
 const CY = 150;
-const NODE_HALF_W  = 30;
-const L2_RADIUS    = 50;
-const L2_FAN       = 0.35;
-const L2_HALF_W    = 22;
-const MAX_JITTER   = 12;
-const RADIUS_JITTER = 0.10;
+const NODE_HALF_W  = 30;   // knockout rect half-width for L1 nodes
+const L2_RADIUS    = 42;   // distance from L1 node to L2 node
+const L2_FAN       = 0.30; // radians ≈ ±17° fan spread
+const L2_HALF_W    = 22;   // knockout rect half-width for L2 nodes
+const MAX_JITTER   = 10;
+const RADIUS_JITTER = 0.08;
+const MIN_LINE     = 24;   // minimum visible dashed-line gap between knockout rects
 
 function startAngle(n: number): number {
   if (n === 1) return 0;
-  if (n === 2) return 180;
-  return -90;
+  if (n === 2) return 0;    // left + right: minimal Y span
+  if (n === 4) return -45;  // diamond: balanced H/W ratio
+  return -90;               // 3, 5+: one node at top
 }
 
 function splitLines(term: string): string[] {
@@ -44,6 +46,12 @@ function termHash(term: string): number {
   );
 }
 
+// Estimates half-width of bold uppercase SVG text for viewBox bounds only
+function textHW(lines: string[], fontSize: number): number {
+  const maxLen = Math.max(...lines.map(l => l.length));
+  return Math.ceil(maxLen * fontSize * 0.60);
+}
+
 interface Props {
   relatedIds: string[];
   centerTerm: string;
@@ -59,10 +67,15 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
   const centerLines = splitLines(centerTerm);
   const centerFontSize = centerLines[0].length > 14 ? 10 : 13;
   const maxCenterChars = Math.max(...centerLines.map(l => l.length));
-  const centerHalfW = Math.max(48, Math.ceil(maxCenterChars * centerFontSize * 0.62 / 2) + 10);
+  const centerHalfW = Math.max(44, Math.ceil(maxCenterChars * centerFontSize * 0.60 / 2) + 8);
   const centerHalfH = centerLines.length > 1 ? 20 : 14;
 
-  const RADIUS = centerHalfW + NODE_HALF_W + 8;
+  // RADIUS: guarantees minimum visible line (MIN_LINE px) between center and L1 knockout rects.
+  // Capped at 115 to prevent sprawl on entries with wide center terms.
+  const RADIUS = Math.min(
+    Math.max(centerHalfW + NODE_HALF_W + MIN_LINE, 80),
+    115
+  );
 
   const nodes = related.map((entry, i) => {
     const baseAngleRad = ((i * (360 / n)) + startAngle(n)) * (Math.PI / 180);
@@ -85,12 +98,12 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
     const candidates = l1Node.entry.relatedTerms.filter(
       (id) => id !== centerId && !l1IdSet.has(id) && !shownL2Ids.has(id)
     );
-    return candidates.slice(0, 2).map((id, slot) => {
+    // One L2 node per L1 parent to keep the layout compact
+    return candidates.slice(0, 1).map((id) => {
       shownL2Ids.add(id);
       const l2Entry = getEntry(id);
       if (!l2Entry) return null;
-      const fanOffset = slot === 0 ? -L2_FAN : +L2_FAN;
-      const l2Angle = l1Node.angle + fanOffset;
+      const l2Angle = l1Node.angle + L2_FAN;
       const x = l1Node.x + L2_RADIUS * Math.cos(l2Angle);
       const y = l1Node.y + L2_RADIUS * Math.sin(l2Angle);
       const section = getSectionForEntry(l2Entry);
@@ -99,12 +112,7 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
     }).filter((nd): nd is NonNullable<typeof nd> => nd !== null);
   });
 
-  // Estimate half-width of rendered text (bold uppercase sans-serif + 0.1em tracking)
-  function textHW(lines: string[], fontSize: number): number {
-    const maxLen = Math.max(...lines.map(l => l.length));
-    return Math.ceil(maxLen * fontSize * 0.60);
-  }
-
+  const BREATH = 16;
   const allX = [
     CX - centerHalfW, CX + centerHalfW,
     ...nodes.flatMap(nd => { const hw = Math.max(NODE_HALF_W, textHW(nd.lines, 10)); return [nd.x - hw, nd.x + hw]; }),
@@ -116,15 +124,13 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
     ...l2Nodes.flatMap(nd => [nd.y - 11, nd.y + 11]),
   ];
 
-  const BREATH = 14;
   const contentMinX = Math.min(...allX) - BREATH;
   const contentMaxX = Math.max(...allX) + BREATH;
   const minY = Math.min(...allY) - BREATH;
   const maxY = Math.max(...allY) + BREATH;
 
-  // Minimum width of 400 keeps text scale consistent across sparse layouts
   const contentWidth = contentMaxX - contentMinX;
-  const vbWidth = Math.max(400, contentWidth);
+  const vbWidth = Math.max(320, contentWidth);
   const vbMinX = (contentMinX + contentMaxX) / 2 - vbWidth / 2;
   const viewBox = `${vbMinX} ${minY} ${vbWidth} ${maxY - minY}`;
 
@@ -151,7 +157,7 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
       `}</style>
 
       <svg viewBox={viewBox} className="w-full h-auto">
-        {/* L2 dashed lines (dimmest, behind everything) */}
+        {/* L2 dashed lines */}
         {l2Nodes.map((node, i) => (
           <line
             key={`l2-line-${i}`}
@@ -179,7 +185,7 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
 
         {/* L2 knockout rects */}
         {l2Nodes.map((node, i) => {
-          const rh = node.lines.length > 1 ? 22 : 14;
+          const rh = node.lines.length > 1 ? 20 : 13;
           return (
             <rect
               key={`l2-bg-${i}`}
@@ -192,7 +198,7 @@ export default function ConstellationGraph({ relatedIds, centerTerm, centerId }:
 
         {/* L1 knockout rects */}
         {nodes.map((node, i) => {
-          const rh = node.lines.length > 1 ? 28 : 18;
+          const rh = node.lines.length > 1 ? 26 : 16;
           return (
             <rect
               key={`bg-${i}`}
