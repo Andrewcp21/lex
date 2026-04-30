@@ -5,6 +5,7 @@ import DifficultyBadge from '@/components/DifficultyBadge';
 import ConstellationGraph from '@/components/ConstellationGraph';
 import CopyLinkButton from '@/components/CopyLinkButton';
 import WikipediaPanel from '@/components/WikipediaPanel';
+import NewsPanel from '@/components/NewsPanel';
 import LinkedText from '@/components/LinkedText';
 
 export default function EntryPage({ params }: { params: { id: string } }) {
@@ -117,6 +118,9 @@ export default function EntryPage({ params }: { params: { id: string } }) {
 
       {/* Wikipedia panel */}
       <WikipediaPanel term={entry.term} />
+
+      {/* News panel */}
+      <NewsPanel term={entry.term} />
 
       {/* Copy link */}
       <div className="mt-8 pt-4 border-t border-[#0A0A0A]/10">
