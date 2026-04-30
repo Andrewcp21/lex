@@ -75,7 +75,7 @@ function dedupe(articles: NewsArticle[]): NewsArticle[] {
 }
 
 // Find glossary terms mentioned in article title/excerpt (excluding the current search term)
-function detectRelatedTerms(article: NewsArticle, searchTerm: string, allEntries: typeof ReturnType<typeof getAllEntries>): string[] {
+function detectRelatedTerms(article: NewsArticle, searchTerm: string, allEntries: ReturnType<typeof getAllEntries>): string[] {
   const content = `${article.title} ${article.excerpt ?? ''}`.toLowerCase();
   const searchLower = searchTerm.toLowerCase();
 
