@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 interface NewsArticle {
@@ -8,6 +9,7 @@ interface NewsArticle {
   publishedAt: string;
   excerpt: string | null;
   source: string;
+  relatedTermIds?: string[];
 }
 
 export default function NewsPanel({ term }: { term: string }) {

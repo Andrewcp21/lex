@@ -1,4 +1,5 @@
 import { parseRssFeed, type NewsArticle } from '@/lib/parseRss';
+import { getAllEntries } from '@/lib/entries';
 
 const RSS_HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; KosaRupa/1.0)' };
 
@@ -73,13 +74,36 @@ function dedupe(articles: NewsArticle[]): NewsArticle[] {
   });
 }
 
+// Find glossary terms mentioned in article title/excerpt (excluding the current search term)
+function detectRelatedTerms(article: NewsArticle, searchTerm: string, allEntries: typeof ReturnType<typeof getAllEntries>): string[] {
+  const content = `${article.title} ${article.excerpt ?? ''}`.toLowerCase();
+  const searchLower = searchTerm.toLowerCase();
+
+  return allEntries
+    .filter((entry) => {
+      // Skip the term being searched for
+      if (entry.id === searchTerm.toLowerCase() || entry.term.toLowerCase() === searchLower) return false;
+      // Match if term appears as a whole word in content
+      const termLower = entry.term.toLowerCase();
+      return content.includes(termLower);
+    })
+    .slice(0, 3) // Limit to 3 related terms
+    .map((e) => e.id);
+}
+
 export async function GET(_req: Request, { params }: { params: { term: string } }) {
   const { term } = params;
+  const allEntries = getAllEntries();
 
   const primary = await fetchNewsApi(term);
-
   const fallback = primary.length < 3 ? await fetchGoogleNews(term) : [];
-
   const articles = dedupe([...primary, ...fallback]).slice(0, 3);
-  return Response.json(articles);
+
+  // Detect related glossary terms in each article
+  const articlesWithRelatedTerms = articles.map((a) => ({
+    ...a,
+    relatedTermIds: detectRelatedTerms(a, term, allEntries),
+  }));
+
+  return Response.json(articlesWithRelatedTerms);
 }

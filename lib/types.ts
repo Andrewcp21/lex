@@ -22,6 +22,7 @@ export type GFSColor = 'red' | 'yellow' | 'green' | 'blue';
 export interface Entry {
   id: string;
   term: string;
+  indonesianTerm?: string;
   phonetic?: string;
   abbreviation?: string;
   section: SectionId;

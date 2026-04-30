@@ -8,6 +8,7 @@ function getFuse(entries: Entry[]): Fuse<Entry> {
     fuseInstance = new Fuse(entries, {
       keys: [
         { name: 'term', weight: 0.7 },
+        { name: 'indonesianTerm', weight: 0.6 },
         { name: 'abbreviation', weight: 0.2 },
         { name: 'tags', weight: 0.1 },
       ],
@@ -25,15 +26,18 @@ export function searchEntries(entries: Entry[], query: string): Entry[] {
 
   const lower = q.toLowerCase();
 
-  // Prefix matches on term — always shown first, sorted alphabetically
+  // Prefix matches on term or indonesianTerm — always shown first, sorted alphabetically
   const prefixMatches = entries
-    .filter((e) => e.term.toLowerCase().startsWith(lower))
+    .filter((e) =>
+      e.term.toLowerCase().startsWith(lower) ||
+      (e.indonesianTerm && e.indonesianTerm.toLowerCase().startsWith(lower))
+    )
     .sort((a, b) => a.term.localeCompare(b.term));
 
   // For short queries just return prefix matches (up to 8)
   if (q.length <= 2) return prefixMatches.slice(0, 8);
 
-  // For longer queries, fill remaining slots with fuzzy results (term field only)
+  // For longer queries, fill remaining slots with fuzzy results
   const prefixIds = new Set(prefixMatches.map((e) => e.id));
   const fuse = getFuse(entries);
   const fuzzy = fuse

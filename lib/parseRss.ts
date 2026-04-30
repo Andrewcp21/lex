@@ -4,6 +4,7 @@ export interface NewsArticle {
   publishedAt: string;
   excerpt: string | null;
   source: string;
+  relatedTermIds?: string[];
 }
 
 function extractTag(block: string, tag: string): string {
