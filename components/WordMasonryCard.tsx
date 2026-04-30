@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { COLOR_MAP } from '@/lib/entries';
 import type { Entry, Section } from '@/lib/types';
 
 interface WordMasonryCardProps {
@@ -7,18 +6,29 @@ interface WordMasonryCardProps {
   section: Section | undefined;
 }
 
+const COLOR_HEX: Record<string, string> = {
+  red: '#FF0000',
+  yellow: '#FFE600',
+  green: '#00E600',
+  blue: '#5BC8F5',
+};
+
 export default function WordMasonryCard({ entry, section }: WordMasonryCardProps) {
   const preview = entry.definition.slice(0, 320) + (entry.definition.length > 320 ? '…' : '');
-  const sectionColor = section ? COLOR_MAP[section.color] : null;
+  const accentColor = section ? COLOR_HEX[section.color] : '#0A0A0A';
 
   return (
     <Link href={`/entry/${entry.id}`} className="group block">
-      <div
-        className={`border border-[#0A0A0A] border-l-4 ${sectionColor?.border || 'border-[#0A0A0A]'}
-          p-3 sm:p-5 flex flex-col gap-2 sm:gap-3 bg-white transition-transform duration-150 group-hover:scale-[1.01]`}
-      >
+      <div className="relative border border-[#0A0A0A] p-3 sm:p-5 flex flex-col gap-2 sm:gap-3 bg-white transition-transform duration-150 group-hover:scale-[1.01]">
+
+        {/* Accent bar: horizontal top on mobile, vertical left on desktop */}
+        <span
+          className="absolute top-0 left-0 right-0 h-[4px] sm:right-auto sm:bottom-0 sm:h-auto sm:w-[4px]"
+          style={{ backgroundColor: accentColor }}
+        />
+
         <div>
-          <h3 className="text-lg sm:text-[2.5rem] font-bold uppercase tracking-tight text-[#0A0A0A] leading-tight">
+          <h3 className="text-2xl sm:text-[2.5rem] font-bold uppercase tracking-tight text-[#0A0A0A] leading-tight">
             {entry.term}
             {entry.abbreviation && (
               <span className="ml-2 text-xs font-semibold tracking-[0.15em] opacity-40">
@@ -33,7 +43,7 @@ export default function WordMasonryCard({ entry, section }: WordMasonryCardProps
           )}
         </div>
 
-        <p className="text-sm font-medium text-[#0A0A0A] opacity-60 leading-relaxed">
+        <p className="text-[11px] sm:text-sm font-medium text-[#0A0A0A] opacity-60 leading-relaxed line-clamp-2 sm:line-clamp-none">
           {preview}
         </p>
 
