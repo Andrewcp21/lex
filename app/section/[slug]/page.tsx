@@ -41,7 +41,7 @@ export default function SectionPage({ params }: { params: { slug: string } }) {
       </div>
 
       {/* Difficulty filter */}
-      <div className="px-6 py-4 border-b border-[#0A0A0A] flex items-center gap-3">
+      <div className="px-6 py-4 border-b border-[#0A0A0A] flex flex-wrap items-center gap-2">
         <span className="text-[10px] font-semibold tracking-[0.2em] uppercase opacity-40 mr-2">
           Filter:
         </span>

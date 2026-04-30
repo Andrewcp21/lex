@@ -100,12 +100,13 @@ export default function EntryPage({ params }: { params: { id: string } }) {
           </h2>
           <div className="flex flex-wrap gap-2">
             {entry.tags.map((tag) => (
-              <span
+              <Link
                 key={tag}
-                className="text-[10px] font-semibold tracking-[0.15em] uppercase opacity-40 border border-[#0A0A0A]/30 px-2 py-0.5"
+                href={`/?q=${encodeURIComponent(tag)}`}
+                className="text-[10px] font-semibold tracking-[0.15em] uppercase border border-[#0A0A0A]/30 px-2 py-0.5 opacity-40 hover:opacity-100 hover:border-[#0A0A0A] transition-opacity"
               >
                 {tag}
-              </span>
+              </Link>
             ))}
           </div>
         </section>

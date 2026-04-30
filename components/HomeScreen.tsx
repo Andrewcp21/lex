@@ -85,6 +85,21 @@ export default function HomeScreen() {
   // A-Z overlay state
   const [showAZ, setShowAZ] = useState(false);
   const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
+  const [shortcutHint, setShortcutHint] = useState('⌘K');
+
+  useEffect(() => {
+    const isMac = /mac/i.test(navigator.platform) || /mac/i.test(navigator.userAgent);
+    setShortcutHint(isMac ? '⌘K' : 'Ctrl K');
+  }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) {
+      setQuery(q);
+      inputRef.current?.focus();
+    }
+  }, []);
 
   const grouped = useMemo(() => {
     const g: Record<string, Entry[]> = {};
@@ -160,7 +175,7 @@ export default function HomeScreen() {
   return (
     <>
       {/* Main centered layout */}
-      <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 py-16">
+      <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-6 pt-[10vh] pb-[18vh]">
         {/* Brand label */}
         <p className="text-[10px] font-semibold tracking-[0.3em] uppercase text-[#0A0A0A]/40 mb-10">
           Kosa Rupa — Architect&apos;s Dictionary
@@ -186,7 +201,7 @@ export default function HomeScreen() {
               className="flex-1 px-6 py-4 text-base font-medium text-[#0A0A0A] placeholder-[#0A0A0A]/30 outline-none bg-transparent"
             />
             <span className="px-4 text-[10px] font-semibold tracking-[0.15em] text-[#0A0A0A]/30 select-none">
-              ⌘K
+              {shortcutHint}
             </span>
           </div>
 

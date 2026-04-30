@@ -57,7 +57,7 @@ export default function AZPage() {
                 const section = sections.find((s) => s.id === entry.section);
                 const colors = section ? COLOR_MAP[section.color] : COLOR_MAP.red;
                 return (
-                  <div key={entry.id} className="flex items-center justify-between py-3 border-b border-[#0A0A0A]/10 group">
+                  <div key={entry.id} className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 border-b border-[#0A0A0A]/10 group gap-1 sm:gap-0">
                     <Link
                       href={`/entry/${entry.id}`}
                       className="text-sm font-bold uppercase tracking-tight text-[#0A0A0A] group-hover:underline"
@@ -71,7 +71,7 @@ export default function AZPage() {
                     </Link>
                     {section && (
                       <span
-                        className={`text-[9px] font-semibold tracking-[0.2em] uppercase px-2 py-0.5 ${colors.bg} ${colors.text} shrink-0`}
+                        className={`text-[9px] font-semibold tracking-[0.2em] uppercase px-2 py-0.5 self-start sm:self-auto ${colors.bg} ${colors.text} shrink-0`}
                       >
                         {section.name}
                       </span>

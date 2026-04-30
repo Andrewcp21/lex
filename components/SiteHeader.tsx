@@ -24,19 +24,27 @@ export default function SiteHeader() {
         <nav className="flex items-center gap-4 shrink-0">
           <Link
             href="/a-z"
-            className="text-[10px] font-semibold tracking-[0.2em] uppercase border border-[#0A0A0A] px-3 py-1.5 hover:bg-[#0A0A0A] hover:text-white transition-colors duration-150"
+            className={`text-[10px] font-semibold tracking-[0.2em] uppercase border px-3 py-1.5 transition-colors duration-150 ${
+              pathname === '/a-z'
+                ? 'bg-[#0A0A0A] text-white border-[#0A0A0A]'
+                : 'border-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white'
+            }`}
           >
             A–Z
           </Link>
           <Link
             href="/explore"
-            className="text-[10px] font-semibold tracking-[0.2em] uppercase opacity-50 hover:opacity-100 transition-opacity duration-150"
+            className={`text-[10px] font-semibold tracking-[0.2em] uppercase transition-opacity duration-150 ${
+              pathname === '/explore' ? 'opacity-100' : 'opacity-50 hover:opacity-100'
+            }`}
           >
             Explore
           </Link>
           <Link
             href="/about"
-            className="text-[10px] font-semibold tracking-[0.2em] uppercase opacity-50 hover:opacity-100 transition-opacity duration-150"
+            className={`text-[10px] font-semibold tracking-[0.2em] uppercase transition-opacity duration-150 ${
+              pathname === '/about' ? 'opacity-100' : 'opacity-50 hover:opacity-100'
+            }`}
           >
             About
           </Link>

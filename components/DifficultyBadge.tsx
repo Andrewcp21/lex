@@ -1,9 +1,9 @@
 import type { Difficulty } from '@/lib/types';
 
 const DIFFICULTY_STYLES: Record<Difficulty, string> = {
-  beginner: 'border-[#0A0A0A] text-[#0A0A0A]',
-  intermediate: 'border-[#0A0A0A] text-[#0A0A0A]',
-  advanced: 'border-[#0A0A0A] text-[#0A0A0A]',
+  beginner: 'border-[#00E600] text-[#00A000]',
+  intermediate: 'border-[#FFB800] text-[#9A6F00]',
+  advanced: 'border-[#FF0000] text-[#CC0000]',
 };
 
 interface DifficultyBadgeProps {

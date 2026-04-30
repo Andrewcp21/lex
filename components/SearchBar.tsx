@@ -11,6 +11,12 @@ export default function SearchBar() {
   const [results, setResults] = useState<Entry[]>([]);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
+  const [shortcutHint, setShortcutHint] = useState('⌘K');
+
+  useEffect(() => {
+    const isMac = /mac/i.test(navigator.platform) || /mac/i.test(navigator.userAgent);
+    setShortcutHint(isMac ? '⌘K' : 'Ctrl K');
+  }, []);
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
   const entries = getAllEntries();
@@ -85,7 +91,7 @@ export default function SearchBar() {
           className="flex-1 px-4 py-2.5 text-sm font-medium text-[#0A0A0A] placeholder-[#0A0A0A]/40 outline-none bg-transparent"
         />
         <span className="px-3 text-[10px] font-semibold tracking-[0.15em] text-[#0A0A0A]/30 select-none">
-          ⌘K
+          {shortcutHint}
         </span>
       </div>
 
