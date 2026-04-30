@@ -205,7 +205,14 @@ export default function HomeScreen() {
             </span>
           </div>
 
-          {searchOpen && (
+          {searchOpen && (() => {
+            const q = query.trim();
+            const totalPrefix = q
+              ? entries.filter((e) => e.term.toLowerCase().startsWith(q.toLowerCase())).length
+              : 0;
+            const firstLetter = q[0]?.toUpperCase() ?? '';
+            const showViewAll = totalPrefix > results.length;
+            return (
             <div className="absolute top-full left-0 right-0 z-50 border-2 border-t-0 border-[#0A0A0A] bg-white">
               {results.map((entry, i) => {
                 const section = sections.find((s) => s.id === entry.section);
@@ -260,8 +267,22 @@ export default function HomeScreen() {
                   </a>
                 );
               })}
+              {showViewAll && (
+                <a
+                  href={`/a-z#letter-${firstLetter}`}
+                  className="flex items-center justify-between px-6 py-3 border-t border-[#0A0A0A]/10 hover:bg-[#0A0A0A]/5 transition-colors"
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={() => { setSearchOpen(false); setQuery(''); }}
+                >
+                  <span className="text-[10px] font-semibold tracking-[0.15em] uppercase text-[#0A0A0A]/50">
+                    View all {totalPrefix} terms with &ldquo;{firstLetter}&rdquo;
+                  </span>
+                  <span className="text-[10px] text-[#0A0A0A]/40">→</span>
+                </a>
+              )}
             </div>
-          )}
+            );
+          })()}
         </div>
 
         {/* Action buttons */}
