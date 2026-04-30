@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import type { Entry, Section, SectionId } from '@/lib/types';
 import WordMasonryCard from './WordMasonryCard';
 
@@ -16,11 +16,26 @@ const COLOR_HEX: Record<string, string> = {
   blue: '#5BC8F5',
 };
 
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 export default function ExploreGrid({ entries, sections }: ExploreGridProps) {
   const [activeSection, setActiveSection] = useState<SectionId | 'all'>('all');
+  const [shuffledEntries, setShuffledEntries] = useState(entries);
 
-  const filtered = entries.filter(
-    (e) => activeSection === 'all' || e.section === activeSection
+  useEffect(() => {
+    setShuffledEntries(shuffle(entries));
+  }, [entries]);
+
+  const filtered = useMemo(
+    () => shuffledEntries.filter((e) => activeSection === 'all' || e.section === activeSection),
+    [shuffledEntries, activeSection]
   );
 
   return (
