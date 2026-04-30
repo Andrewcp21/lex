@@ -21,7 +21,7 @@ export default function SiteHeader() {
         <div className="flex-1 flex justify-center">
           <SearchBar />
         </div>
-        <nav className="flex items-center gap-4 shrink-0">
+        <nav className="hidden sm:flex items-center gap-4 shrink-0">
           <Link
             href="/a-z"
             className={`text-[10px] font-semibold tracking-[0.2em] uppercase border px-3 py-1.5 transition-colors duration-150 ${

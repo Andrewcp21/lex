@@ -90,7 +90,7 @@ export default function SearchBar() {
           placeholder="Search terms…"
           className="flex-1 px-4 py-2.5 text-sm font-medium text-[#0A0A0A] placeholder-[#0A0A0A]/40 outline-none bg-transparent"
         />
-        <span className="px-3 text-[10px] font-semibold tracking-[0.15em] text-[#0A0A0A]/30 select-none">
+        <span className="hidden sm:inline px-3 text-[10px] font-semibold tracking-[0.15em] text-[#0A0A0A]/30 select-none">
           {shortcutHint}
         </span>
       </div>
