@@ -104,12 +104,18 @@ export default function SearchBar() {
               <a
                 key={entry.id}
                 href={`/entry/${entry.id}`}
-                className={`flex items-center justify-between px-4 py-3 border-b border-[#0A0A0A]/10 last:border-0 ${
+                className={`relative flex items-center justify-between pl-4 pr-4 py-3 border-b border-[#0A0A0A]/10 last:border-0 ${
                   i === activeIndex ? 'bg-[#0A0A0A] text-white' : 'hover:bg-[#0A0A0A]/5'
                 }`}
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => { setOpen(false); setQuery(''); }}
               >
+                {/* Color bar — visible on mobile only */}
+                <span
+                  className={`absolute left-0 top-0 bottom-0 w-[3px] sm:hidden ${
+                    i === activeIndex ? 'bg-white' : colors.bg
+                  }`}
+                />
                 <div>
                   <span className={`text-sm font-bold uppercase tracking-tight ${i === activeIndex ? 'text-white' : 'text-[#0A0A0A]'}`}>
                     {entry.term}
@@ -120,8 +126,9 @@ export default function SearchBar() {
                     </span>
                   )}
                 </div>
+                {/* Category badge — hidden on mobile */}
                 {section && (
-                  <span className={`text-[9px] font-semibold tracking-[0.2em] px-2 py-0.5 ${colors.bg} ${colors.text}`}>
+                  <span className={`hidden sm:inline text-[9px] font-semibold tracking-[0.2em] px-2 py-0.5 ${colors.bg} ${colors.text}`}>
                     {section.name.toUpperCase()}
                   </span>
                 )}
