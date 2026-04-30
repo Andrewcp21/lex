@@ -1,13 +1,17 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getEntry, getSectionForEntry, COLOR_MAP } from '@/lib/entries';
+import { getEntry, getAllEntries, getSectionForEntry, COLOR_MAP } from '@/lib/entries';
 import DifficultyBadge from '@/components/DifficultyBadge';
-import RelatedTerms from '@/components/RelatedTerms';
+import ConstellationGraph from '@/components/ConstellationGraph';
 import CopyLinkButton from '@/components/CopyLinkButton';
+import WikipediaPanel from '@/components/WikipediaPanel';
+import LinkedText from '@/components/LinkedText';
 
 export default function EntryPage({ params }: { params: { id: string } }) {
   const entry = getEntry(params.id);
   if (!entry) notFound();
+
+  const allEntries = getAllEntries();
 
   const section = getSectionForEntry(entry);
   const colors = section ? COLOR_MAP[section.color] : COLOR_MAP.red;
@@ -54,9 +58,12 @@ export default function EntryPage({ params }: { params: { id: string } }) {
         <h2 className="text-[10px] font-semibold tracking-[0.25em] uppercase opacity-40 mb-3">
           Definition
         </h2>
-        <p className="text-base font-medium leading-relaxed text-[#0A0A0A]">
-          {entry.definition}
-        </p>
+        <LinkedText
+          text={entry.definition}
+          allEntries={allEntries}
+          currentEntryId={entry.id}
+          className="text-base font-medium leading-relaxed text-[#0A0A0A]"
+        />
       </section>
 
       {/* Example */}
@@ -64,9 +71,12 @@ export default function EntryPage({ params }: { params: { id: string } }) {
         <h2 className="text-[10px] font-semibold tracking-[0.25em] uppercase opacity-40 mb-3">
           Example
         </h2>
-        <p className="text-base font-medium leading-relaxed text-[#0A0A0A] opacity-70">
-          {entry.example}
-        </p>
+        <LinkedText
+          text={entry.example}
+          allEntries={allEntries}
+          currentEntryId={entry.id}
+          className="text-base font-medium leading-relaxed text-[#0A0A0A] opacity-70"
+        />
       </section>
 
       {/* Key Figures (Design Styles only) */}
@@ -82,13 +92,6 @@ export default function EntryPage({ params }: { params: { id: string } }) {
               </li>
             ))}
           </ul>
-        </section>
-      )}
-
-      {/* Related Terms */}
-      {entry.relatedTerms.length > 0 && (
-        <section className="mb-8">
-          <RelatedTerms relatedIds={entry.relatedTerms} />
         </section>
       )}
 
@@ -112,10 +115,20 @@ export default function EntryPage({ params }: { params: { id: string } }) {
         </section>
       )}
 
+      {/* Wikipedia panel */}
+      <WikipediaPanel term={entry.term} />
+
       {/* Copy link */}
-      <div className="pt-4 border-t border-[#0A0A0A]/10">
+      <div className="mt-8 pt-4 border-t border-[#0A0A0A]/10">
         <CopyLinkButton />
       </div>
+
+      {/* Related Terms */}
+      {entry.relatedTerms.length > 0 && (
+        <section className="mt-8 pt-8 border-t border-[#0A0A0A]/10">
+          <ConstellationGraph relatedIds={entry.relatedTerms} centerTerm={entry.term} centerId={entry.id} />
+        </section>
+      )}
     </div>
   );
 }

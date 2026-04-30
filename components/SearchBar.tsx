@@ -107,6 +107,7 @@ export default function SearchBar() {
                 className={`flex items-center justify-between px-4 py-3 border-b border-[#0A0A0A]/10 last:border-0 ${
                   i === activeIndex ? 'bg-[#0A0A0A] text-white' : 'hover:bg-[#0A0A0A]/5'
                 }`}
+                onMouseDown={(e) => e.preventDefault()}
                 onClick={() => { setOpen(false); setQuery(''); }}
               >
                 <div>
