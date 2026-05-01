@@ -9,6 +9,7 @@ import NewsPanel from '@/components/NewsPanel';
 import VideoPanel from '@/components/VideoPanel';
 import LinkedText from '@/components/LinkedText';
 import UnverifiedBadge from '@/components/UnverifiedBadge';
+import TrackTermView from './TrackTermView';
 import type { Entry } from '@/lib/types';
 
 const SVG_COLOR: Record<string, string> = {
@@ -65,6 +66,7 @@ export default async function EntryLayout({ entry, allEntries, unverified }: Pro
 
   return (
     <div className="max-w-[720px] mx-auto px-6 py-12">
+      <TrackTermView termId={entry.id} termName={entry.term} />
       {/* Back link */}
       {section && (
         <Link

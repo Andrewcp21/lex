@@ -6,6 +6,7 @@ import { searchEntries } from '@/lib/search';
 import type { SearchResult } from '@/lib/search';
 import { COLOR_MAP } from '@/lib/entries';
 import type { Entry, Section } from '@/lib/types';
+import { trackEvent } from '@/lib/gtag';
 
 export default function SearchBar({ entries, sections }: { entries: Entry[]; sections: Section[] }) {
   const [query, setQuery] = useState('');
@@ -34,6 +35,9 @@ export default function SearchBar({ entries, sections }: { entries: Entry[]; sec
       // Open dropdown when there are results OR when query is long enough to suggest generation
       setOpen(r.length > 0 || q.trim().length > 2);
       setActiveIndex(-1);
+      if (q.trim().length > 2) {
+        trackEvent('search', { search_term: q.trim(), results_count: r.length, has_results: r.length > 0 });
+      }
     },
     [entries]
   );
@@ -168,7 +172,7 @@ export default function SearchBar({ entries, sections }: { entries: Entry[]; sec
               href={`/entry/${generateSlug}`}
               className="flex items-center justify-between px-4 py-3 border-t border-dashed border-[#0A0A0A]/20 hover:bg-[#0A0A0A]/5 transition-colors"
               onMouseDown={(e) => e.preventDefault()}
-              onClick={() => { setOpen(false); setQuery(''); }}
+              onClick={() => { setOpen(false); setQuery(''); trackEvent('generate_definition_click', { search_term: q }); }}
             >
               <span className="text-[10px] font-semibold tracking-[0.15em] uppercase text-[#0A0A0A]/50">
                 ✦ Generate definition for &ldquo;{q}&rdquo;

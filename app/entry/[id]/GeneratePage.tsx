@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { trackEvent } from '@/lib/gtag';
 
 function toTitleCase(str: string) {
   return str.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
@@ -16,6 +17,7 @@ export default function GeneratePage({ termId }: { termId: string }) {
   async function handleGenerate() {
     setLoading(true);
     setError('');
+    trackEvent('generate_definition', { term: displayTerm });
     try {
       const res = await fetch('/api/generate', {
         method: 'POST',
