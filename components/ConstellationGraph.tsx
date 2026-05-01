@@ -2,12 +2,6 @@
 
 import type { Entry } from '@/lib/types';
 
-const SVG_COLOR: Record<string, string> = {
-  red:    '#CC0000',
-  yellow: '#8B6B00',
-  green:  '#006E33',
-  blue:   '#0077AA',
-};
 
 const CX = 330;
 const CY = 150;

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getSectionForEntry, getAllEntries, getAllSections, COLOR_MAP } from '@/lib/entries';
+import { getSectionForEntry, getAllSections, COLOR_MAP } from '@/lib/entries';
 import DifficultyBadge from '@/components/DifficultyBadge';
 import ConstellationGraph from '@/components/ConstellationGraph';
 import type { ResolvedEntry } from '@/components/ConstellationGraph';
