@@ -69,6 +69,24 @@ export default async function AboutPage() {
             An open reference tool by Good Fruit Studio. No tracking, no ads.
           </p>
         </section>
+
+        <section>
+          <h2 className="text-[10px] font-semibold tracking-[0.25em] uppercase opacity-40 mb-3">
+            Feedback
+          </h2>
+          <p className="text-base font-medium leading-relaxed text-[#0A0A0A]">
+            Found a mistake or want to suggest a term? Reach out on Instagram{' '}
+            <a
+              href="https://instagram.com/andrewc.putra"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:opacity-60 transition-opacity"
+            >
+              @andrewc.putra
+            </a>
+            .
+          </p>
+        </section>
       </div>
     </div>
   );

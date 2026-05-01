@@ -38,9 +38,19 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <span className="text-[10px] font-semibold tracking-[0.2em] uppercase opacity-40">
               Kosa Rupa
             </span>
-            <span className="text-[10px] font-medium opacity-30">
-              An architect&apos;s dictionary — {termCount} terms, {sectionCount} sections.
-            </span>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://instagram.com/andrewc.putra"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[10px] font-medium opacity-30 hover:opacity-70 transition-opacity"
+              >
+                @andrewc.putra
+              </a>
+              <span className="text-[10px] font-medium opacity-30">
+                An architect&apos;s dictionary — {termCount} terms, {sectionCount} sections.
+              </span>
+            </div>
           </div>
         </footer>
       </body>
