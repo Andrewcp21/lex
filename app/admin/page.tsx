@@ -4,7 +4,7 @@ import { getPendingEntries } from '@/lib/pending-entries';
 
 export const dynamic = 'force-dynamic';
 import { getAllSections, COLOR_MAP } from '@/lib/entries';
-import { approveEntry, rejectEntry } from './actions';
+import EntryActions from './EntryActions';
 
 export default async function AdminPage() {
   const cookieStore = await cookies();
@@ -87,31 +87,7 @@ export default async function AdminPage() {
                 )}
 
                 {/* Actions */}
-                <div className="flex gap-3 pt-4 border-t border-[#0A0A0A]/10">
-                  <form action={approveEntry.bind(null, entry.id)}>
-                    <button
-                      type="submit"
-                      className="bg-[#0A0A0A] text-white px-5 py-2 text-[10px] font-semibold tracking-[0.2em] uppercase hover:bg-[#333] transition-colors"
-                    >
-                      Approve
-                    </button>
-                  </form>
-                  <form action={rejectEntry.bind(null, entry.id)}>
-                    <button
-                      type="submit"
-                      className="border border-[#0A0A0A]/30 px-5 py-2 text-[10px] font-semibold tracking-[0.2em] uppercase text-[#0A0A0A]/50 hover:border-[#0A0A0A] hover:text-[#0A0A0A] transition-colors"
-                    >
-                      Reject
-                    </button>
-                  </form>
-                  <a
-                    href={`/entry/${entry.id}`}
-                    target="_blank"
-                    className="ml-auto text-[10px] font-semibold tracking-[0.15em] uppercase text-[#0A0A0A]/30 hover:text-[#0A0A0A] transition-colors self-center"
-                  >
-                    Preview →
-                  </a>
-                </div>
+                <EntryActions id={entry.id} />
               </div>
             );
           })}

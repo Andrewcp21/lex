@@ -12,14 +12,32 @@ async function requireAdmin() {
   }
 }
 
-export async function approveEntry(id: string) {
+export async function approveEntry(
+  _prev: string | null,
+  formData: FormData
+): Promise<string | null> {
+  const id = formData.get('id') as string;
   await requireAdmin();
-  await promotePendingEntry(id);
+  try {
+    await promotePendingEntry(id);
+  } catch (err) {
+    return err instanceof Error ? err.message : String(err);
+  }
   revalidatePath('/admin');
+  return null;
 }
 
-export async function rejectEntry(id: string) {
+export async function rejectEntry(
+  _prev: string | null,
+  formData: FormData
+): Promise<string | null> {
+  const id = formData.get('id') as string;
   await requireAdmin();
-  await updateEntryStatus(id, 'rejected');
+  try {
+    await updateEntryStatus(id, 'rejected');
+  } catch (err) {
+    return err instanceof Error ? err.message : String(err);
+  }
   revalidatePath('/admin');
+  return null;
 }
