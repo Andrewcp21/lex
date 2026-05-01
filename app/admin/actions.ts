@@ -24,6 +24,8 @@ export async function approveEntry(
     return err instanceof Error ? err.message : String(err);
   }
   revalidatePath('/admin');
+  revalidatePath(`/entry/${id}`);
+  revalidatePath('/', 'layout');
   return null;
 }
 

@@ -5,15 +5,13 @@ function getSupabase() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !key) throw new Error('Supabase env vars missing');
-  return createClient(url, key);
+  return createClient(url, key, {
+    global: { fetch: (input, init) => fetch(input, { ...init, cache: 'no-store' }) },
+  });
 }
 
-let _entries: Entry[] | null = null;
-let _sections: Section[] | null = null;
-
 export function invalidateCache() {
-  _entries = null;
-  _sections = null;
+  // no-op: cache: 'no-store' on the Supabase client means every fetch is live
 }
 
 function rowToEntry(row: Record<string, unknown>): Entry {
@@ -51,24 +49,20 @@ function rowToSection(row: Record<string, unknown>): Section {
 }
 
 async function fetchAllEntries(): Promise<Entry[]> {
-  if (_entries) return _entries;
   const supabase = getSupabase();
   const { data, error } = await supabase
     .from('entries')
     .select('*')
     .order('term', { ascending: true });
   if (error) throw new Error(`Failed to fetch entries: ${error.message}`);
-  _entries = (data ?? []).map(rowToEntry);
-  return _entries;
+  return (data ?? []).map(rowToEntry);
 }
 
 async function fetchAllSections(): Promise<Section[]> {
-  if (_sections) return _sections;
   const supabase = getSupabase();
   const { data, error } = await supabase.from('sections_with_count').select('*');
   if (error) throw new Error(`Failed to fetch sections: ${error.message}`);
-  _sections = (data ?? []).map(rowToSection);
-  return _sections;
+  return (data ?? []).map(rowToSection);
 }
 
 export async function getAllEntries(): Promise<Entry[]> {

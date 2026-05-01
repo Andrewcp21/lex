@@ -1,34 +1,39 @@
 'use client';
 
-import { useActionState } from 'react';
+import { useFormState, useFormStatus } from 'react-dom';
 import { approveEntry, rejectEntry } from './actions';
 
+function SubmitButton({ label, pendingLabel, className }: { label: string; pendingLabel: string; className: string }) {
+  const { pending } = useFormStatus();
+  return (
+    <button type="submit" disabled={pending} className={className}>
+      {pending ? pendingLabel : label}
+    </button>
+  );
+}
+
 export default function EntryActions({ id }: { id: string }) {
-  const [approveError, approveAction, approvePending] = useActionState(approveEntry, null);
-  const [rejectError, rejectAction, rejectPending] = useActionState(rejectEntry, null);
+  const [approveError, approveAction] = useFormState(approveEntry, null);
+  const [rejectError, rejectAction] = useFormState(rejectEntry, null);
 
   return (
     <div className="flex flex-col gap-2 pt-4 border-t border-[#0A0A0A]/10">
       <div className="flex gap-3">
         <form action={approveAction}>
           <input type="hidden" name="id" value={id} />
-          <button
-            type="submit"
-            disabled={approvePending}
+          <SubmitButton
+            label="Approve"
+            pendingLabel="Approving…"
             className="bg-[#0A0A0A] text-white px-5 py-2 text-[10px] font-semibold tracking-[0.2em] uppercase hover:bg-[#333] transition-colors disabled:opacity-40"
-          >
-            {approvePending ? 'Approving…' : 'Approve'}
-          </button>
+          />
         </form>
         <form action={rejectAction}>
           <input type="hidden" name="id" value={id} />
-          <button
-            type="submit"
-            disabled={rejectPending}
+          <SubmitButton
+            label="Reject"
+            pendingLabel="Rejecting…"
             className="border border-[#0A0A0A]/30 px-5 py-2 text-[10px] font-semibold tracking-[0.2em] uppercase text-[#0A0A0A]/50 hover:border-[#0A0A0A] hover:text-[#0A0A0A] transition-colors disabled:opacity-40"
-          >
-            {rejectPending ? 'Rejecting…' : 'Reject'}
-          </button>
+          />
         </form>
         <a
           href={`/entry/${id}`}
