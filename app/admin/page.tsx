@@ -13,7 +13,7 @@ export default async function AdminPage() {
   }
 
   const pending = await getPendingEntries();
-  const sections = getAllSections();
+  const sections = await getAllSections();
 
   return (
     <div className="max-w-[900px] mx-auto px-6 py-12">

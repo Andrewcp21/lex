@@ -2,9 +2,8 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import SearchBar from './SearchBar';
 
-export default function SiteHeader() {
+export default function SiteHeader({ searchBar }: { searchBar: React.ReactNode }) {
   const pathname = usePathname();
 
   if (pathname === '/') return null;
@@ -19,7 +18,7 @@ export default function SiteHeader() {
           Kosa Rupa
         </Link>
         <div className="flex-1 flex justify-center">
-          <SearchBar />
+          {searchBar}
         </div>
         <nav className="hidden sm:flex items-center gap-4 shrink-0">
           <Link

@@ -1,7 +1,8 @@
 import Link from 'next/link';
-import { getSectionForEntry, COLOR_MAP } from '@/lib/entries';
+import { getSectionForEntry, getAllEntries, getAllSections, COLOR_MAP } from '@/lib/entries';
 import DifficultyBadge from '@/components/DifficultyBadge';
 import ConstellationGraph from '@/components/ConstellationGraph';
+import type { ResolvedEntry } from '@/components/ConstellationGraph';
 import CopyLinkButton from '@/components/CopyLinkButton';
 import WikipediaPanel from '@/components/WikipediaPanel';
 import NewsPanel from '@/components/NewsPanel';
@@ -10,15 +11,57 @@ import LinkedText from '@/components/LinkedText';
 import UnverifiedBadge from '@/components/UnverifiedBadge';
 import type { Entry } from '@/lib/types';
 
+const SVG_COLOR: Record<string, string> = {
+  red:    '#CC0000',
+  yellow: '#8B6B00',
+  green:  '#006E33',
+  blue:   '#0077AA',
+};
+
 interface Props {
   entry: Entry;
   allEntries: Entry[];
   unverified?: boolean;
 }
 
-export default function EntryLayout({ entry, allEntries, unverified }: Props) {
-  const section = getSectionForEntry(entry);
+export default async function EntryLayout({ entry, allEntries, unverified }: Props) {
+  const [section, sections] = await Promise.all([
+    getSectionForEntry(entry),
+    getAllSections(),
+  ]);
   const colors = section ? COLOR_MAP[section.color] : COLOR_MAP.red;
+
+  // Pre-resolve constellation data server-side so ConstellationGraph needs no async calls
+  const resolvedEntries: Record<string, ResolvedEntry> = {};
+  if (entry.relatedTerms.length > 0) {
+    const allEntriesMap = new Map(allEntries.map((e) => [e.id, e]));
+    const sectionsMap = new Map(sections.map((s) => [s.id, s]));
+
+    const toResolve = entry.relatedTerms
+      .map((id) => allEntriesMap.get(id))
+      .filter((e): e is Entry => e !== undefined);
+
+    // Also add L2 candidates (relatedTerms of L1 entries, excluding center and L1 set)
+    const l1IdSet = new Set(entry.relatedTerms);
+    for (const l1 of toResolve) {
+      for (const l2Id of l1.relatedTerms) {
+        if (l2Id !== entry.id && !l1IdSet.has(l2Id)) {
+          const l2Entry = allEntriesMap.get(l2Id);
+          if (l2Entry) toResolve.push(l2Entry);
+          l1IdSet.add(l2Id); // prevent duplicates
+        }
+      }
+    }
+
+    for (const e of toResolve) {
+      if (resolvedEntries[e.id]) continue;
+      const sec = sectionsMap.get(e.section);
+      resolvedEntries[e.id] = {
+        entry: e,
+        colorHex: sec ? (SVG_COLOR[sec.color] ?? '#0A0A0A') : '#0A0A0A',
+      };
+    }
+  }
 
   return (
     <div className="max-w-[720px] mx-auto px-6 py-12">
@@ -84,7 +127,7 @@ export default function EntryLayout({ entry, allEntries, unverified }: Props) {
         />
       </section>
 
-      {/* Key Figures (Design Styles only) */}
+      {/* Key Figures */}
       {entry.keyFigures && entry.keyFigures.length > 0 && (
         <section className="mb-8 pb-8 border-b border-[#0A0A0A]">
           <h2 className="text-[10px] font-semibold tracking-[0.25em] uppercase opacity-40 mb-3">
@@ -137,7 +180,12 @@ export default function EntryLayout({ entry, allEntries, unverified }: Props) {
       {/* Related Terms */}
       {entry.relatedTerms.length > 0 && (
         <section className="mt-8 pt-8 border-t border-[#0A0A0A]/10">
-          <ConstellationGraph relatedIds={entry.relatedTerms} centerTerm={entry.term} centerId={entry.id} />
+          <ConstellationGraph
+            relatedIds={entry.relatedTerms}
+            centerTerm={entry.term}
+            centerId={entry.id}
+            resolvedEntries={resolvedEntries}
+          />
         </section>
       )}
     </div>

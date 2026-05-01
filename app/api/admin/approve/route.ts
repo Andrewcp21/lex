@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
-import { updateEntryStatus } from '@/lib/pending-entries';
+import { promotePendingEntry } from '@/lib/pending-entries';
 
 export async function POST(req: NextRequest) {
   const cookieStore = await cookies();
@@ -13,6 +13,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'id is required' }, { status: 400 });
   }
 
-  await updateEntryStatus(id, 'approved');
+  await promotePendingEntry(id);
   return NextResponse.json({ ok: true });
 }

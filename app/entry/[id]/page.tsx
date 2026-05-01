@@ -1,11 +1,10 @@
-import { getEntry, getAllEntries } from '@/lib/entries';
+import { getAllEntries, getEntry } from '@/lib/entries';
 import { findPendingEntry } from '@/lib/pending-entries';
 import EntryLayout from './EntryLayout';
 import GeneratePage from './GeneratePage';
 
 export default async function EntryPage({ params }: { params: { id: string } }) {
-  const entry = getEntry(params.id);
-  const allEntries = getAllEntries();
+  const [entry, allEntries] = await Promise.all([getEntry(params.id), getAllEntries()]);
 
   if (entry) return <EntryLayout entry={entry} allEntries={allEntries} />;
 

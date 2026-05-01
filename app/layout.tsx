@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import SiteHeader from '@/components/SiteHeader';
+import SearchBar from '@/components/SearchBar';
 import { getAllEntries, getAllSections } from '@/lib/entries';
 
 const spaceGrotesk = Space_Grotesk({
@@ -10,19 +11,23 @@ const spaceGrotesk = Space_Grotesk({
   variable: '--font-space-grotesk',
 });
 
-export const metadata: Metadata = {
-  title: "Kosa Rupa — Architect's Dictionary",
-  description:
-    'A comprehensive, searchable dictionary for architecture students and beginners. 645 terms across 10 sections.',
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const [entries, sections] = await Promise.all([getAllEntries(), getAllSections()]);
+  return {
+    title: "Kosa Rupa — Architect's Dictionary",
+    description: `A comprehensive, searchable dictionary for architecture students and beginners. ${entries.length} terms across ${sections.length} sections.`,
+    robots: { index: false, follow: false },
+  };
+}
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const termCount = getAllEntries().length;
-  const sectionCount = getAllSections().length;
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const [entries, sections] = await Promise.all([getAllEntries(), getAllSections()]);
+  const termCount = entries.length;
+  const sectionCount = sections.length;
   return (
     <html lang="en" className={spaceGrotesk.variable}>
       <body className="font-[family-name:var(--font-space-grotesk)] bg-white text-[#0A0A0A] antialiased">
-        <SiteHeader />
+        <SiteHeader searchBar={<SearchBar entries={entries} sections={sections} />} />
 
         <main>{children}</main>
 

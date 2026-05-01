@@ -3,7 +3,7 @@
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { revalidatePath } from 'next/cache';
-import { updateEntryStatus } from '@/lib/pending-entries';
+import { promotePendingEntry, updateEntryStatus } from '@/lib/pending-entries';
 
 async function requireAdmin() {
   const cookieStore = await cookies();
@@ -14,7 +14,7 @@ async function requireAdmin() {
 
 export async function approveEntry(id: string) {
   await requireAdmin();
-  await updateEntryStatus(id, 'approved');
+  await promotePendingEntry(id);
   revalidatePath('/admin');
 }
 

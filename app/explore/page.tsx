@@ -1,9 +1,9 @@
 import { getAllEntries, getAllSections } from '@/lib/entries';
 import ExploreGrid from '@/components/ExploreGrid';
 
-export default function ExplorePage() {
-  const entries = getAllEntries();
-  const sections = getAllSections();
+export default async function ExplorePage() {
+  const entries = await getAllEntries();
+  const sections = await getAllSections();
 
   return (
     <div>

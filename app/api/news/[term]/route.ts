@@ -75,7 +75,7 @@ function dedupe(articles: NewsArticle[]): NewsArticle[] {
 }
 
 // Find glossary terms mentioned in article title/excerpt (excluding the current search term)
-function detectRelatedTerms(article: NewsArticle, searchTerm: string, allEntries: ReturnType<typeof getAllEntries>): string[] {
+function detectRelatedTerms(article: NewsArticle, searchTerm: string, allEntries: Awaited<ReturnType<typeof getAllEntries>>): string[] {
   const content = `${article.title} ${article.excerpt ?? ''}`.toLowerCase();
   const searchLower = searchTerm.toLowerCase();
 
@@ -93,7 +93,7 @@ function detectRelatedTerms(article: NewsArticle, searchTerm: string, allEntries
 
 export async function GET(_req: Request, { params }: { params: { term: string } }) {
   const { term } = params;
-  const allEntries = getAllEntries();
+  const allEntries = await getAllEntries();
 
   const primary = await fetchNewsApi(term);
   const fallback = primary.length < 3 ? await fetchGoogleNews(term) : [];

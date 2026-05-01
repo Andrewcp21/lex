@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Entry, PendingEntry } from './types';
+import { invalidateCache } from './entries';
 
 function getSupabaseClient() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -22,18 +23,6 @@ export async function getPendingEntries(): Promise<PendingEntry[]> {
 
   if (error) throw error;
   return (data ?? []).map(rowToEntry);
-}
-
-export async function getApprovedEntries(): Promise<Entry[]> {
-  const supabase = getSupabaseClient();
-  if (!supabase) return [];
-  const { data, error } = await supabase
-    .from('pending_entries')
-    .select('*')
-    .eq('status', 'approved');
-
-  if (error) throw error;
-  return (data ?? []).map((row) => row.entry as Entry);
 }
 
 export async function findPendingEntry(id: string): Promise<PendingEntry | null> {
@@ -71,6 +60,46 @@ export async function updateEntryStatus(
     .update({ status })
     .eq('id', id);
   if (error) throw error;
+}
+
+export async function promotePendingEntry(id: string): Promise<void> {
+  const supabase = getSupabaseClient();
+  if (!supabase) throw new Error('Supabase is not configured');
+
+  const { data, error } = await supabase
+    .from('pending_entries')
+    .select('*')
+    .eq('id', id)
+    .single();
+  if (error || !data) throw new Error('Pending entry not found');
+
+  const entry = data.entry as Entry;
+
+  const { error: insertErr } = await supabase.from('entries').insert({
+    id:              entry.id,
+    term:            entry.term,
+    section_id:      entry.section,
+    difficulty:      entry.difficulty,
+    definition:      entry.definition,
+    example:         entry.example,
+    indonesian_term: entry.indonesianTerm ?? null,
+    phonetic:        entry.phonetic ?? null,
+    abbreviation:    entry.abbreviation ?? null,
+    wiki_slug:       entry.wikiSlug ?? null,
+    related_terms:   entry.relatedTerms ?? [],
+    tags:            entry.tags ?? [],
+    key_figures:     entry.keyFigures ?? [],
+    video_references: entry.videoReferences ?? [],
+  });
+  if (insertErr) throw new Error(insertErr.message);
+
+  const { error: deleteErr } = await supabase
+    .from('pending_entries')
+    .delete()
+    .eq('id', id);
+  if (deleteErr) throw new Error(deleteErr.message);
+
+  invalidateCache();
 }
 
 function rowToEntry(row: { id: string; entry: unknown; status: string; created_at: string }): PendingEntry {

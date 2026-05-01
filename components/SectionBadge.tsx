@@ -8,8 +8,8 @@ interface SectionBadgeProps {
   linked?: boolean;
 }
 
-export default function SectionBadge({ sectionId, linked = false }: SectionBadgeProps) {
-  const sections = getAllSections();
+export default async function SectionBadge({ sectionId, linked = false }: SectionBadgeProps) {
+  const sections = await getAllSections();
   const section = sections.find((s) => s.id === sectionId);
   if (!section) return null;
 

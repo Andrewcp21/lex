@@ -3,10 +3,10 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { searchEntries } from '@/lib/search';
-import { getAllEntries, getAllSections, COLOR_MAP } from '@/lib/entries';
-import type { Entry } from '@/lib/types';
+import { COLOR_MAP } from '@/lib/entries';
+import type { Entry, Section } from '@/lib/types';
 
-export default function SearchBar() {
+export default function SearchBar({ entries, sections }: { entries: Entry[]; sections: Section[] }) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<Entry[]>([]);
   const [open, setOpen] = useState(false);
@@ -19,8 +19,6 @@ export default function SearchBar() {
   }, []);
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
-  const entries = getAllEntries();
-  const sections = getAllSections();
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const runSearch = useCallback(

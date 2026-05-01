@@ -5,8 +5,8 @@ interface RelatedTermsProps {
   relatedIds: string[];
 }
 
-export default function RelatedTerms({ relatedIds }: RelatedTermsProps) {
-  const related = getRelatedEntries(relatedIds);
+export default async function RelatedTerms({ relatedIds }: RelatedTermsProps) {
+  const related = await getRelatedEntries(relatedIds);
   if (related.length === 0) return null;
 
   return (

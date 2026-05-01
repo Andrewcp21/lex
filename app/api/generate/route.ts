@@ -28,8 +28,8 @@ export async function POST(req: NextRequest) {
   const slug = query.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
   if (!slug) return NextResponse.json({ error: 'Invalid query' }, { status: 400 });
 
-  // Return existing entry if already in static DB
-  const existing = getEntry(slug);
+  // Return existing entry if already in DB
+  const existing = await getEntry(slug);
   if (existing) return NextResponse.json({ entry: existing });
 
   // Return from Supabase if already generated
@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
   }
 
   const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-  const allIds = getAllEntries().map((e) => e.id).join(', ');
+  const allIds = (await getAllEntries()).map((e) => e.id).join(', ');
 
   const prompt = `You are a professional architecture glossary writer for KosaRupa, an Indonesian-English architecture glossary used by architecture students and professionals in Indonesia.
 
@@ -78,7 +78,7 @@ Important: relatedTerms must only contain IDs from the provided list.`;
   }
 
   // Validate and sanitize the generated entry
-  const allEntryIds = new Set(getAllEntries().map((e) => e.id));
+  const allEntryIds = new Set((await getAllEntries()).map((e) => e.id));
   const entry: Entry = {
     id: slug,
     term: typeof generated.term === 'string' ? generated.term : query,

@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { getAllEntries, getAllSections, COLOR_MAP } from '@/lib/entries';
+import { COLOR_MAP } from '@/lib/entries';
 import { searchEntries } from '@/lib/search';
 import type { Entry, Section } from '@/lib/types';
 
@@ -78,9 +78,7 @@ function TypingWord({ entries, sections }: { entries: Entry[]; sections: Section
   );
 }
 
-export default function HomeScreen() {
-  const entries = getAllEntries();
-  const sections = getAllSections();
+export default function HomeScreen({ entries, sections }: { entries: Entry[]; sections: Section[] }) {
   const router = useRouter();
 
   // Search state

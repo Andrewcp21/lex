@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { getAllSections } from '@/lib/entries';
 
-export default function AboutPage() {
-  const sections = getAllSections();
+export default async function AboutPage() {
+  const sections = await getAllSections();
 
   return (
     <div className="max-w-[720px] mx-auto px-6 py-12">
@@ -66,8 +66,7 @@ export default function AboutPage() {
             Built by
           </h2>
           <p className="text-base font-medium leading-relaxed text-[#0A0A0A]">
-            An experimental tool by Good Fruit Studio. No backend, no tracking, no database.
-            All data is static JSON — it works fully offline once loaded.
+            An open reference tool by Good Fruit Studio. No tracking, no ads.
           </p>
         </section>
       </div>

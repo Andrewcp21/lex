@@ -1,16 +1,15 @@
 import Link from 'next/link';
-import { getAllSections, COLOR_MAP } from '@/lib/entries';
+import { COLOR_MAP } from '@/lib/entries';
 import DifficultyBadge from './DifficultyBadge';
-import type { Entry } from '@/lib/types';
+import type { Entry, Section } from '@/lib/types';
 
 interface EntryCardProps {
   entry: Entry;
   showSection?: boolean;
+  section?: Section;
 }
 
-export default function EntryCard({ entry, showSection = false }: EntryCardProps) {
-  const sections = getAllSections();
-  const section = sections.find((s) => s.id === entry.section);
+export default function EntryCard({ entry, showSection = false, section }: EntryCardProps) {
   const preview = entry.definition.slice(0, 120) + (entry.definition.length > 120 ? '…' : '');
 
   return (

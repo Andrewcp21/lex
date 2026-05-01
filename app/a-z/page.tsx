@@ -3,9 +3,9 @@ import { getAllEntriesSorted, getAllSections, COLOR_MAP } from '@/lib/entries';
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
-export default function AZPage() {
-  const entries = getAllEntriesSorted();
-  const sections = getAllSections();
+export default async function AZPage() {
+  const entries = await getAllEntriesSorted();
+  const sections = await getAllSections();
 
   const grouped: Record<string, typeof entries> = {};
   for (const entry of entries) {
