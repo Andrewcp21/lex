@@ -14,6 +14,12 @@ export type Difficulty = 'beginner' | 'intermediate' | 'advanced';
 
 export type GFSColor = 'red' | 'yellow' | 'green' | 'blue';
 
+export interface VideoReference {
+  url: string;
+  title: string;
+  channel?: string;
+}
+
 export interface Entry {
   id: string;
   term: string;
@@ -27,6 +33,14 @@ export interface Entry {
   keyFigures?: string[];
   relatedTerms: string[];
   tags?: string[];
+  wikiSlug?: string;
+  videoReferences?: VideoReference[];
+}
+
+export interface PendingEntry extends Entry {
+  aiGenerated: true;
+  status: 'pending' | 'approved' | 'rejected';
+  createdAt: string;
 }
 
 export interface Section {

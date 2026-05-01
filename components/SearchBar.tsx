@@ -32,7 +32,8 @@ export default function SearchBar() {
       }
       const r = searchEntries(entries, q).slice(0, 8);
       setResults(r);
-      setOpen(r.length > 0);
+      // Open dropdown when there are results OR when query is long enough to suggest generation
+      setOpen(r.length > 0 || q.trim().length > 2);
       setActiveIndex(-1);
     },
     [entries]
@@ -102,6 +103,8 @@ export default function SearchBar() {
           : 0;
         const firstLetter = q[0]?.toUpperCase() ?? '';
         const showViewAll = totalPrefix > results.length;
+        const showGenerate = results.length === 0 && q.length > 2;
+        const generateSlug = q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
         return (
         <div className="absolute top-full left-0 right-0 z-50 border border-t-0 border-[#0A0A0A] bg-white">
           {results.map((entry, i) => {
@@ -153,6 +156,19 @@ export default function SearchBar() {
                 View all {totalPrefix} terms with &ldquo;{firstLetter}&rdquo;
               </span>
               <span className="text-[10px] text-[#0A0A0A]/40">→</span>
+            </a>
+          )}
+          {showGenerate && (
+            <a
+              href={`/entry/${generateSlug}`}
+              className="flex items-center justify-between px-4 py-3 border-t border-dashed border-[#0A0A0A]/20 hover:bg-[#0A0A0A]/5 transition-colors"
+              onMouseDown={(e) => e.preventDefault()}
+              onClick={() => { setOpen(false); setQuery(''); }}
+            >
+              <span className="text-[10px] font-semibold tracking-[0.15em] uppercase text-[#0A0A0A]/50">
+                ✦ Generate definition for &ldquo;{q}&rdquo;
+              </span>
+              <span className="text-[10px] text-[#0A0A0A]/30">→</span>
             </a>
           )}
         </div>

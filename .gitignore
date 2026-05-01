@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# playwright test artifacts
+.playwright-mcp/
+
+# api key files
+API Key
