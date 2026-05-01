@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { Space_Grotesk } from 'next/font/google';
+
+export const dynamic = 'force-dynamic';
 import './globals.css';
 import SiteHeader from '@/components/SiteHeader';
 import SearchBar from '@/components/SearchBar';
