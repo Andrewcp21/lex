@@ -3,12 +3,13 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { searchEntries } from '@/lib/search';
+import type { SearchResult } from '@/lib/search';
 import { COLOR_MAP } from '@/lib/entries';
 import type { Entry, Section } from '@/lib/types';
 
 export default function SearchBar({ entries, sections }: { entries: Entry[]; sections: Section[] }) {
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<Entry[]>([]);
+  const [results, setResults] = useState<SearchResult[]>([]);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const [shortcutHint, setShortcutHint] = useState('⌘K');
@@ -69,7 +70,7 @@ export default function SearchBar({ entries, sections }: { entries: Entry[]; sec
       e.preventDefault();
       setActiveIndex((i) => Math.max(i - 1, -1));
     } else if (e.key === 'Enter' && activeIndex >= 0) {
-      router.push(`/entry/${results[activeIndex].id}`);
+      router.push(`/entry/${results[activeIndex].entry.id}`);
       setOpen(false);
       setQuery('');
     }
@@ -105,9 +106,10 @@ export default function SearchBar({ entries, sections }: { entries: Entry[]; sec
         const generateSlug = q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
         return (
         <div className="absolute top-full left-0 right-0 z-50 border border-t-0 border-[#0A0A0A] bg-white">
-          {results.map((entry, i) => {
+          {results.map(({ entry, matchType }, i) => {
             const section = sections.find((s) => s.id === entry.section);
             const colors = section ? COLOR_MAP[section.color] : COLOR_MAP.red;
+            const isFuzzy = matchType === 'fuzzy';
             return (
               <a
                 key={entry.id}
@@ -125,6 +127,11 @@ export default function SearchBar({ entries, sections }: { entries: Entry[]; sec
                   }`}
                 />
                 <div>
+                  {isFuzzy && (
+                    <span className={`mr-1 text-sm font-normal ${i === activeIndex ? 'text-white/40' : 'text-[#0A0A0A]/30'}`}>
+                      ~
+                    </span>
+                  )}
                   <span className={`text-sm font-bold uppercase tracking-tight ${i === activeIndex ? 'text-white' : 'text-[#0A0A0A]'}`}>
                     {entry.term}
                   </span>

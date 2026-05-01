@@ -1,6 +1,13 @@
 import Fuse from 'fuse.js';
 import type { Entry } from './types';
 
+export type MatchType = 'prefix' | 'fuzzy';
+
+export interface SearchResult {
+  entry: Entry;
+  matchType: MatchType;
+}
+
 let fuseInstance: Fuse<Entry> | null = null;
 
 function getFuse(entries: Entry[]): Fuse<Entry> {
@@ -20,7 +27,7 @@ function getFuse(entries: Entry[]): Fuse<Entry> {
   return fuseInstance;
 }
 
-export function searchEntries(entries: Entry[], query: string): Entry[] {
+export function searchEntries(entries: Entry[], query: string): SearchResult[] {
   const q = query.trim();
   if (!q) return [];
 
@@ -35,7 +42,8 @@ export function searchEntries(entries: Entry[], query: string): Entry[] {
     .sort((a, b) => a.term.localeCompare(b.term));
 
   // For short queries just return prefix matches (up to 8)
-  if (q.length <= 2) return prefixMatches.slice(0, 8);
+  if (q.length <= 2)
+    return prefixMatches.slice(0, 8).map((e) => ({ entry: e, matchType: 'prefix' as const }));
 
   // For longer queries, fill remaining slots with fuzzy results
   const prefixIds = new Set(prefixMatches.map((e) => e.id));
@@ -45,5 +53,8 @@ export function searchEntries(entries: Entry[], query: string): Entry[] {
     .map((r) => r.item)
     .filter((e) => !prefixIds.has(e.id));
 
-  return [...prefixMatches, ...fuzzy].slice(0, 8);
+  return [
+    ...prefixMatches.map((e) => ({ entry: e, matchType: 'prefix' as const })),
+    ...fuzzy.map((e) => ({ entry: e, matchType: 'fuzzy' as const })),
+  ].slice(0, 8);
 }
