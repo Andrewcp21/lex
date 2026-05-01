@@ -6,6 +6,7 @@ export const dynamic = 'force-dynamic';
 import SiteHeader from '@/components/SiteHeader';
 import SearchBar from '@/components/SearchBar';
 import { getAllEntries, getAllSections } from '@/lib/entries';
+import { Analytics } from '@vercel/analytics/next';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -60,6 +61,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </div>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
