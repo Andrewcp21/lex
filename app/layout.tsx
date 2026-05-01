@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import SiteHeader from '@/components/SiteHeader';
+import { getAllEntries } from '@/lib/entries';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -12,10 +13,11 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Kosa Rupa — Architect's Dictionary",
   description:
-    'A comprehensive, searchable dictionary for architecture students and beginners. 520 terms across 15 sections.',
+    'A comprehensive, searchable dictionary for architecture students and beginners. 645 terms across 15 sections.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const termCount = getAllEntries().length;
   return (
     <html lang="en" className={spaceGrotesk.variable}>
       <body className="font-[family-name:var(--font-space-grotesk)] bg-white text-[#0A0A0A] antialiased">
@@ -29,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               Kosa Rupa
             </span>
             <span className="text-[10px] font-medium opacity-30">
-              An architect&apos;s dictionary — 520 terms, 15 sections.
+              An architect&apos;s dictionary — {termCount} terms, 15 sections.
             </span>
           </div>
         </footer>

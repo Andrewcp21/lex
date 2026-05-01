@@ -24,7 +24,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-base font-medium leading-relaxed text-[#0A0A0A]">
             Kosa Rupa is an architect&apos;s dictionary — a fast, offline-capable personal reference
-            for architecture students and beginners. It covers 520 terms across 15 sections, from
+            for architecture students and beginners. It covers 645 terms across 15 sections, from
             structural systems and design movements to professional practice and building physics.
           </p>
         </section>
