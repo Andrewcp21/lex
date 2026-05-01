@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Space_Grotesk } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
+import Script from 'next/script';
 import './globals.css';
 
 export const dynamic = 'force-dynamic';
@@ -62,6 +63,18 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </div>
         </footer>
         <Analytics />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q0JC3JLTJ2"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Q0JC3JLTJ2');
+          `}
+        </Script>
       </body>
     </html>
   );
