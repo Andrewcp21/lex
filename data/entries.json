@@ -17,7 +17,14 @@
       "order",
       "space"
     ],
-    "indonesianTerm": "sumbu"
+    "indonesianTerm": "sumbu",
+    "videoReferences": [
+      {
+        "url": "https://www.youtube.com/watch?v=RTRdDiMMj0Y",
+        "title": "Axis | Symmetry | Asymmetry | Theory of Design",
+        "channel": "B.Arch & NATA Prep"
+      }
+    ]
   },
   {
     "id": "datum",
@@ -478,7 +485,19 @@
       "forces",
       "overhang"
     ],
-    "indonesianTerm": "kantilever"
+    "indonesianTerm": "kantilever",
+    "videoReferences": [
+      {
+        "url": "https://www.youtube.com/watch?v=Wwqvxzm0rio",
+        "title": "The Architecture of Cantilevers",
+        "channel": "YouTube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=J0DFHRKpHMc",
+        "title": "What is a Cantilever?",
+        "channel": "YouTube"
+      }
+    ]
   },
   {
     "id": "beam",
@@ -720,7 +739,19 @@
       "movement",
       "20th-century"
     ],
-    "indonesianTerm": "bauhaus"
+    "indonesianTerm": "bauhaus",
+    "videoReferences": [
+      {
+        "url": "https://www.youtube.com/watch?v=rg3X1vZN5TA",
+        "title": "Architecture, Art and Design — 100 Years of the Bauhaus (1/3)",
+        "channel": "DW Documentary"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Y69wOKg6yp4",
+        "title": "Bauhaus in 7 Minutes: Revolutionary Design Movement Explained",
+        "channel": "YouTube"
+      }
+    ]
   },
   {
     "id": "brutalism",
@@ -1029,7 +1060,8 @@
       "parametric",
       "advanced"
     ],
-    "indonesianTerm": "grasshopper"
+    "indonesianTerm": "grasshopper",
+    "wikiSlug": "Grasshopper_3d"
   },
   {
     "id": "laser-cutting",
@@ -6359,7 +6391,8 @@
       "open-source",
       "rendering"
     ],
-    "indonesianTerm": "blender"
+    "indonesianTerm": "blender",
+    "wikiSlug": "Blender_(software)"
   },
   {
     "id": "cloud-computing",
@@ -6416,7 +6449,8 @@
       "programming",
       "automation"
     ],
-    "indonesianTerm": "dynamo"
+    "indonesianTerm": "dynamo",
+    "wikiSlug": "Dynamo_(visual_programming_language)"
   },
   {
     "id": "firefly",
@@ -6435,7 +6469,8 @@
       "plugin",
       "interactive"
     ],
-    "indonesianTerm": "firefly"
+    "indonesianTerm": "firefly",
+    "wikiSlug": "Firefly_(software)"
   },
   {
     "id": "gis",
@@ -6606,7 +6641,8 @@
       "programming",
       "creative"
     ],
-    "indonesianTerm": "processing"
+    "indonesianTerm": "processing",
+    "wikiSlug": "Processing_(programming_language)"
   },
   {
     "id": "python",
@@ -6625,7 +6661,8 @@
       "programming",
       "scripting"
     ],
-    "indonesianTerm": "python"
+    "indonesianTerm": "python",
+    "wikiSlug": "Python_(programming_language)"
   },
   {
     "id": "rhinoceros",
@@ -6644,7 +6681,8 @@
       "modeling",
       "freeform"
     ],
-    "indonesianTerm": "rhinoceros"
+    "indonesianTerm": "rhinoceros",
+    "wikiSlug": "Rhinoceros_3D"
   },
   {
     "id": "sketch-up",
