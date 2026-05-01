@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Space_Grotesk } from 'next/font/google';
+import './globals.css';
 
 export const dynamic = 'force-dynamic';
-import './globals.css';
 import SiteHeader from '@/components/SiteHeader';
 import SearchBar from '@/components/SearchBar';
 import { getAllEntries, getAllSections } from '@/lib/entries';
@@ -19,6 +19,13 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "Kosa Rupa — Architect's Dictionary",
     description: `A comprehensive, searchable dictionary for architecture students and beginners. ${entries.length} terms across ${sections.length} sections.`,
     robots: { index: false, follow: false },
+    openGraph: {
+      images: [{ url: '/og-image.png', width: 800, height: 800, alt: 'Kosa Rupa — Kamus Arsitektur' }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: ['/og-image.png'],
+    },
   };
 }
 
